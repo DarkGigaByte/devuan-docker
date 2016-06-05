@@ -7,6 +7,7 @@ libmount.so.1 libmount1 #MINVER#
  MOUNT_2.24@MOUNT_2.24 2.24.2
  MOUNT_2.25@MOUNT_2.25 2.24.2
  MOUNT_2.26@MOUNT_2.26 2.26.2
+ MOUNT_2.28@MOUNT_2.28 2.28~rc1
  mnt_cache_device_has_tag@MOUNT_2.19 2.19.1
  mnt_cache_find_tag_value@MOUNT_2.19 2.19.1
  mnt_cache_read_tags@MOUNT_2.19 2.19.1
@@ -155,6 +156,7 @@ libmount.so.1 libmount1 #MINVER#
  mnt_fs_set_fstype@MOUNT_2.19 2.19.1
  mnt_fs_set_options@MOUNT_2.19 2.19.1
  mnt_fs_set_passno@MOUNT_2.19 2.19.1
+ mnt_fs_set_priority@MOUNT_2.28 2.28~rc1
  mnt_fs_set_root@MOUNT_2.19 2.19.1
  mnt_fs_set_source@MOUNT_2.19 2.19.1
  mnt_fs_set_target@MOUNT_2.19 2.19.1
@@ -237,6 +239,7 @@ libmount.so.1 libmount1 #MINVER#
  mnt_table_find_srcpath@MOUNT_2.19 2.19.1
  mnt_table_find_tag@MOUNT_2.19 2.19.1
  mnt_table_find_target@MOUNT_2.19 2.19.1
+ mnt_table_find_target_with_option@MOUNT_2.28 2.28~rc1
  mnt_table_first_fs@MOUNT_2.24 2.24.2
  mnt_table_get_cache@MOUNT_2.19 2.19.1
  mnt_table_get_intro_comment@MOUNT_2.24 2.24.2

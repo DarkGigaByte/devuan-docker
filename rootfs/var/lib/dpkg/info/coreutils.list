@@ -55,6 +55,7 @@
 /usr/bin/cksum
 /usr/bin/who
 /usr/bin/cut
+/usr/bin/base32
 /usr/bin/[
 /usr/bin/csplit
 /usr/bin/expand
@@ -77,8 +78,9 @@
 /usr/bin/wc
 /usr/bin/shred
 /usr/lib
-/usr/lib/coreutils
-/usr/lib/coreutils/libstdbuf.so
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/coreutils
+/usr/lib/x86_64-linux-gnu/coreutils/libstdbuf.so
 /usr/share
 /usr/share/doc
 /usr/share/doc/coreutils
@@ -92,7 +94,6 @@
 /usr/share/doc/coreutils/NEWS.Debian.gz
 /usr/share/doc/coreutils/README.Debian
 /usr/share/doc/coreutils/changelog.Debian.gz
-/usr/share/doc/coreutils/buildinfo_amd64.gz
 /usr/share/man
 /usr/share/man/man8
 /usr/share/man/man8/chroot.8.gz
@@ -143,6 +144,7 @@
 /usr/share/man/man1/stdbuf.1.gz
 /usr/share/man/man1/cat.1.gz
 /usr/share/man/man1/shuf.1.gz
+/usr/share/man/man1/base32.1.gz
 /usr/share/man/man1/printf.1.gz
 /usr/share/man/man1/sort.1.gz
 /usr/share/man/man1/cp.1.gz
@@ -200,6 +202,9 @@
 /usr/share/info
 /usr/share/info/coreutils.info.gz
 /usr/share/locale
+/usr/share/locale/sr
+/usr/share/locale/sr/LC_MESSAGES
+/usr/share/locale/sr/LC_MESSAGES/coreutils.mo
 /usr/share/locale/zh_TW
 /usr/share/locale/zh_TW/LC_MESSAGES
 /usr/share/locale/zh_TW/LC_MESSAGES/coreutils.mo
@@ -356,6 +361,5 @@
 /bin/chown
 /bin/pwd
 /usr/bin/md5sum.textutils
-/usr/bin/touch
 /usr/share/man/man1/[.1.gz
 /usr/share/man/man1/md5sum.textutils.1.gz

@@ -1,7 +1,7 @@
 /.
 /lib
 /lib/x86_64-linux-gnu
-/lib/x86_64-linux-gnu/libcap.so.2.24
+/lib/x86_64-linux-gnu/libcap.so.2.25
 /usr
 /usr/share
 /usr/share/doc

@@ -94,6 +94,7 @@ libgmp.so.10 libgmp10 #MINVER#
  __gmpf_cmp_d@Base 0
  __gmpf_cmp_si@Base 0
  __gmpf_cmp_ui@Base 0
+ __gmpf_cmp_z@Base 2:6.1.0
  __gmpf_div@Base 0
  __gmpf_div_2exp@Base 0
  __gmpf_div_ui@Base 0
@@ -186,6 +187,7 @@ libgmp.so.10 libgmp10 #MINVER#
  __gmpn_cmp@Base 0
  __gmpn_cnd_add_n@Base 2:6.0.0
  __gmpn_cnd_sub_n@Base 2:6.0.0
+ __gmpn_cnd_swap@Base 2:6.1.0
  __gmpn_com@Base 0
  __gmpn_copyd@Base 0
  __gmpn_copyi@Base 0
@@ -362,6 +364,8 @@ libgmp.so.10 libgmp10 #MINVER#
  __gmpn_sqr@Base 0
  __gmpn_sqr_basecase@Base 0
  __gmpn_sqr_diag_addlsh1@Base 2:6.0.0
+ __gmpn_sqrlo@Base 2:6.1.0
+ __gmpn_sqrlo_basecase@Base 2:6.1.0
  __gmpn_sqrmod_bnm1@Base 0
  __gmpn_sqrmod_bnm1_next_size@Base 0
  __gmpn_sqrtrem@Base 0
@@ -411,6 +415,7 @@ libgmp.so.10 libgmp10 #MINVER#
  __gmpn_xnor_n@Base 0
  __gmpn_xor_n@Base 0
  __gmpn_zero@Base 0
+ __gmpn_zero_p@Base 2:6.1.0
  __gmpq_abs@Base 0
  __gmpq_add@Base 0
  __gmpq_canonicalize@Base 0
@@ -419,6 +424,7 @@ libgmp.so.10 libgmp10 #MINVER#
  __gmpq_cmp@Base 0
  __gmpq_cmp_si@Base 0
  __gmpq_cmp_ui@Base 0
+ __gmpq_cmp_z@Base 2:6.1.0
  __gmpq_div@Base 0
  __gmpq_div_2exp@Base 0
  __gmpq_equal@Base 0

@@ -59,9 +59,8 @@
 /usr/share/doc
 /usr/share/doc/libpam-modules
 /usr/share/doc/libpam-modules/changelog.Debian.gz
-/usr/share/doc/libpam-modules/changelog.Debian.amd64.gz
-/usr/share/doc/libpam-modules/NEWS.Debian.gz
 /usr/share/doc/libpam-modules/changelog.gz
+/usr/share/doc/libpam-modules/NEWS.Debian.gz
 /usr/share/doc/libpam-modules/examples
 /usr/share/doc/libpam-modules/examples/upperLOWER.c
 /usr/share/doc/libpam-modules/copyright

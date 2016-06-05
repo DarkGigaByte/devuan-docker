@@ -1,7 +1,4 @@
 /.
-/lib
-/lib/x86_64-linux-gnu
-/lib/x86_64-linux-gnu/libncursesw.so.5.9
 /usr
 /usr/share
 /usr/share/doc
@@ -10,8 +7,11 @@
 /usr/lib/x86_64-linux-gnu/libpanelw.so.5.9
 /usr/lib/x86_64-linux-gnu/libformw.so.5.9
 /usr/lib/x86_64-linux-gnu/libmenuw.so.5.9
-/lib/x86_64-linux-gnu/libncursesw.so.5
+/lib
+/lib/x86_64-linux-gnu
+/lib/x86_64-linux-gnu/libncursesw.so.5.9
 /usr/share/doc/libncursesw5
-/usr/lib/x86_64-linux-gnu/libpanelw.so.5
-/usr/lib/x86_64-linux-gnu/libformw.so.5
 /usr/lib/x86_64-linux-gnu/libmenuw.so.5
+/usr/lib/x86_64-linux-gnu/libformw.so.5
+/usr/lib/x86_64-linux-gnu/libpanelw.so.5
+/lib/x86_64-linux-gnu/libncursesw.so.5

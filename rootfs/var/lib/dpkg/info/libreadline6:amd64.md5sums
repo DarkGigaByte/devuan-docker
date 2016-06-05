@@ -1,8 +1,8 @@
-6ba0edc47df3b092d7eb6ceff9dce417  lib/x86_64-linux-gnu/libhistory.so.6.3
-4d5b86398dffacd86b93847e6466ff3d  lib/x86_64-linux-gnu/libreadline.so.6.3
+e442d17061de7d5224a989b2e0fdcd41  lib/x86_64-linux-gnu/libhistory.so.6.3
+e9d29126d95c354b351061b796b6e997  lib/x86_64-linux-gnu/libreadline.so.6.3
 db22ab5a3d7a94ab8b0a93657b11aa08  usr/share/doc/libreadline6/README.Debian
 0bb4ff5a1ee6f767d0d1b7ded925a8a3  usr/share/doc/libreadline6/USAGE
-d66fae86f6a7283f168e187a3ec8ce1b  usr/share/doc/libreadline6/changelog.Debian.amd64.gz
+276ef6500f6de704c5ef7adf54ce34bf  usr/share/doc/libreadline6/changelog.Debian.amd64.gz
 b4c11eeee6e937accbb82cb4e610e3e3  usr/share/doc/libreadline6/changelog.Debian.gz
 9371e569b61be7c768219d9681c1533a  usr/share/doc/libreadline6/changelog.gz
 b74c0419cd47b1683924980937c7cdb3  usr/share/doc/libreadline6/copyright

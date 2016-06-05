@@ -1,6 +1,7 @@
 libfdisk.so.1 libfdisk1 #MINVER#
  FDISK_2.26@FDISK_2.26 2.26.2
  FDISK_2.27@FDISK_2.27 2.26.2
+ FDISK_2.28@FDISK_2.28 2.28~rc1
  fdisk_add_partition@FDISK_2.26 2.26.2
  fdisk_align_lba@FDISK_2.26 2.26.2
  fdisk_align_lba_in_range@FDISK_2.26 2.26.2
@@ -49,15 +50,18 @@ libfdisk.so.1 libfdisk1 #MINVER#
  fdisk_enable_bootbits_protection@FDISK_2.27 2.26.2
  fdisk_enable_details@FDISK_2.26 2.26.2
  fdisk_enable_listonly@FDISK_2.26 2.26.2
+ fdisk_enable_wipe@FDISK_2.28 2.28~rc1
  fdisk_field_get_id@FDISK_2.26 2.26.2
  fdisk_field_get_name@FDISK_2.26 2.26.2
  fdisk_field_get_width@FDISK_2.26 2.26.2
  fdisk_field_is_number@FDISK_2.26 2.26.2
  fdisk_free_iter@FDISK_2.26 2.26.2
  fdisk_get_alignment_offset@FDISK_2.26 2.26.2
+ fdisk_get_collision@FDISK_2.28 2.28~rc1
  fdisk_get_devfd@FDISK_2.26 2.26.2
  fdisk_get_devname@FDISK_2.26 2.26.2
  fdisk_get_disklabel_id@FDISK_2.26 2.26.2
+ fdisk_get_disklabel_item@FDISK_2.27 2.27~rc1
  fdisk_get_first_lba@FDISK_2.26 2.26.2
  fdisk_get_freespaces@FDISK_2.26 2.26.2
  fdisk_get_geom_cylinders@FDISK_2.26 2.26.2
@@ -79,12 +83,16 @@ libfdisk.so.1 libfdisk1 #MINVER#
  fdisk_get_physector_size@FDISK_2.26 2.26.2
  fdisk_get_script@FDISK_2.26 2.26.2
  fdisk_get_sector_size@FDISK_2.26 2.26.2
+ fdisk_get_size_unit@FDISK_2.26 2.28~rc1
  fdisk_get_unit@FDISK_2.26 2.26.2
  fdisk_get_units_per_sector@FDISK_2.26 2.26.2
+ fdisk_gpt_get_partition_attrs@FDISK_2.27 2.27~rc1
  fdisk_gpt_is_hybrid@FDISK_2.26 2.26.2
+ fdisk_gpt_set_partition_attrs@FDISK_2.27 2.27~rc1
  fdisk_has_label@FDISK_2.26 2.26.2
  fdisk_has_protected_bootbits@FDISK_2.27 2.26.2
  fdisk_has_user_device_properties@FDISK_2.26 2.26.2
+ fdisk_has_wipe@FDISK_2.28 2.28~rc1
  fdisk_info@FDISK_2.26 2.26.2
  fdisk_init_debug@FDISK_2.26 2.26.2
  fdisk_is_details@FDISK_2.26 2.26.2
@@ -96,6 +104,7 @@ libfdisk.so.1 libfdisk1 #MINVER#
  fdisk_label_get_field@FDISK_2.26 2.26.2
  fdisk_label_get_field_by_name@FDISK_2.26 2.26.2
  fdisk_label_get_fields_ids@FDISK_2.26 2.26.2
+ fdisk_label_get_fields_ids_all@FDISK_2.27 2.27~rc1
  fdisk_label_get_name@FDISK_2.26 2.26.2
  fdisk_label_get_nparttypes@FDISK_2.26 2.26.2
  fdisk_label_get_parttype@FDISK_2.26 2.26.2
@@ -186,13 +195,17 @@ libfdisk.so.1 libfdisk1 #MINVER#
  fdisk_reset_table@FDISK_2.26 2.26.2
  fdisk_save_user_geometry@FDISK_2.26 2.26.2
  fdisk_save_user_sector_size@FDISK_2.26 2.26.2
+ fdisk_script_enable_json@FDISK_2.27 2.27~rc1
  fdisk_script_get_header@FDISK_2.26 2.26.2
  fdisk_script_get_nlines@FDISK_2.26 2.26.2
  fdisk_script_get_table@FDISK_2.26 2.26.2
+ fdisk_script_get_userdata@FDISK_2.27 2.27~rc1
  fdisk_script_read_context@FDISK_2.26 2.26.2
  fdisk_script_read_file@FDISK_2.26 2.26.2
  fdisk_script_read_line@FDISK_2.26 2.26.2
+ fdisk_script_set_fgets@FDISK_2.27 2.27~rc1
  fdisk_script_set_header@FDISK_2.26 2.26.2
+ fdisk_script_set_userdata@FDISK_2.27 2.27~rc1
  fdisk_script_write_file@FDISK_2.26 2.26.2
  fdisk_set_ask@FDISK_2.26 2.26.2
  fdisk_set_disklabel_id@FDISK_2.26 2.26.2
