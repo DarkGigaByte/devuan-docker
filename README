@@ -1,18 +1,29 @@
-A devuan jessie base.
+Welcome to Devuan
+
+Devuan GNU+Linux is a fork of Debian without systemd. 
+Its Beta release marks an important milestone towards the sustainability 
+and the continuation of Devuan as a universal base distribution.
+
+    https://devuan.org/
+
+TAGS:
+stable   : repo https://github.com/debitux/devuan-docker/tree/stable
+testing  : repo https://github.com/debitux/devuan-docker/tree/testing
+unstable : repo https://github.com/debitux/devuan-docker/tree/unstable
+latest   : stable
 
 Building:
 
-First:
-debootstrap --keyring /root/.gnupg/pubring.gpg --arch amd64 stable rootfs http://packages.devuan.org/merged/
+DEPOT = stable testing unstable
 
+debootstrap --keyring /root/.gnupg/pubring.gpg \
+--arch amd64 $DEPOT rootfs http://packages.devuan.org/merged/
 
-Second:
 chroot rootfs
 gpg --keyserver pgpkeys.mit.edu --recv-key  94532124541922FB
 gpg -a --export 94532124541922FB | apt-key add -
 exit
 
-And:
 rm -rf rootfs/var/lib/apt/lists/* \
        rootfs/var/cache/apt/* \
        rootfs/var/cache/man/* \
@@ -22,9 +33,9 @@ rm -rf rootfs/var/lib/apt/lists/* \
        rootfs/usr/share/locale \ 
        rootfs/usr/share/zoneinfo
 
-docker build -t debitux/devuan:stable .
+docker build -t debitux/devuan:$DEPOT .
 
 Running :
 
-docker run -i -t debitux/devuan:stable bash
+docker run -i -t debitux/devuan:$DEPOT bash
 
