@@ -1,0 +1,30 @@
+A devuan jessie base.
+
+Building:
+
+First:
+debootstrap --keyring /root/.gnupg/pubring.gpg --arch amd64 stable rootfs http://packages.devuan.org/merged/
+
+
+Second:
+chroot rootfs
+gpg --keyserver pgpkeys.mit.edu --recv-key  94532124541922FB
+gpg -a --export 94532124541922FB | apt-key add -
+exit
+
+And:
+rm -rf rootfs/var/lib/apt/lists/* \
+       rootfs/var/cache/apt/* \
+       rootfs/var/cache/man/* \
+       rootfs/usr/share/doc \
+       rootfs/usr/share/doc-base \
+       rootfs/usr/share/man \
+       rootfs/usr/share/locale \ 
+       rootfs/usr/share/zoneinfo
+
+docker build -t debitux/devuan:stable .
+
+Running :
+
+docker run -i -t debitux/devuan:stable bash
+
