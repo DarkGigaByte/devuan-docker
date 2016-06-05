@@ -17,6 +17,17 @@ then
   fi
 fi
 
+# Automatically added by dh_installudev
+if [ "$1" = install ] || [ "$1" = upgrade ]; then
+	if [ -e "/etc/udev/rules.d/80_ifupdown.rules" ]; then
+		if [ "`md5sum \"/etc/udev/rules.d/80_ifupdown.rules\" | sed -e \"s/ .*//\"`" = \
+		     "`dpkg-query -W -f='${Conffiles}' ifupdown | sed -n -e \"\\\\' /etc/udev/rules.d/80_ifupdown.rules '{s/ obsolete$//;s/.* //p}\"`" ]
+		then
+			rm -f "/etc/udev/rules.d/80_ifupdown.rules"
+		fi
+	fi
+fi
+# End automatically added section
 # Automatically added by dh_installdeb
 dpkg-maintscript-helper rm_conffile /etc/default/ifupdown 0.7~+ ifupdown -- "$@"
 # End automatically added section

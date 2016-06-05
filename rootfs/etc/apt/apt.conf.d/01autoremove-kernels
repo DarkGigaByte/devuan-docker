@@ -13,3 +13,18 @@ APT::NeverAutoRemove
    "^linux-backports-modules-.*-3\.16\.0-4-amd64$";
    "^linux-tools-3\.16\.0-4-amd64$";
 };
+/* Debug information:
+# dpkg list:
+# list of installed kernel packages:
+
+# list of different kernel versions:
+
+# Installing kernel:  ()
+# Running kernel:  (3.16.0-4-amd64)
+# Last kernel: 
+# Previous kernel: 
+# Kernel versions list to keep:
+
+# Kernel packages (version part) to protect:
+3\.16\.0-4-amd64
+*/

@@ -1,7 +1,7 @@
 #!/bin/bash
 
-PKGVERSION="(Debian GLIBC 2.19-18+deb8u4) "
-TZVERSION="2.19"
+PKGVERSION="(Debian GLIBC 2.22-10) "
+TZVERSION="2.22"
 REPORT_BUGS_TO="<http://www.debian.org/Bugs/>"
 
 # Ask the user about the time zone, and output the resulting TZ value to stdout.

@@ -38,6 +38,7 @@ RETURNFAILURE=
 RC=
 is_upstart=
 is_systemd=
+is_openrc=
 
 # Shell options
 set +e
@@ -278,11 +279,19 @@ then
 elif test -d /run/systemd/system ; then
     is_systemd=1
     UNIT="${INITSCRIPTID%.sh}.service"
+elif test -f /run/openrc/softlevel ; then
+    is_openrc=1
 elif test ! -f "${INITDPREFIX}${INITSCRIPTID}" ; then
     ## Verifies if the given initscript ID is known
     ## For sysvinit, this error is critical
     printerror unknown initscript, ${INITDPREFIX}${INITSCRIPTID} not found.
-    exit 100
+    # If the init script doesn't exist, but the upstart job does, we
+    # defer the error exit; we might be running in a chroot and
+    # policy-rc.d might say not to start the job anyway, in which case
+    # we don't want to exit non-zero.
+    if [ ! -e "/etc/init/${INITSCRIPTID}.conf" ]; then
+	exit 100
+    fi
 fi
 
 ## Queries sysvinit for the current runlevel
@@ -383,6 +392,8 @@ case ${ACTION} in
 	RC=101
     elif testexec ${SSLINK} ; then
 	RC=104
+    else
+        RC=101
     fi
   ;;
 esac
@@ -392,12 +403,9 @@ _executable=
 if [ -n "$is_upstart" ]; then
     _executable=1
 elif [ -n "$is_systemd" ]; then
-    _state=$(systemctl -p LoadState show "${UNIT}" 2>/dev/null)
-    if [ "$_state" != "LoadState=masked" ]; then
-        _executable=1
-    fi
+    _executable=1
 elif testexec "${INITDPREFIX}${INITSCRIPTID}"; then
-   _executable=1
+    _executable=1
 fi
 if [ "$_executable" = "1" ]; then
     if test x${RC} = x && test x${MODE} = xquery ; then
@@ -464,7 +472,7 @@ fi
 ## note that $ACTION is a space-separated list of actions
 ## to be attempted in order until one suceeds.
 if test x${FORCE} != x || test ${RC} -eq 104 ; then
-    if [ -n "$is_upstart" ] || testexec "${INITDPREFIX}${INITSCRIPTID}" ; then
+    if [ -n "$is_upstart" ] || [ -n "$is_systemd" ] || testexec "${INITDPREFIX}${INITSCRIPTID}" ; then
 	RC=102
 	setechoactions ${ACTION}
 	while test ! -z "${ACTION}" ; do
@@ -519,27 +527,60 @@ if test x${FORCE} != x || test ${RC} -eq 104 ; then
                     # pick up any changes.
                     systemctl daemon-reload
                 fi
+                _state=$(systemctl -p LoadState show "${UNIT}" 2>/dev/null)
+
+                # avoid deadlocks during bootup and shutdown from units/hooks
+                # which call "invoke-rc.d service reload" and similar, since
+                # the synchronous wait plus systemd's normal behaviour of
+                # transactionally processing all dependencies first easily
+                # causes dependency loops
+                if ! OUT=$(systemctl is-system-running 2>/dev/null) && [ "$OUT" != "degraded" ]; then
+                    sctl_args="--job-mode=ignore-dependencies"
+                fi
                 case $saction in
-                    start|stop|restart|status)
-                        systemctl "${saction}" "${UNIT}" && exit 0
+                    start|restart)
+                        [ "$_state" != "LoadState=masked" ] || exit 0
+
+                        # We never start disabled jobs; we only restart them if they are
+                        # already running (got started manually).
+                        # More rationale on https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=768450
+                        # and https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=768456
+                        #
+                        # Note that due to querypolicy() in case of a disabled init script installed,
+                        # restart won't be executed.
+                        # is-enabled can fail either because the unit is disabled, or it does not exist
+                        # (e. g. it might be from a generator)
+                        if ! ERR=$(systemctl --quiet is-enabled "${UNIT}" 2>&1) && [ -z "$ERR" ]; then
+                            if [ "$saction" = "start" ]; then
+                                exit 0
+                            elif [ "$saction" = "restart" ] && ! systemctl --quiet is-active "${UNIT}" 2>/dev/null; then
+                                exit 0
+                            fi
+                        fi
+                        systemctl $sctl_args "${saction}" "${UNIT}" && exit 0
+                        ;;
+                    stop|status)
+                        systemctl $sctl_args "${saction}" "${UNIT}" && exit 0
                         ;;
                     reload)
+                        [ "$_state" != "LoadState=masked" ] || exit 0
                         _canreload="$(systemctl -p CanReload show ${UNIT} 2>/dev/null)"
                         if [ "$_canreload" = "CanReload=no" ]; then
                             "${INITDPREFIX}${INITSCRIPTID}" "${saction}" "$@" && exit 0
                         else
-                            systemctl reload "${UNIT}" && exit 0
+                            systemctl $sctl_args reload "${UNIT}" && exit 0
                         fi
                         ;;
                     force-stop)
                         systemctl --signal=KILL kill "${UNIT}" && exit 0
                         ;;
                     force-reload)
+                        [ "$_state" != "LoadState=masked" ] || exit 0
                         _canreload="$(systemctl -p CanReload show ${UNIT} 2>/dev/null)"
                         if [ "$_canreload" = "CanReload=no" ]; then
-                           systemctl restart "${UNIT}" && exit 0
+                           systemctl $sctl_args restart "${UNIT}" && exit 0
                         else
-                           systemctl reload "${UNIT}" && exit 0
+                           systemctl $sctl_args reload "${UNIT}" && exit 0
                         fi
                         ;;
                     *)
@@ -548,6 +589,8 @@ if test x${FORCE} != x || test ${RC} -eq 104 ; then
                         "${INITDPREFIX}${INITSCRIPTID}" "${saction}" "$@" && exit 0
                         ;;
                 esac
+	    elif [ -n "$is_openrc" ]; then
+		rc-service "${INITSCRIPTID}" "${saction}" && exit 0
 	    else
 		"${INITDPREFIX}${INITSCRIPTID}" "${saction}" "$@" && exit 0
 	    fi

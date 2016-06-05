@@ -8,13 +8,12 @@
 /usr/share/doc
 /usr/share/doc/wget
 /usr/share/doc/wget/AUTHORS
-/usr/share/doc/wget/ChangeLog.README
 /usr/share/doc/wget/MAILING-LIST
-/usr/share/doc/wget/README
-/usr/share/doc/wget/copyright
 /usr/share/doc/wget/NEWS.gz
+/usr/share/doc/wget/README
 /usr/share/doc/wget/changelog.Debian.gz
 /usr/share/doc/wget/changelog.gz
+/usr/share/doc/wget/copyright
 /usr/share/info
 /usr/share/info/wget.info.gz
 /usr/share/locale

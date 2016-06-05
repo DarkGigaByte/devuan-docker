@@ -99,7 +99,7 @@ set_hostname() {
            [ "$current_hostname" = '(none)' ] ||
            [ "$current_hostname" = 'localhost' ] ||
            [ "$current_hostname" = "$old_host_name" ]; then
-           if [ "$new_host_name" != "$old_host_name" ]; then
+           if [ "$new_host_name" != "$current_host_name" ]; then
                hostname "$new_host_name"
            fi
         fi
@@ -114,6 +114,7 @@ run_hook() {
 
     if [ -f $script ]; then
         . $script
+        exit_status=$?
     fi
 
     if [ -n "$exit_status" ] && [ "$exit_status" -ne 0 ]; then
@@ -125,14 +126,13 @@ run_hook() {
 
 # run scripts in given directory
 run_hookdir() {
-    local dir
-    local exit_status
-    dir="$1"
+    local dir="$1"
+    local exit_status=0
 
     if [ -d "$dir" ]; then
         for script in $(run-parts --list $dir); do
-            run_hook $script || true
-            exit_status=$?
+            run_hook $script
+            exit_status=$((exit_status|$?))
         done
     fi
 
@@ -354,9 +354,9 @@ case "$reason" in
         ;;
 
     BOUND6|RENEW6|REBIND6)
-        if [ "${new_ip6_address}" ] && [ "${new_ip6_prefixlen}" ]; then
+        if [ "${new_ip6_address}" ]; then
             # set leased IP
-            ip -6 addr add ${new_ip6_address}/${new_ip6_prefixlen} \
+            ip -6 addr add ${new_ip6_address} \
                 dev ${interface} scope global
         fi
 
@@ -370,23 +370,19 @@ case "$reason" in
         ;;
 
     DEPREF6)
-        if [ -z "${cur_ip6_prefixlen}" ]; then
-            exit_with_hooks 2
-        fi
-
         # set preferred lifetime of leased IP to 0
-        ip -6 addr change ${cur_ip6_address}/${cur_ip6_prefixlen} \
+        ip -6 addr change ${cur_ip6_address} \
             dev ${interface} scope global preferred_lft 0
 
         ;;
 
     EXPIRE6|RELEASE6|STOP6)
-        if [ -z "${old_ip6_address}" ] || [ -z "${old_ip6_prefixlen}" ]; then
+        if [ -z "${old_ip6_address}" ]; then
             exit_with_hooks 2
         fi
 
         # delete leased IP
-        ip -6 addr del ${old_ip6_address}/${old_ip6_prefixlen} \
+        ip -6 addr del ${old_ip6_address} \
             dev ${interface}
 
         ;;

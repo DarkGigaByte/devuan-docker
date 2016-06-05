@@ -1,5 +1,4 @@
-71d7c49c632f015897b015b810c00ca5  usr/lib/x86_64-linux-gnu/libsemanage.so.1
-9ec3bf9734e38468caee34113ae7b0ee  usr/share/doc/libsemanage1/changelog.Debian.amd64.gz
-5dff106e90493e6149dad467da52bbf0  usr/share/doc/libsemanage1/changelog.Debian.gz
-6d33045b6586bfa80ba7df90a9d3e868  usr/share/doc/libsemanage1/changelog.gz
+a15c30fc61072f8b423568d028b68050  usr/lib/x86_64-linux-gnu/libsemanage.so.1
+3924b4c7e5151f237a4c45cbe9c92545  usr/share/doc/libsemanage1/changelog.Debian.gz
+95ccd3566bf7bb04258682e5e4f353a5  usr/share/doc/libsemanage1/changelog.gz
 919bbe4fa9518ab75dba4f05293b027e  usr/share/doc/libsemanage1/copyright

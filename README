@@ -1,9 +1,9 @@
-A devuan jessie base.
+A Devuan Ceres base.
 
 Building:
 
 First:
-debootstrap --keyring /root/.gnupg/pubring.gpg --arch amd64 stable rootfs http://packages.devuan.org/merged/
+debootstrap --keyring /root/.gnupg/pubring.gpg --arch amd64 unstable rootfs http://packages.devuan.org/merged/
 
 
 Second:
@@ -22,9 +22,9 @@ rm -rf rootfs/var/lib/apt/lists/* \
        rootfs/usr/share/locale \ 
        rootfs/usr/share/zoneinfo
 
-docker build -t debitux/devuan:stable .
+docker build -t debitux/devuan:unstable .
 
 Running :
 
-docker run -i -t debitux/devuan:stable bash
+docker run -i -t debitux/devuan:unstable bash
 

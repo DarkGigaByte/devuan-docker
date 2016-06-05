@@ -32,6 +32,11 @@ if has("autocmd")
   augroup debian
     au BufRead reportbug-*		set ft=mail
   augroup END
+  if has('gui')
+    " Make shift-insert work like in Xterm
+    autocmd GUIEnter * if empty(maparg("<S-Insert>", "nvso")) | execute "map <S-Insert> <MiddleMouse>" | endif
+    autocmd GUIEnter * if empty(maparg("<S-Insert>", "ic")) | execute "map! <S-Insert> <MiddleMouse>" | endif
+  endif
 endif
 
 " Set paper size from /etc/papersize if available (Debian-specific)
@@ -42,8 +47,3 @@ if filereadable("/etc/papersize")
   endif
 endif
 
-if has('gui_running')
-  " Make shift-insert work like in Xterm
-  map <S-Insert> <MiddleMouse>
-  map! <S-Insert> <MiddleMouse>
-endif

@@ -91,6 +91,14 @@ Name: glibc/disable-screensaver
 Template: glibc/disable-screensaver
 Owners: libc6, libc6:amd64
 
+Name: glibc/kernel-not-supported
+Template: glibc/kernel-not-supported
+Owners: libc6, libc6:amd64
+
+Name: glibc/kernel-too-old
+Template: glibc/kernel-too-old
+Owners: libc6, libc6:amd64
+
 Name: glibc/restart-failed
 Template: glibc/restart-failed
 Owners: libc6, libc6:amd64
@@ -156,14 +164,13 @@ Name: libssl1.0.0/restart-services
 Template: libssl1.0.0/restart-services
 Owners: libssl1.0.0:amd64
 
-Name: man-db/auto-update
-Template: man-db/auto-update
-Owners: man-db
+Name: libssl1.0.2/restart-failed
+Template: libssl1.0.2/restart-failed
+Owners: libssl1.0.2:amd64
 
-Name: man-db/install-setuid
-Template: man-db/install-setuid
-Value: false
-Owners: man-db
+Name: libssl1.0.2/restart-services
+Template: libssl1.0.2/restart-services
+Owners: libssl1.0.2:amd64
 
 Name: sysvinit/hurd-fix-inittab
 Template: sysvinit/hurd-fix-inittab
@@ -244,20 +251,4 @@ Owners: tzdata
 Name: tzdata/Zones/US
 Template: tzdata/Zones/US
 Owners: tzdata
-
-Name: udev/new_kernel_needed
-Template: udev/new_kernel_needed
-Owners: udev
-
-Name: udev/reboot_needed
-Template: udev/reboot_needed
-Owners: udev
-
-Name: udev/sysfs_deprecated_incompatibility
-Template: udev/sysfs_deprecated_incompatibility
-Owners: udev
-
-Name: udev/title/upgrade
-Template: udev/title/upgrade
-Owners: udev
 

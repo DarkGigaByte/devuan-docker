@@ -136,9 +136,14 @@ libselinux.so.1 libselinux1 #MINVER#
  security_set_boolean_list@Base 1.32
  security_setenforce@Base 1.32
  selabel_close@Base 2.0.65
+ selabel_cmp@Base 2.5
+ selabel_digest@Base 2.5
  selabel_lookup@Base 2.0.65
+ selabel_lookup_best_match@Base 2.5
+ selabel_lookup_best_match_raw@Base 2.5
  selabel_lookup_raw@Base 2.0.65
  selabel_open@Base 2.0.65
+ selabel_partial_match@Base 2.5
  selabel_stats@Base 2.0.65
  selabel_subs_init@Base 2.1.9
  selinux_binary_policy_path@Base 1.32
@@ -173,12 +178,17 @@ libselinux.so.1 libselinux1 #MINVER#
  selinux_mkload_policy@Base 1.32
  selinux_mnt@Base 1.32
  selinux_netfilter_context_path@Base 1.32
+ selinux_openssh_contexts_path@Base 2.5
  selinux_path@Base 1.32
  selinux_policy_root@Base 1.32
  selinux_raw_context_to_color@Base 2.0.82
  selinux_raw_to_trans_context@Base 1.32
  selinux_removable_context_path@Base 1.32
  selinux_reset_config@Base 2.0.88
+ selinux_restorecon@Base 2.5
+ selinux_restorecon_default_handle@Base 2.5
+ selinux_restorecon_set_exclude_list@Base 2.5
+ selinux_restorecon_set_sehandle@Base 2.5
  selinux_securetty_types_path@Base 2.0.15
  selinux_sepgsql_context_path@Base 2.0.94
  selinux_set_callback@Base 2.0.65
