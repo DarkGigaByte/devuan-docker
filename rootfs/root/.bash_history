@@ -12,3 +12,7 @@ chmod 1777 /tmp
 ls -Alh /tmp/
 ls -Alh /
 exit
+chmod -R go-rwx /tmp/* /tmp/.[!.]*
+chmod 777 /tmp/.X11-unix /tmp/.X11-unix/*
+chmod 1777 /tmp
+exit
