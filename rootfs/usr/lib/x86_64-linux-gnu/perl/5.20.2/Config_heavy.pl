@@ -78,9 +78,9 @@ sub header_files {
 #
 ## Package name      : perl5
 ## Source directory  : .
-## Configuration time: Fri Feb 26 22:32:06 UTC 2016
+## Configuration time: Mon May 23 22:59:54 UTC 2016
 ## Configured by     : Debian Project
-## Target system     : linux themisto 3.16.0-4-amd64 #1 smp debian 3.16.7-ckt20-1+deb8u3 (2016-01-17) x86_64 gnulinux 
+## Target system     : linux themisto 3.16.0-4-amd64 #1 smp debian 3.16.7-ckt25-2 (2016-04-08) x86_64 gnulinux 
 #
 #: Configure command line arguments.
 #
@@ -204,7 +204,7 @@ ccsymbols=''
 ccversion=''
 cf_by='Debian Project'
 cf_email='perl@packages.debian.org'
-cf_time='Fri Feb 26 22:32:06 UTC 2016'
+cf_time='Mon May 23 22:59:54 UTC 2016'
 charbits='8'
 charsize='1'
 chgrp=''
@@ -1014,7 +1014,7 @@ mv=''
 myarchname='x86_64-linux'
 mydomain=''
 myhostname='localhost'
-myuname='linux themisto 3.16.0-4-amd64 #1 smp debian 3.16.7-ckt20-1+deb8u3 (2016-01-17) x86_64 gnulinux '
+myuname='linux themisto 3.16.0-4-amd64 #1 smp debian 3.16.7-ckt25-2 (2016-04-08) x86_64 gnulinux '
 n='-n'
 need_va_copy='define'
 netdb_hlen_type='size_t'

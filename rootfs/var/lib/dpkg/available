@@ -1081,15 +1081,15 @@ SHA1: fa048f3b4d33f05bd72545084abdf39dbe209d8b
 SHA256: 654b16fa4758e80da755c3deb977f1e9db7ed6395854b00593d38761aa7f2c96
 
 Package: dpkg
-Version: 1.17.26
+Version: 1.17.27
 Essential: yes
-Installed-Size: 7197
+Installed-Size: 6643
 Maintainer: Dpkg Developers <debian-dpkg@lists.debian.org>
 Architecture: amd64
 Replaces: manpages-it (<< 2.80-4)
 Pre-Depends: libbz2-1.0, libc6 (>= 2.14), liblzma5 (>= 5.1.1alpha+20120614), libselinux1 (>= 2.3), zlib1g (>= 1:1.1.4), tar (>= 1.23)
 Suggests: apt
-Conflicts: ada-reference-manual (<< 20021112web-4~), asn1-mode (<< 2.7-7~), bogosort (<< 0.4.2-3~), cl-yacc (<< 0.3-3~), cpp-4.1-doc (<< 4.1.2.nf2-4~), cpp-4.2-doc (<< 4.2.4.nf1-4~), gcc-4.1-doc (<< 4.1.2.nf2-4~), gcc-4.2-doc (<< 4.2.4.nf1-4~), gcj-4.1-doc (<< 4.1.2.nf2-4~), gcj-4.2-doc (<< 4.2.4.nf1-4~), gfortran-4.1-doc (<< 4.1.2.nf2-4~), gfortran-4.2-doc (<< 4.2.4.nf1-4~), ggz-docs (<< 0.0.14.1-2~), glame (<< 2.0.1-6~), gnat-4.1-doc (<< 4.1.2.nf2-4~), gnat-4.2-doc (<< 4.2.4.nf1-4~), gtalk (<< 0.99.10-16~), libalogg-dev (<< 1.3.7-2~), libgtk1.2-doc (<< 1.2.10-19~), libnettle-dev (<< 2~), liborbit-dev (<< 0.5.17-12~), libreadline5-dev (<< 5.2-8~), librep-doc (<< 0.90~), mmucl (<< 1.5.2-3~), nxml-mode (<< 20041004-9~), octave3.0-info (<< 1:3.0.5-7+rm), octave3.2-info (<< 3.2.4-12+rm), polgen-doc (<< 1.3-3+rm), r6rs-doc (<< 1.0-2~), serveez-doc (<< 0.1.5-3~), slat (<< 2.0-6~), texlive-base-bin-doc (<< 2007.dfsg.2-9~), ttcn-el (<< 0.6.9-2~), ulog-acctd (<< 0.4.3-3~), xconq-doc (<< 7.4.1-5~), zenirc (<< 2.112.dfsg-1~)
+Conflicts: ada-mode (<< 3.6-3+rm), ada-reference-manual (<< 20021112web-4~), asn1-mode (<< 2.7-7~), bogosort (<< 0.4.2-3~), cl-yacc (<< 0.3-3~), cpp-4.1-doc (<< 4.1.2.nf2-4~), cpp-4.2-doc (<< 4.2.4.nf1-4~), gcc-4.1-doc (<< 4.1.2.nf2-4~), gcc-4.2-doc (<< 4.2.4.nf1-4~), gcj-4.1-doc (<< 4.1.2.nf2-4~), gcj-4.2-doc (<< 4.2.4.nf1-4~), gfortran-4.1-doc (<< 4.1.2.nf2-4~), gfortran-4.2-doc (<< 4.2.4.nf1-4~), ggz-docs (<< 0.0.14.1-2~), glame (<< 2.0.1-6~), gnat-4.1-doc (<< 4.1.2.nf2-4~), gnat-4.2-doc (<< 4.2.4.nf1-4~), gtalk (<< 0.99.10-16~), libalogg-dev (<< 1.3.7-2~), libgtk1.2-doc (<< 1.2.10-19~), libnettle-dev (<< 2~), liborbit-dev (<< 0.5.17-12~), libreadline5-dev (<< 5.2-8~), librep-doc (<< 0.90~), mmucl (<< 1.5.2-3~), nxml-mode (<< 20041004-9~), octave2.1-info (<< 1:2.1.73-19+rm), octave3.0-info (<< 1:3.0.5-7+rm), octave3.2-info (<< 3.2.4-12+rm), polgen-doc (<< 1.3-3+rm), r6rs-doc (<< 1.0-2~), serveez-doc (<< 0.1.5-3~), slat (<< 2.0-6~), texlive-base-bin-doc (<< 2007.dfsg.2-9~), ttcn-el (<< 0.6.9-2~), ulog-acctd (<< 0.4.3-3~), xconq-doc (<< 7.4.1-5~), zenirc (<< 2.112.dfsg-1~)
 Breaks: apt (<< 0.7.7~), apt-cudf (<< 3.3~beta1-3~), aptitude (<< 0.4.7-1~), auctex (<< 11.87-3+deb8u1~), ccache (<< 3.1.10-1~), cups (<< 1.7.5-10~), debian-security-support (<< 2014.10.26~), distcc (<< 3.1-6.1~), doc-base (<< 0.10.5~), dpkg-dev (<< 1.15.8), fontconfig (<< 2.11.0-6.2~), fusionforge-plugin-mediawiki (<< 5.3.2+20141104-3~), gap-core (<< 4r7p5-2~), gitweb (<< 1:2.1.4-2.1~), grace (<< 1:5.1.24-3~), gxine (<< 0.5.908-3.1~), hoogle (<< 4.2.33-4~), icecc (<< 1.0.1-2~), install-info (<< 5.1.dfsg.1-3~), libapache2-mod-php5 (<< 5.6.4+dfsg-3~), libapache2-mod-php5filter (<< 5.6.4+dfsg-3~), libdpkg-perl (<< 1.15.8), libjs-protoaculous (<< 5~), man-db (<< 2.6.3-6~), mcollective (<< 2.6.0+dfsg-2.1~), php5-fpm (<< 5.6.4+dfsg-3~), pypy (<< 2.4.0+dfsg-3~), readahead-fedora (<< 2:1.5.6-5.2~), wordpress (<< 4.1+dfsg-1~), xfonts-traditional (<< 1.7~), xine-ui (<< 0.99.9-1.2~)
 Description: Debian package management system
 Origin: debian
@@ -1102,11 +1102,11 @@ Tag: admin::package-management, implemented-in::c, implemented-in::perl,
  use::configuring, works-with::software:package
 Section: admin
 Priority: required
-Filename: pool/DEBIAN/main/d/dpkg/dpkg_1.17.26_amd64.deb
-Size: 2990646
-MD5sum: 303a76790d0823abb91e88e6ea6a6a71
-SHA1: ceac73c668ba615aaa6b362d48442c357ea9fff5
-SHA256: 95599abfb639919c49f45fc5dd2aa6b0cb9f9703c3d4eac4b5a5dee9c8bce4be
+Filename: pool/DEBIAN/main/d/dpkg/dpkg_1.17.27_amd64.deb
+Size: 2993546
+MD5sum: 3c4d297c267601035def648179597aab
+SHA1: 1fc2a3e7c2d72c50e5f729572c277da53e6e2ead
+SHA256: a7447fff98bec9bb0bb0ba3c0555232f90094c35d41ef5c5746c1ff9790d5a39
 
 Package: e2fslibs
 Source: e2fsprogs
@@ -1940,9 +1940,9 @@ SHA1: 0d2fa0b655a2af833fb4de4ec4e239819c88bf21
 SHA256: 481af9931f3352a51a579511a20ff3d57068681d6c760513590200a71fe49a50
 
 Package: libidn11
-Source: libidn (1.29-1)
-Version: 1.29-1+b2
-Installed-Size: 318
+Source: libidn
+Version: 1.29-1+deb8u1
+Installed-Size: 350
 Maintainer: Debian Libidn Team <help-libidn@gnu.org>
 Architecture: amd64
 Replaces: libidn11-dev
@@ -1956,11 +1956,11 @@ Description-md5: 8f2c3e3028043c62404c901cd7473dc7
 Tag: implemented-in::c, role::shared-lib
 Section: libs
 Priority: standard
-Filename: pool/DEBIAN/main/libi/libidn/libidn11_1.29-1+b2_amd64.deb
-Size: 135868
-MD5sum: d258e3e338b875f1973eaf79e28ed279
-SHA1: ce19ebba4168a48b6853de4a280dd8106bbf5387
-SHA256: 58c8c52dd9beba1090375f700cdeb1fa10454ef53a226685ee2077094b9e9af5
+Filename: pool/DEBIAN/main/libi/libidn/libidn11_1.29-1+deb8u1_amd64.deb
+Size: 136278
+MD5sum: aa60b2d7bbe9f6c56aebc5bc73a940aa
+SHA1: 9e85bf2e6b3ac7e53ff61d5ba9a7367d9a550340
+SHA256: 28bd650c76b8bc25120eaa1253af8b04dcd71bbb73d65733c8bb21d773a94b46
 
 Package: liblocale-gettext-perl
 Source: liblocale-gettext-perl (1.05-8)
@@ -2234,7 +2234,7 @@ SHA1: 22681008147499e15f6a4dfc65ffcc6f0bae52bd
 SHA256: 7daba7704bbe4674af2ac4172958950ac70c27e094682f76a2ef149e7f3ee6ed
 
 Package: libtasn1-6
-Version: 4.2-3+deb8u1
+Version: 4.2-3+deb8u2
 Installed-Size: 100
 Maintainer: Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>
 Architecture: amd64
@@ -2247,11 +2247,11 @@ Description-md5: 535058cbce5722d1c5d399c0854dd71f
 Tag: role::shared-lib
 Section: libs
 Priority: standard
-Filename: pool/DEBIAN/main/libt/libtasn1-6/libtasn1-6_4.2-3+deb8u1_amd64.deb
-Size: 48930
-MD5sum: 81a1d38fac6916db3bf30005e00d3767
-SHA1: b0180413963520afe7b0b21c1924dc7b6a58f934
-SHA256: 270a85aec1690bfc278a16c1d400e2a308cbdd3fd301abb764bbf8f1355116bb
+Filename: pool/DEBIAN/main/libt/libtasn1-6/libtasn1-6_4.2-3+deb8u2_amd64.deb
+Size: 48992
+MD5sum: 10f9f752dc0914f0b2fc9f581e556b79
+SHA1: ed34fc53e50f07a0dd5f42c6084c777e38308039
+SHA256: ee4439d502ed1a6a3330011d4b114cc419b40a4cc508550d253b8d491e6a0e5e
 
 Package: libtext-charwidth-perl
 Source: libtext-charwidth-perl (0.04-7)
@@ -2729,8 +2729,8 @@ SHA256: 8747209f5181fa70c012cf81bec959460d1a4a5763fa38cd50b5b5a4a6cfaf48
 
 Package: libssl1.0.0
 Source: openssl
-Version: 1.0.1k-3+deb8u4
-Installed-Size: 3068
+Version: 1.0.1t-1+deb8u2
+Installed-Size: 3075
 Maintainer: Debian OpenSSL Team <pkg-openssl-devel@lists.alioth.debian.org>
 Architecture: amd64
 Depends: libc6 (>= 2.14), debconf (>= 0.5) | debconf-2.0
@@ -2741,11 +2741,11 @@ Description-md5: 88547c6206c7fbc4fcc7d09ce100d210
 Tag: implemented-in::c, role::shared-lib
 Section: libs
 Priority: important
-Filename: pool/DEBIAN/main/o/openssl/libssl1.0.0_1.0.1k-3+deb8u4_amd64.deb
-Size: 1039368
-MD5sum: 755d1a3b2453dcb7a691f75e83a43ec7
-SHA1: f6cc1fa60e606ca399d14b50f27a5ddf3a25876f
-SHA256: 9e5c80b203b67857d6e9e96f86e34fe25d3ab2437113d9255df18b8b86c08149
+Filename: pool/DEBIAN/main/o/openssl/libssl1.0.0_1.0.1t-1+deb8u2_amd64.deb
+Size: 1045332
+MD5sum: e45e752ea36fdb76d58811ce18136f7b
+SHA1: db08831055f7bae95fdd9e6f42ee22027f2dc141
+SHA256: 3db5488005f1d69c4c886a7785bae45cd454d80073d8dda487b461c87b17ef98
 
 Package: libp11-kit0
 Source: p11-kit
@@ -2882,9 +2882,9 @@ SHA256: f513a611c0ba9b8496fe5b8bc5bd9a39c924e134d5230801dd92e429d77e204e
 
 Package: perl-base
 Source: perl
-Version: 5.20.2-3+deb8u4
+Version: 5.20.2-3+deb8u5
 Essential: yes
-Installed-Size: 5088
+Installed-Size: 5092
 Maintainer: Niko Tyni <ntyni@debian.org>
 Architecture: amd64
 Replaces: libfile-path-perl, libfile-temp-perl, libio-socket-ip-perl, libperl5.8 (<< 5.8.0-20), libscalar-list-utils-perl, libsocket-perl, libxsloader-perl, perl (<< 5.10.1-12), perl-modules (<< 5.20.1-3)
@@ -2901,11 +2901,11 @@ Tag: devel::interpreter, devel::lang:perl, devel::library, implemented-in::c,
  role::program
 Section: perl
 Priority: required
-Filename: pool/DEBIAN/main/p/perl/perl-base_5.20.2-3+deb8u4_amd64.deb
-Size: 1223956
-MD5sum: a0e3fced7e86c47ca91fffd5da6d1e95
-SHA1: 3de510ba5b9afd7879b0d9e6d1e07cf0153d4ed2
-SHA256: 6187ac448ad214b46465680f3da93a1a81030524a631ef14952a3bd9d8d66d45
+Filename: pool/DEBIAN/main/p/perl/perl-base_5.20.2-3+deb8u5_amd64.deb
+Size: 1225242
+MD5sum: e9b8bf98060b532194bcdf62b2fdc503
+SHA1: cadad1f8472d61d38c056cc92e64cb773138ce57
+SHA256: a10626902eb8f32a6ca1c6995be8f1e041dbc2d29856ce4690f24a7e0a3401f7
 
 Package: libpopt0
 Source: popt
@@ -3267,8 +3267,8 @@ SHA1: 577ae67cab8ac82407fdc10f77f8deaecf02bc77
 SHA256: 735b3f7457b8088e99e56cb16389919f9b23790d1291f6abb351ae5bdfdaf43e
 
 Package: tzdata
-Version: 2016c-0+deb8u1
-Installed-Size: 1518
+Version: 2016d-0+deb8u1
+Installed-Size: 1532
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Architecture: all
 Replaces: libc0.1, libc0.3, libc6, libc6.1
@@ -3281,11 +3281,11 @@ Description-md5: a77a3cc9a67658dd7cfdc6547391b8f8
 Tag: role::app-data, use::timekeeping
 Section: localization
 Priority: required
-Filename: pool/DEBIAN/main/t/tzdata/tzdata_2016c-0+deb8u1_all.deb
-Size: 181678
-MD5sum: eb160cd2d3cecdee3389c91571ca2bae
-SHA1: efdaf910159eade41971d708f435f5dd65010663
-SHA256: 8ab967cee386224dcccc7df1189245b271155156c0f1d6185c8a7b9b2fdfc16f
+Filename: pool/DEBIAN/main/t/tzdata/tzdata_2016d-0+deb8u1_all.deb
+Size: 184918
+MD5sum: dc0ebde5328ef1d03e2d84736b888e09
+SHA1: 6e56dd34d30701ea8982a631f172e9ea47d947ab
+SHA256: 15413a299ed8fbaf5a889188dfa04d54dce82885143aa2d8a55421f86d53ab34
 
 Package: libustr-1.0-1
 Source: ustr (1.0.4-3)

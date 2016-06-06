@@ -199,11 +199,11 @@ Essential: yes
 Status: install ok installed
 Priority: required
 Section: perl
-Installed-Size: 5088
+Installed-Size: 5092
 Maintainer: Niko Tyni <ntyni@debian.org>
 Architecture: amd64
 Source: perl
-Version: 5.20.2-3+deb8u4
+Version: 5.20.2-3+deb8u5
 Replaces: libfile-path-perl, libfile-temp-perl, libio-socket-ip-perl, libperl5.8 (<< 5.8.0-20), libscalar-list-utils-perl, libsocket-perl, libxsloader-perl, perl (<< 5.10.1-12), perl-modules (<< 5.20.1-3)
 Provides: libfile-path-perl, libfile-temp-perl, libio-socket-ip-perl, libscalar-list-utils-perl, libsocket-perl, libxsloader-perl, perl5-base, perlapi-5.20.0, perlapi-5.20.1, perlapi-5.20.2
 Pre-Depends: libc6 (>= 2.14), dpkg (>= 1.17.17)
@@ -555,12 +555,12 @@ Package: libssl1.0.0
 Status: install ok installed
 Priority: important
 Section: libs
-Installed-Size: 3068
+Installed-Size: 3075
 Maintainer: Debian OpenSSL Team <pkg-openssl-devel@lists.alioth.debian.org>
 Architecture: amd64
 Multi-Arch: same
 Source: openssl
-Version: 1.0.1k-3+deb8u4
+Version: 1.0.1t-1+deb8u2
 Depends: libc6 (>= 2.14), debconf (>= 0.5) | debconf-2.0
 Pre-Depends: multiarch-support
 Description: Secure Sockets Layer toolkit - shared libraries
@@ -930,11 +930,11 @@ Package: tzdata
 Status: install ok installed
 Priority: required
 Section: localization
-Installed-Size: 1518
+Installed-Size: 1532
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Architecture: all
 Multi-Arch: foreign
-Version: 2016c-0+deb8u1
+Version: 2016d-0+deb8u1
 Replaces: libc0.1, libc0.3, libc6, libc6.1
 Provides: tzdata-jessie
 Depends: debconf (>= 0.5) | debconf-2.0
@@ -1622,7 +1622,7 @@ Installed-Size: 100
 Maintainer: Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>
 Architecture: amd64
 Multi-Arch: same
-Version: 4.2-3+deb8u1
+Version: 4.2-3+deb8u2
 Depends: libc6 (>= 2.14)
 Pre-Depends: multiarch-support
 Description: Manage ASN.1 structures (runtime)
@@ -2365,18 +2365,18 @@ Essential: yes
 Status: install ok installed
 Priority: required
 Section: admin
-Installed-Size: 7197
+Installed-Size: 6643
 Origin: debian
 Maintainer: Dpkg Developers <debian-dpkg@lists.debian.org>
 Bugs: debbugs://bugs.debian.org
 Architecture: amd64
 Multi-Arch: foreign
-Version: 1.17.26
+Version: 1.17.27
 Replaces: manpages-it (<< 2.80-4)
 Pre-Depends: libbz2-1.0, libc6 (>= 2.14), liblzma5 (>= 5.1.1alpha+20120614), libselinux1 (>= 2.3), zlib1g (>= 1:1.1.4), tar (>= 1.23)
 Suggests: apt
 Breaks: apt (<< 0.7.7~), apt-cudf (<< 3.3~beta1-3~), aptitude (<< 0.4.7-1~), auctex (<< 11.87-3+deb8u1~), ccache (<< 3.1.10-1~), cups (<< 1.7.5-10~), debian-security-support (<< 2014.10.26~), distcc (<< 3.1-6.1~), doc-base (<< 0.10.5~), dpkg-dev (<< 1.15.8), fontconfig (<< 2.11.0-6.2~), fusionforge-plugin-mediawiki (<< 5.3.2+20141104-3~), gap-core (<< 4r7p5-2~), gitweb (<< 1:2.1.4-2.1~), grace (<< 1:5.1.24-3~), gxine (<< 0.5.908-3.1~), hoogle (<< 4.2.33-4~), icecc (<< 1.0.1-2~), install-info (<< 5.1.dfsg.1-3~), libapache2-mod-php5 (<< 5.6.4+dfsg-3~), libapache2-mod-php5filter (<< 5.6.4+dfsg-3~), libdpkg-perl (<< 1.15.8), libjs-protoaculous (<< 5~), man-db (<< 2.6.3-6~), mcollective (<< 2.6.0+dfsg-2.1~), php5-fpm (<< 5.6.4+dfsg-3~), pypy (<< 2.4.0+dfsg-3~), readahead-fedora (<< 2:1.5.6-5.2~), wordpress (<< 4.1+dfsg-1~), xfonts-traditional (<< 1.7~), xine-ui (<< 0.99.9-1.2~)
-Conflicts: ada-reference-manual (<< 20021112web-4~), asn1-mode (<< 2.7-7~), bogosort (<< 0.4.2-3~), cl-yacc (<< 0.3-3~), cpp-4.1-doc (<< 4.1.2.nf2-4~), cpp-4.2-doc (<< 4.2.4.nf1-4~), gcc-4.1-doc (<< 4.1.2.nf2-4~), gcc-4.2-doc (<< 4.2.4.nf1-4~), gcj-4.1-doc (<< 4.1.2.nf2-4~), gcj-4.2-doc (<< 4.2.4.nf1-4~), gfortran-4.1-doc (<< 4.1.2.nf2-4~), gfortran-4.2-doc (<< 4.2.4.nf1-4~), ggz-docs (<< 0.0.14.1-2~), glame (<< 2.0.1-6~), gnat-4.1-doc (<< 4.1.2.nf2-4~), gnat-4.2-doc (<< 4.2.4.nf1-4~), gtalk (<< 0.99.10-16~), libalogg-dev (<< 1.3.7-2~), libgtk1.2-doc (<< 1.2.10-19~), libnettle-dev (<< 2~), liborbit-dev (<< 0.5.17-12~), libreadline5-dev (<< 5.2-8~), librep-doc (<< 0.90~), mmucl (<< 1.5.2-3~), nxml-mode (<< 20041004-9~), octave3.0-info (<< 1:3.0.5-7+rm), octave3.2-info (<< 3.2.4-12+rm), polgen-doc (<< 1.3-3+rm), r6rs-doc (<< 1.0-2~), serveez-doc (<< 0.1.5-3~), slat (<< 2.0-6~), texlive-base-bin-doc (<< 2007.dfsg.2-9~), ttcn-el (<< 0.6.9-2~), ulog-acctd (<< 0.4.3-3~), xconq-doc (<< 7.4.1-5~), zenirc (<< 2.112.dfsg-1~)
+Conflicts: ada-mode (<< 3.6-3+rm), ada-reference-manual (<< 20021112web-4~), asn1-mode (<< 2.7-7~), bogosort (<< 0.4.2-3~), cl-yacc (<< 0.3-3~), cpp-4.1-doc (<< 4.1.2.nf2-4~), cpp-4.2-doc (<< 4.2.4.nf1-4~), gcc-4.1-doc (<< 4.1.2.nf2-4~), gcc-4.2-doc (<< 4.2.4.nf1-4~), gcj-4.1-doc (<< 4.1.2.nf2-4~), gcj-4.2-doc (<< 4.2.4.nf1-4~), gfortran-4.1-doc (<< 4.1.2.nf2-4~), gfortran-4.2-doc (<< 4.2.4.nf1-4~), ggz-docs (<< 0.0.14.1-2~), glame (<< 2.0.1-6~), gnat-4.1-doc (<< 4.1.2.nf2-4~), gnat-4.2-doc (<< 4.2.4.nf1-4~), gtalk (<< 0.99.10-16~), libalogg-dev (<< 1.3.7-2~), libgtk1.2-doc (<< 1.2.10-19~), libnettle-dev (<< 2~), liborbit-dev (<< 0.5.17-12~), libreadline5-dev (<< 5.2-8~), librep-doc (<< 0.90~), mmucl (<< 1.5.2-3~), nxml-mode (<< 20041004-9~), octave2.1-info (<< 1:2.1.73-19+rm), octave3.0-info (<< 1:3.0.5-7+rm), octave3.2-info (<< 3.2.4-12+rm), polgen-doc (<< 1.3-3+rm), r6rs-doc (<< 1.0-2~), serveez-doc (<< 0.1.5-3~), slat (<< 2.0-6~), texlive-base-bin-doc (<< 2007.dfsg.2-9~), ttcn-el (<< 0.6.9-2~), ulog-acctd (<< 0.4.3-3~), xconq-doc (<< 7.4.1-5~), zenirc (<< 2.112.dfsg-1~)
 Conffiles:
  /etc/alternatives/README 69c4ba7f08363e998e0f2e244a04f881
  /etc/cron.daily/dpkg b8065b6bfc248caba501c3f5bb508e66
@@ -3324,12 +3324,12 @@ Package: libidn11
 Status: install ok installed
 Priority: standard
 Section: libs
-Installed-Size: 318
+Installed-Size: 350
 Maintainer: Debian Libidn Team <help-libidn@gnu.org>
 Architecture: amd64
 Multi-Arch: same
-Source: libidn (1.29-1)
-Version: 1.29-1+b2
+Source: libidn
+Version: 1.29-1+deb8u1
 Replaces: libidn11-dev
 Depends: libc6 (>= 2.14)
 Pre-Depends: multiarch-support
