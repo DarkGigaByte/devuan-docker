@@ -4,9 +4,9 @@ de531593fb8b9b8b13b6c80ce1d1c88e  lib/systemd/system/ifup@.service
 86f723d088e9f899a8c3561fb3dcc61b  lib/systemd/system/networking.service
 285d5e9e681ad03c8df616f5ed10b9cc  lib/udev/ifupdown-hotplug
 8132943936f28b09e0707f77e51f09bc  lib/udev/rules.d/80-ifupdown.rules
-fbb35efd6991fea4bc4ec8861c13b191  sbin/ifup
+9ced02a371e7268cac6109d80ffce26b  sbin/ifup
 8b3b41367ea69f1e34c6163f4fa8b25d  usr/share/doc/ifupdown/NEWS.Debian.gz
-00b7b0ebe7ec158a551089122e43c126  usr/share/doc/ifupdown/changelog.gz
+93ca57b19e1d4a882c3474bebb108eb5  usr/share/doc/ifupdown/changelog.gz
 1c9d2e2e5a56455eaebb479c1dbb20f1  usr/share/doc/ifupdown/contrib/ensureifup
 cde381570a371a774ff092d246ea786a  usr/share/doc/ifupdown/contrib/ifstate
 62f92e0d54d70005677860b6600579a8  usr/share/doc/ifupdown/contrib/ifstate-check
@@ -19,5 +19,5 @@ a5cebf40c83ebd0d1d5703790ec7be65  usr/share/doc/ifupdown/examples/network-interf
 e8bb6daaf2f8a4f0e0e819a64612772d  usr/share/doc/ifupdown/examples/pcmcia-compat.sh
 d3c899ac2785db804fab38b216a39bc5  usr/share/doc/ifupdown/examples/ping-places.sh
 d3ad310d259ffcea6e2853428fd04875  usr/share/lintian/overrides/ifupdown
-38e9aff71f07ea0d209745abeb79ebaf  usr/share/man/man5/interfaces.5.gz
+f70f9b90144564c9a1cfcdf322f1657a  usr/share/man/man5/interfaces.5.gz
 6a905eb224ac4b52b5d0bbbba57e2370  usr/share/man/man8/ifup.8.gz

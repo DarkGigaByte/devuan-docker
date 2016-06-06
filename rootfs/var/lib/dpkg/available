@@ -1286,7 +1286,7 @@ SHA256: 4da02e51765e42fb270dd92b3bb906b59f7b16cdc22bdeb250b8f11cf38a4bec
 
 Package: gcc-5-base
 Source: gcc-5
-Version: 5.3.1-21
+Version: 5.4.0-3
 Installed-Size: 201
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Architecture: amd64
@@ -1298,14 +1298,14 @@ Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
 Tag: role::shared-lib
 Section: libs
 Priority: required
-Filename: pool/DEBIAN/main/g/gcc-5/gcc-5-base_5.3.1-21_amd64.deb
-Size: 171392
-MD5sum: 5b5be2d67072ca3f0f0d81fac17284f8
-SHA256: 0c7d24115f43930340a4a3187a6b03a9cd98ba8950a93e9c73f6336082834f57
+Filename: pool/DEBIAN/main/g/gcc-5/gcc-5-base_5.4.0-3_amd64.deb
+Size: 171450
+MD5sum: 801ee27b17148bda0c53f16b0926290f
+SHA256: 6d124143f107972646cec29a95d785df5c55dfdb045eef85918af77844df452b
 
 Package: gcc-6-base
 Source: gcc-6
-Version: 6.1.1-4
+Version: 6.1.1-5
 Installed-Size: 201
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Architecture: amd64
@@ -1316,18 +1316,18 @@ Homepage: http://gcc.gnu.org/
 Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
 Section: libs
 Priority: required
-Filename: pool/DEBIAN/main/g/gcc-6/gcc-6-base_6.1.1-4_amd64.deb
-Size: 170590
-MD5sum: 591a1b42518651389ce3ae740858b2fb
-SHA256: a788ba2f13a38c881fdbd37d240aa1a35418141b58c6f58550ae2cf49c61892d
+Filename: pool/DEBIAN/main/g/gcc-6/gcc-6-base_6.1.1-5_amd64.deb
+Size: 171026
+MD5sum: ca338bfbd845f13c2ea548570d1f8ab8
+SHA256: 94da673c3f60c4abb613e4e1305343d9a7bdc80f0e132b94ebca9683b7dd029d
 
 Package: libgcc1
-Source: gcc-6 (6.1.1-4)
-Version: 1:6.1.1-4
+Source: gcc-6 (6.1.1-5)
+Version: 1:6.1.1-5
 Installed-Size: 105
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Architecture: amd64
-Depends: gcc-6-base (= 6.1.1-4), libc6 (>= 2.14)
+Depends: gcc-6-base (= 6.1.1-5), libc6 (>= 2.14)
 Breaks: gcc-4.3 (<< 4.3.6-1), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2)
 Description: GCC support library
 Multi-Arch: same
@@ -1336,19 +1336,19 @@ Description-md5: bbd60d723e97d8e06c04228ee4c76f10
 Tag: role::shared-lib
 Section: libs
 Priority: required
-Filename: pool/DEBIAN/main/g/gcc-6/libgcc1_6.1.1-4_amd64.deb
-Size: 38540
-MD5sum: 04b6a16ec858038df60e8d5a010e4453
-SHA256: 26fb79eef302f02ec68f3b938fd20cc767c0cfaacdf48f023a27b37382d03863
+Filename: pool/DEBIAN/main/g/gcc-6/libgcc1_6.1.1-5_amd64.deb
+Size: 38560
+MD5sum: 28b72fc2ef8c48dfe6da1734568227a1
+SHA256: 1b47549a569c7e41505839c5b31f8191d0fa98745ded13b53140145e73a90eb3
 
 Package: libstdc++6
 Source: gcc-6
-Version: 6.1.1-4
+Version: 6.1.1-5
 Installed-Size: 1983
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Architecture: amd64
 Replaces: libstdc++6-6-dbg (<< 4.9.0-3)
-Depends: gcc-6-base (= 6.1.1-4), libc6 (>= 2.18), libgcc1 (>= 1:4.2)
+Depends: gcc-6-base (= 6.1.1-5), libc6 (>= 2.18), libgcc1 (>= 1:4.2)
 Conflicts: scim (<< 1.4.2-1)
 Breaks: blockattack (<= 1.4.1+ds1-2.1+b2), boo (<= 0.9.5~git20110729.r1.202a430-2), c++-annotations (<= 10.2.0-1), clustalx (<= 2.1+lgpl-3), dff (<= 1.3.0+dfsg.1-4.1+b3), digikam-private-libs (<= 4:4.4.0-1.1+b2), emscripten (<= 1.22.1-1), ergo (<= 3.4.0-1), fceux (<= 2.2.2+dfsg0-1), fiona (<= 1.5.1-2), flush (<= 0.9.12-3.1), freeorion (<= 0.4.4+git20150327-2), fslview (<= 4.0.1-4), fwbuilder (<= 5.1.0-4), gcc-4.3 (<< 4.3.6-1), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2), gnote (<= 3.16.2-1), gnudatalanguage (<= 0.9.5-2+b2), innoextract (<= 1.4-1+b1), libantlr-dev (<= 2.7.7+dfsg-6), libapache2-mod-passenger (<= 5.0.7-1), libaqsis1 (<= 1.8.2-1), libassimp3 (<= 3.0~dfsg-4), libboost-date-time1.54.0, libboost-date-time1.55.0, libchemps2-1 (<= 1.5-1), libcpprest2.4 (<= 2.4.0-2), libdap17 (<= 3.14.0-2), libdapclient6 (<= 3.14.0-2), libdapserver7 (<= 3.14.0-2), libdavix0 (<= 0.4.0-1+b1), libdballe6 (<= 6.8-1), libdiet-admin2.8 (<= 2.8.0-1+b3), libdiet-client2.8 (<= 2.8.0-1+b3), libdiet-sed2.8 (<= 2.8.0-1+b3), libfreefem++ (<= 3.37.1-1), libgazebo5 (<= 5.0.1+dfsg-2.1), libgetfem4++ (<= 4.2.1~beta1~svn4635~dfsg-3+b1), libgmsh2 (<= 2.9.3+dfsg1-1), libinsighttoolkit4.7 (<= 4.7.2-2), libkolabxml1 (<= 1.1.0-3), libmarisa0 (<= 0.2.4-8), libogre-1.8.0 (<= 1.8.0+dfsg1-7+b1), libogre-1.9.0 (<= 1.9.0+dfsg1-4), libopenwalnut1 (<= 1.4.0~rc1+hg3a3147463ee2-1+b1), libpqxx-4.0 (<= 4.0.1+dfsg-3), libreoffice-core (<= 1:4.4.5-2), librime1 (<= 1.2+dfsg-2), libwibble-dev (<= 1.1-1), libwreport2 (<= 2.14-1), libxmltooling6 (<= 1.5.3-2.1), lightspark (<= 0.7.2+git20150512-2+b1), mira-assembler (<= 4.9.5-1), mongodb (<= 1:2.4.14-2), mongodb-server (<= 1:2.4.14-2), ncbi-blast+ (<= 2.2.30-4), openscad (<= 2014.03+dfsg-1+b1), passepartout (<= 0.7.1-1.1), pdf2djvu (<= 0.7.21-2), photoprint (<= 0.4.2~pre2-2.3+b2), plastimatch (<= 1.6.2+dfsg-1), plee-the-bear (<= 0.6.0-3.1), povray (<= 1:3.7.0.0-8), powertop (<= 2.6.1-1), printer-driver-brlaser (<= 3-3), psi4 (<= 4.0~beta5+dfsg-2+b1), python-fiona (<= 1.5.1-2), python-guiqwt (<= 2.3.1-1), python-healpy (<= 1.8.1-1+b1), python-htseq (<= 0.5.4p3-2), python-imposm (<= 2.5.0-3+b2), python-pysph (<= 0~20150606.gitfa26de9-5), python-rasterio (<= 0.24.0-1), python-scipy (<= 0.14.1-1), python-sfml (<= 2.2~git20150611.196c88+dfsg-1+b1), python3-fiona (<= 1.5.1-2), python3-scipy (<= 0.14.1-1), python3-sfml (<= 2.2~git20150611.196c88+dfsg-1+b1), python3-taglib (<= 0.3.6+dfsg-2+b2), realtimebattle (<= 1.0.8-14), ruby-passenger (<= 5.0.7-1), schroot (<= 1.6.10-1+b1), sqlitebrowser (<= 3.5.1-3), tecnoballz (<= 0.93.1-6), wesnoth-1.12-core (<= 1:1.12.4-1), widelands (<= 1:18-3+b1), xflr5 (<= 6.09.06-2)
 Description: GNU Standard C++ Library v3
@@ -1358,10 +1358,10 @@ Description-md5: 724ab84919e0e220afb960e36463914d
 Tag: role::shared-lib
 Section: libs
 Priority: important
-Filename: pool/DEBIAN/main/g/gcc-6/libstdc++6_6.1.1-4_amd64.deb
-Size: 394210
-MD5sum: 19db5e6b32960a363c3862a14d2d8bd5
-SHA256: cff843af2f02f87dbc4943d5916898a414f1b635241b1de884fdd7007deb0be9
+Filename: pool/DEBIAN/main/g/gcc-6/libstdc++6_6.1.1-5_amd64.deb
+Size: 394178
+MD5sum: 2cdaee496a87f572e1d5e62f6b9faed5
+SHA256: b26ceea234c62327f355291711de4c44dc1e72d497972918360cd8213ad29428
 
 Package: libgdbm3
 Source: gdbm
@@ -1615,7 +1615,7 @@ MD5sum: 9cf87aadd5b47b4d249ea1a222ad2b19
 SHA256: d91598ae1e2776c0f43a83e6b406717623708c1b09e2590b07caebee94c4f4b2
 
 Package: ifupdown
-Version: 0.8.12
+Version: 0.8.13
 Installed-Size: 186
 Maintainer: Guus Sliepen <guus@debian.org>
 Architecture: amd64
@@ -1632,10 +1632,10 @@ Tag: implemented-in::c, implemented-in::perl, interface::commandline,
  use::configuring
 Section: admin
 Priority: important
-Filename: pool/DEBIAN/main/i/ifupdown/ifupdown_0.8.12_amd64.deb
-Size: 74132
-MD5sum: 8d5dd4b8ef9b8300ffd9d82ba9327c9e
-SHA256: f417fd322aef859399c9a5c8e353a40a2d9734bf895b5298dca47aece236e786
+Filename: pool/DEBIAN/main/i/ifupdown/ifupdown_0.8.13_amd64.deb
+Size: 74336
+MD5sum: 0af433fde10eb44fac80ef9d3cadb08c
+SHA256: 20153ad823942f325b830e9e1afb280040db3261db69bcd8e60d504dbde1bd5f
 
 Package: insserv
 Version: 1.14.0-5.3

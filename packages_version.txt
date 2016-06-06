@@ -58,10 +58,10 @@ libcomerr2 1.43-3
 libss2 1.43-3
 findutils 4.6.0+git+20160126-2
 gcc-4.9-base 4.9.3-14
-gcc-5-base 5.3.1-21
-gcc-6-base 6.1.1-4
-libgcc1 1:6.1.1-4
-libstdc++6 6.1.1-4
+gcc-5-base 5.4.0-3
+gcc-6-base 6.1.1-5
+libgcc1 1:6.1.1-5
+libstdc++6 6.1.1-5
 libgdbm3 1.8.3-13.1
 libc-bin 2.22-10
 libc6 2.22-10
@@ -74,7 +74,7 @@ grep 2.25-3
 gzip 1.6-5
 hostname 3.17
 libicu55 55.1-7
-ifupdown 0.8.12
+ifupdown 0.8.13
 insserv 1.14.0-5.3
 iproute2 4.3.0-1+b1
 iptables 1.6.0-2
