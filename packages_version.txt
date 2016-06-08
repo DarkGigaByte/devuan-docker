@@ -70,7 +70,7 @@ libgmp10 2:6.1.0+dfsg-2
 gnupg 1.4.20-6
 gpgv 1.4.20-6
 libgnutls30 3.4.12-2
-grep 2.25-1
+grep 2.25-3
 gzip 1.6-5
 hostname 3.17
 libicu55 55.1-7
@@ -125,10 +125,10 @@ libnewt0.52 0.52.18-3
 whiptail 0.52.18-3
 libssl1.0.2 1.0.2h-1
 libp11-kit0 0.23.2-3
-libpam-modules 1.1.8-3.2
-libpam-modules-bin 1.1.8-3.2
-libpam-runtime 1.1.8-3.2
-libpam0g 1.1.8-3.2
+libpam-modules 1.1.8-3.3
+libpam-modules-bin 1.1.8-3.3
+libpam-runtime 1.1.8-3.3
+libpam0g 1.1.8-3.3
 libpcre3 2:8.38-3.1
 perl-base 5.22.2-1
 libpopt0 1.16-10
@@ -141,9 +141,9 @@ login 1:4.2-3.1
 passwd 1:4.2-3.1
 libslang2 2.3.0-2.3
 startpar 0.59-3
-libsystemd0 230-1
-libudev1 230-1
-udev 230-1
+libsystemd0 230-2
+libudev1 230-2
+udev 230-2
 tar 1.29-1
 tzdata 2016d-2
 libustr-1.0-1 1.0.4-5

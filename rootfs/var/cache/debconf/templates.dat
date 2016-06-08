@@ -1435,6 +1435,7 @@ Description-ro.utf-8: Selecție de profile PAM incompatibile.
 Description-ru.utf-8: Выбраны несовместимые профили PAM.
 Description-sk.utf-8: Boli vybrané nekompatibilné profily PAM.
 Description-sv.utf-8: Inkompatibla PAM-profiler valdes.
+Description-tr.utf-8: Uyumsuz PAM profilleri seçildi
 Description-vi.utf-8: Bạn đã chọn một số hồ sơ PAM không tương thích với nhau.
 Extended_description: The following PAM profiles cannot be used together:\n\n${conflicts}\n\nPlease select a different set of modules to enable.
 Extended_description-bg.utf-8: Следните PAM профили не могат да се използват едновременно:\n\n${conflicts}\n\nИзберете друга група профили.
@@ -1457,6 +1458,7 @@ Extended_description-ro.utf-8: Următoarele profile PAM nu pot fi folosite împr
 Extended_description-ru.utf-8: Следующие профили PAM нельзя использовать одновременно:\n\n${conflicts}\n\nВыберите другой набор активируемых модулей.
 Extended_description-sk.utf-8: Nasledovné profily PAM nemožno použiť súčasne:\n\n${conflicts}\n\nProsím, zmeňte množinu modulov, ktoré sa majú zapnúť.
 Extended_description-sv.utf-8: Följande PAM-profiler kan inte användas tillsammans:\n\n${conflicts}\n\nAnge en annan uppsättning med moduler som ska aktiveras.
+Extended_description-tr.utf-8: Şu PAM profilleri birarada kullanılamaz:\n\n${conflicts}\n\nLütfen farklı bir modül kümesi seçin.
 Extended_description-vi.utf-8: Không thể sử dụng với nhau những hồ sơ PAM theo đây:\n\n${conflicts}\n\nHãy chọn một tập hợp mô-đun khác để hiệu lực.
 Type: error
 Owners: libpam-runtime/conflicts
@@ -1481,6 +1483,7 @@ Description-pt_br.utf-8: Nenhum perfil PAM foi selecionado.
 Description-ru.utf-8: Профили PAM не выбраны.
 Description-sk.utf-8: Neboli vybrané žiadne profily PAM.
 Description-sv.utf-8: Inga PAM-profiler valdes.
+Description-tr.utf-8: Hiçbir PAM profili seçilmedi.
 Description-vi.utf-8: Chưa chọn hồ sơ PAM.
 Extended_description: No PAM profiles have been selected for use on this system.  This would grant all users access without authenticating, and is not allowed.  Please select at least one PAM profile from the available list.
 Extended_description-bg.utf-8: Няма избрани PAM профили. Това ще разреши достъпа на всички потребители без удостоверяване на самоличността и не е позволено. Изберете поне един профил от списъка.
@@ -1501,6 +1504,7 @@ Extended_description-pt_br.utf-8: Nenhum perfil PAM foi selecionado para uso nes
 Extended_description-ru.utf-8: В системе для работы не выбрано ни одного профиля PAM. Это предоставит полный доступ всем пользователям без аутентификации, что нежелательно. Выберите, по крайней мере, один профиль PAM из доступных.
 Extended_description-sk.utf-8: Pre tento systém neboli vybrané žiadne profily PAM. To by udelilo všetkým používateľom prístup bez overovania a to nie je povolené. Prosím, vyberte aspoň jeden profil PAM zo zoznamu dostupných profilov.
 Extended_description-sv.utf-8: Inga PAM-profiler används på detta system. Detta skulle ge alla användare tillgång till systemet utan att behöva ange lösenord och det kan inte tillåtas. välj åtminstone en PAM-profil från listan med tillgängliga profiler.
+Extended_description-tr.utf-8: Sistemde kullanılmak üzere hiçbir PAM modülü seçilmedi.  Bu durum tüm kullanıcılara hiçbir kimlik doğrulamaya maruz kalmaksızın erişim izni verilmesi anlamına gelir ve bu duruma izin verilmemektedir.  Lütfen mevcut profiller listesinden en az bir PAM profili seçin.
 Extended_description-vi.utf-8: Chưa chọn hồ sơ PAM nào để sử dụng trên hệ thống này. Trường hợp này cho phép mọi người dùng truy cập đến hệ thống mà không xác thực: không tốt ! Xin hãy chọn ít nhất một hồ sơ PAM trong danh sách sẵn sàng.
 Type: error
 Owners: libpam-runtime/no_profiles_chosen
@@ -1528,6 +1532,7 @@ Description-ro.utf-8: Se ignoră schimbările locale făcute în /etc/pam.d/comm
 Description-ru.utf-8: Переопределить локальные изменения в /etc/pam.d/common-*?
 Description-sk.utf-8: Prepísať lokálne zmeny v /etc/pam.d/common-*?
 Description-sv.utf-8: Skriv över lokala förändringar i /etc/pam.d/common-*?
+Description-tr.utf-8: /etc/pam.d/common-* konumundaki yerel değişiklikler görmezden gelinsin mi?
 Description-vi.utf-8: Có quyền cao hơn thay đổi cục bộ trong « /etc/pam.d/common-* » không?
 Extended_description: One or more of the files /etc/pam.d/common-{auth,account,password,session} have been locally modified.  Please indicate whether these local changes should be overridden using the system-provided configuration.  If you decline this option, you will need to manage your system's authentication configuration by hand.
 Extended_description-bg.utf-8: Някои от файловете /etc/pam.d/common-{auth,account,password,session} са променени. Укажете дали желаете променените файлове да бъдат презаписани и да се използват настройките доставени със системата. Ако откажете ще трябва ръчно да настроите PAM.
@@ -1550,6 +1555,7 @@ Extended_description-ro.utf-8: Există modificari locale într-unul sau mai mult
 Extended_description-ru.utf-8: Один или более файлов в /etc/pam.d/common-{auth,account,password,session} был изменён вручную. Заметьте, что данные локальные изменения должны быть переопределены через системные настройки. Если вы ответите отрицательно, то вам придётся управлять настройками аутентификации системы вручную.
 Extended_description-sk.utf-8: Jeden alebo viac zo súborov /etc/pam.d/common-{auth,account,password,session} bolo na lokálnom systéme zmenených. Uveďte prosím, či sa majú tieto lokálne zmeny prepísať štandardnými konfiguračnými voľbami. Ak túto možnosť zamietnete, budete musieť spravovať nastavenia autentifikácie tohto systému ručne.
 Extended_description-sv.utf-8: En eller flera av filerna /etc/pam.d/common-{auth,account.password,session} har förändrats. Ange om dessa lokala förändringar ska skrivas över med standardinställningarna. Om du avböjer detta alternativ kommer du behöva hantera inställningarna för systemets autentisering manuellt.
+Extended_description-tr.utf-8: /etc/pam.d/common-{auth,account,password,session} dosyalarından bir ya da daha fazlası yerel olarak değiştirilmiş.  Lütfen bu yerel değişikliklerin sistem tarafından sağlanan yapılandırma ile değiştirilmesine izin verip vermediğinizi belirtin.  Bu seçeneği kabul etmediğiniz takdirde sistemin kimlik doğrulama yapılandırmasını elinizle ayarlamanız gerekecektir.
 Extended_description-vi.utf-8: Một hay nhiều tập tin « /etc/pam.d/common-{auth,account,password,session} » đã bị sửa đổi cục bộ. Hãy ngụ ý có nên ghi đè lên các thay đổi cục bộ này dùng cấu hình được hệ thống cung cấp, hay không. Không bật tuỳ chọn này thì bạn cần phải tự quản lý cấu hình xác thực của hệ thống này.
 Type: boolean
 Owners: libpam-runtime/override
@@ -1578,6 +1584,7 @@ Description-ro.utf-8: Profile PAM de activat:
 Description-ru.utf-8: Активируемые профили PAM:
 Description-sk.utf-8: Zapnúř nasledovné profily PAM:
 Description-sv.utf-8: Aktivera följande PAM-profiler:
+Description-tr.utf-8: Etkinleştirilecek PAM profilleri:
 Description-vi.utf-8: Các hồ sơ PAM cần bật:
 Extended_description: Pluggable Authentication Modules (PAM) determine how authentication, authorization, and password changing are handled on the system, as well as allowing configuration of additional actions to take when starting user sessions.\n\nSome PAM module packages provide profiles that can be used to automatically adjust the behavior of all PAM-using applications on the system.  Please indicate which of these behaviors you wish to enable.
 Extended_description-bg.utf-8: Модулите за идентификация (PAM, Pluggable Authentication Modules) управляват идентификацията, оторизацията и промяната на паролите. Те дават и възможност за изпълняване на допълнителни действия при стартиране на нови потребителски сесии.\n\nНякои пакети с PAM модули предлагат „профили“, чрез които може да се промени поведението на всички приложения, използващи PAM. Изберете кои от профилите желаете да разрешите.
@@ -1599,7 +1606,8 @@ Extended_description-pt_br.utf-8: O PAM ("Pluggable Authentication Modules") det
 Extended_description-ro.utf-8: Modulele de autentificare conectabile (PAM) definesc cum se manevrează în sistem autentificările, autorizațiile și schimbările de parole, dar permite și adăugarea de diverse acțiuni ce se vor efectua la pornirea sesiunilor utilizatorilor.\n\nUnele pachete de module PAM furnizează profile care pot fi folosite pentru ajustarea automată a comportamentului aplicațiilor din sistem care folosesc PAM. Indicați pe care dintre aceste comportamente le doriți activate.
 Extended_description-ru.utf-8: Через подключаемые модули аутентификации (PAM) указывается как нужно проводить аутентификацию, авторизацию и смену пароля в системе, а также можно назначать запуск дополнительных действий при старте пользовательского сеанса.\n\nНекоторые пакеты модулей PAM предоставляют профили, которые можно использовать для автоматического регулирования поведения всех использующих PAM программ в системе. Выберите профили, которые нужно применить.
 Extended_description-sk.utf-8: Zásuvné autentifikačné moduly (PAM) určujú ako systém pracuje s autentifikáciou, autorizáciou, zmenou hesiel a umožňuje tiež nastavenie ďalších operácií, ktoré sa majú vykonať pri prihlásení používateľa.\n\nNiektoré balíky modulov PAM poskytujú profily, ktorými možno automaticky prisôpsobiť správanie všetkých aplikácií v systéme, ktoré používajú PAM. Prosím označte tie z nich, ktoré chcete zapnúť.
-Extended_description-sv.utf-8: Pluggable Authentication Modules (PAM) hanterar hur autentisering, identifiering och byte av lösenord ska utföras på systemet. Dessutom hanteras särskilda åtgärder som ska vidtas vid uppstarta av användarsessioner.\n\nVissa paket med PAM-moduler tillhandahåller profiler som kan användas för att automatiskt justera hur applikationer som använder PAM fungerar på systemet. Ange vilka av dessa funktioner du önskar aktivera.
+Extended_description-sv.utf-8: Pluggable Authentication Modules (PAM) hanterar hur autentisering, identifiering och byte av lösenord ska utföras på systemet. Dessutom hanteras särskilda åtgärder som ska vidtas vid uppstart av användarsessioner.\n\nVissa paket med PAM-moduler tillhandahåller profiler som kan användas för att automatiskt justera hur applikationer som använder PAM fungerar på systemet. Ange vilka av dessa funktioner du önskar aktivera.
+Extended_description-tr.utf-8: Takılabilir Doğrulama Modülleri (PAM), sistemdeki kimlik doğrulama, izin verme ve parola değiştirme işlemlerinin ne şekilde idare edileceğine karar veren ve ayrıca kullanıcı oturumları başlatılırken atılması gereken adımları yapılandırmaya yarayan bir sistemdir.\n\nBazı PAM modül paketleri, sistemde mevcut olan ve PAM kullanan tüm uygulamaların davranışlarını otomatik olarak ayarlamaya yarayan profiller sağlar.  Lütfen bu davranışlardan hangisini etkinleştirmek istediğinizi belirtin.
 Extended_description-vi.utf-8: Mô-đun Xác thực Dễ kết hợp (PAM) quyết định quá trình xác thực, cho phép và thay đổi mật khẩu được quản lý như thế nào trên hệ thống, cũng như cho phép cấu hình các hành vi bổ sung cần làm khi khởi chạy buổi hợp người dùng.\n\nMột số mô-đun PAM nào đó cũng cung cấp các hồ sơ có thể được dùng để tự động điều chỉnh ứng xử của tất cả các ứng dụng dùng PAM trên hệ thống. Hãy ngụ ý những ứng xử nào bạn muốn hiệu lực.
 Type: multiselect
 Owners: libpam-runtime/profiles
@@ -1620,6 +1628,7 @@ Description-pt.utf-8: Configuração PAM
 Description-ru.utf-8: Настройка PAM
 Description-sk.utf-8: Konfigurácia PAM
 Description-sv.utf-8: PAM-inställningar
+Description-tr.utf-8: PAM yapılandırması
 Type: title
 Owners: libpam-runtime/title
 
@@ -1747,6 +1756,7 @@ Description-ro.utf-8: Administratorul de ecran trebuie repornit manual
 Description-ru.utf-8: Программу входа в систему нужно перезапустить вручную
 Description-sk.utf-8: Správcu obrazovky je potrebné reštartovať ručne
 Description-sv.utf-8: Skärmhanterare måste startas om manuellt
+Description-tr.utf-8: Görüntü yöneticisinin elle yeniden başlatılması gerekli
 Extended_description: The wdm and xdm display managers require a restart for the new version of libpam, but there are X login sessions active on your system that would be terminated by this restart.  You will therefore need to restart these services by hand before further X logins will be possible.
 Extended_description-bg.utf-8: Мениджърите на дисплеи wdm и xdm трябва да бъдат рестартирани, но това би прекъснало активните влизания и затова тази операция няма да бъде извършена автоматично. Преди да може отново да се влезе в системата чрез тези услуги, те трябва да бъдат рестартирани ръчно.
 Extended_description-ca.utf-8: Entre els serveis que cal reiniciar degut a la nova versió de «libpam» hi ha els gestors de pantalla «wdm» i «xdm». Malgrat tot, hi ha sessions d'«X» en execució en el sistema que s'aturaran si es reinicien aquests serveis. Cal reiniciar-los manualment si desitjau que sigui possible iniciar una sessió «X» més endavant.
@@ -1766,6 +1776,7 @@ Extended_description-ro.utf-8: Administratorii de ecran wdm și xdm trebuie repo
 Extended_description-ru.utf-8: Для работы с новой версией libpam программам для входа в систему wdm и xdm требуется перезапуск, но это прервёт все запущенные X-сеансы. Поэтому вам нужно перезапустить эти службы вручную для того, чтобы можно было снова входить в систему через X.
 Extended_description-sk.utf-8: Správcovia obrazovky wdm a xdm vyžadujú reštart kvôli novej verzii libpam, ale na vašom systéme sú aktívne prihlasovacie relácie X, ktoré by tento reštart ukončil. Preto tieto služby budete musieť reštartovať ručne predtým, než bude možné uskutočniť ďalšie prihlásenie k X.
 Extended_description-sv.utf-8: Skärmhanterarna wdm och xdm måste startas om för den nya versionen av libpam men det finns X-inloggningssessioner som skulle avslutas av en sådan omstart. Du behöver därför starta om dessa tjänster manuellt innan ytterligare X-inloggningar är möjliga.
+Extended_description-tr.utf-8: wdm ve xdm görüntü yöneticileri, libpam'ın yeni sürümünden yararlanabilmek için yeniden başlatılmalı; fakat sisteminizde etkin X oturumları var.  Görüntü yöneticisi yeniden başlatılırsa bu oturumlar da kapatılır.  Bu yüzden ileride yeni X oturumları açabilmek için bu hizmetleri elle yeniden başlatmanız gerekecek.
 Type: error
 Owners: libpam0g/xdm-needs-restart
 
@@ -1786,6 +1797,7 @@ Description-pt.utf-8: Reiniciar os serviços durante actualizações do pacote s
 Description-ru.utf-8: Перезапускать службы при обновлении пакета не задавая вопрос?
 Description-sk.utf-8: Reštartovať služby počas aktualizácií balíka bez pýtania?
 Description-sv.utf-8: Ska tjänster startas om vid paketuppgraderingar utan att först fråga om det?
+Description-tr.utf-8: Paket yükseltme esnasında hizmetler sorulmadan yeniden başlatılsın mı?
 Extended_description: There are services installed on your system which need to be restarted when certain libraries, such as libpam, libc, and libssl, are upgraded. Since these restarts may cause interruptions of service for the system, you will normally be prompted on each upgrade for the list of services you wish to restart.  You can choose this option to avoid being prompted; instead, all necessary restarts will be done for you automatically so you can avoid being asked questions on each library upgrade.
 Extended_description-bg.utf-8: Системата има инсталирани услуги, които трябва да се рестартират при обновяване на някои библиотеки като libpam, libc и libssl. Тъй като рестартирането може да предизвика прекъсване на съответната услуга, обикновено администраторите предпочитат да бъдат попитани кои услуги могат да бъдат рестартиране при всяко обновяване на библиотеките. Ако потвърдите, че не желаете да потвърждавате рестартирането, услугите ще бъдат рестартирани автоматично без излишни въпроси при обновяване на някоя от критичните библиотеки.
 Extended_description-ca.utf-8: Hi ha serveis instal·lats en el seu sistema que necessiten ser reiniciats en actualitzar certes biblioteques, com libpam, libc i libssl. Ja que el procés de reinicii pot causar interrupcions en el sistema, normalment se vos demanarà, a cada actualització, per a la llista de serveis que voleu reiniciar. Podeu triar aquesta opció per evitar que se vos demani; en canvi, es faran automàticament tots els reinicis necessaris sense demanar-vos confirmació en cada actualització de biblioteques.
@@ -1801,6 +1813,7 @@ Extended_description-pt.utf-8: Há serviços instalados no seu sistema que neces
 Extended_description-ru.utf-8: В системе установлены службы, которые требуют перезапуска после обновления определённых библиотек (например, libpam, libc и libssl). Так как это может вызвать перерыв в работе службы, обычно, при каждом обновлении выдаётся список служб, которые нужно перезапустить. Чтобы этот вопрос не задавался, вы можете ответить утвердительно; в этом случае все необходимые службы будут перезапущены автоматически.
 Extended_description-sk.utf-8: Na vašom systéme bežia služby, ktoré ne potrebné reštartovať pri aktualizácii určitých knižníc ako libpam, libc a libssl. Pretože tieto reštarty môžu spôsobiť prerušenia služby systému, za bežných okolností budete vyzvaní pri každej aktualizácie so zoznamom služieb, ktoré chcete reštartovať. Túto voľbu môžete vybrať, ak nechcete byť vyzývaný, ale namiesto toho chcete, aby sa všetky potrebné reštarty vykonali automaticky za vás a tak sa vyhnúť kladeniu otázok pri každej aktualizácii knižnice.
 Extended_description-sv.utf-8: Det finns tjänster installerade på systemet som behöver startas om när vissa bibliotek (ex. libpam, libc och libssl) uppdateras. Eftersom dessa omstarter kan innebära avbrott i tjänsterna på systemet kommer du vanligen att få en fråga för varje uppgradering med en lista över tjänster som ska startas om. Du kan välja detta alternativ för att undvika att frågan ställs. Istället kommer alla nödvändiga omstarter att skötas automatiskt och du undviker frågor vid varje biblioteksuppgradering.
+Extended_description-tr.utf-8: Sisteminizde libpam, libc ve libssl gibi bazı kitaplıklar yükseltildiğinde yeniden başlatılması gereken bazı hizmetler kurulu. Yeniden başlatma işlemleri sisteminizin sunduğu hizmetlerde kesintilere neden olabileceğinden dolayı her yükseltme işlemi esnasında yeniden başlatmak istediğiniz hizmetler size sorulacaktır. Eğer bu sorunun sorulmasını istemiyorsanız bu seçeneği kullanabilirsiniz. Bu seçenek seçildiği takdirde bir kitaplık yükseltmesi yapılırken gereken tüm yeniden başlatma işlemleri size sorulmaksızın otomatik olarak yapılacaktır.
 Type: boolean
 Owners: libraries/restart-without-asking
 
