@@ -63,13 +63,13 @@ gcc-6-base 6.1.1-5
 libgcc1 1:6.1.1-5
 libstdc++6 6.1.1-5
 libgdbm3 1.8.3-13.1
-libc-bin 2.22-10
-libc6 2.22-10
-multiarch-support 2.22-10
+libc-bin 2.22-11
+libc6 2.22-11
+multiarch-support 2.22-11
 libgmp10 2:6.1.0+dfsg-2
 gnupg 1.4.20-6
 gpgv 1.4.20-6
-libgnutls30 3.4.12-2
+libgnutls30 3.4.13-1
 grep 2.25-3
 gzip 1.6-5
 hostname 3.17

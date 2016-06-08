@@ -1385,7 +1385,7 @@ SHA256: 5d5566359c3a5dc86e2f386b9d9d84c94f580b2e5f2553097cf3e10bd3090de0
 
 Package: libc-bin
 Source: glibc
-Version: 2.22-10
+Version: 2.22-11
 Essential: yes
 Installed-Size: 3315
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
@@ -1401,14 +1401,14 @@ Description-md5: 7625903821514b57277d1bae69ec3c1a
 Tag: role::shared-lib
 Section: libs
 Priority: required
-Filename: pool/DEBIAN/main/g/glibc/libc-bin_2.22-10_amd64.deb
-Size: 764728
-MD5sum: f8ccd8403b9534d48dee0e39f2cb1d86
-SHA256: 1016ecf41e7633c299368b8fd3b1aa8d5ee43f027fa2429c3e91daf67fdb9e44
+Filename: pool/DEBIAN/main/g/glibc/libc-bin_2.22-11_amd64.deb
+Size: 765298
+MD5sum: a4acdb18bf8869690ec4a095f4bea78d
+SHA256: 0f9f74092cecd2a1cd22e8f852215f1bf33a318636546b2dd814b20b84b53eed
 
 Package: libc6
 Source: glibc
-Version: 2.22-10
+Version: 2.22-11
 Installed-Size: 10639
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Architecture: amd64
@@ -1423,14 +1423,14 @@ Description-md5: fc3001b0b90a1c8e6690b283a619d57f
 Tag: role::shared-lib
 Section: libs
 Priority: required
-Filename: pool/DEBIAN/main/g/glibc/libc6_2.22-10_amd64.deb
-Size: 2657946
-MD5sum: d9bc0ffb1d1a0adfda8f8381b7436412
-SHA256: dac3364a9582fdea0f61654a9ae8b39f6d8ad3c93563ecb701221344bc18073d
+Filename: pool/DEBIAN/main/g/glibc/libc6_2.22-11_amd64.deb
+Size: 2659802
+MD5sum: ee39c70df799365dabe87f4a9c7c7fcd
+SHA256: c6860400e4713b7698d2e7acaba5bf2202169267c1de743c5635d2132fa2dbc5
 
 Package: multiarch-support
 Source: glibc
-Version: 2.22-10
+Version: 2.22-11
 Installed-Size: 212
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Architecture: amd64
@@ -1442,10 +1442,10 @@ Description-md5: f70fd4ad370040691119c10d77aec677
 Tag: role::shared-lib
 Section: libs
 Priority: required
-Filename: pool/DEBIAN/main/g/glibc/multiarch-support_2.22-10_amd64.deb
-Size: 191262
-MD5sum: 27e8826d06661584461724ffaf96fbe1
-SHA256: 2a75cb10cfeeb0c341029bf7fc9ce4ef8b55578ea0beb9ec97aed8abf2fd3a5f
+Filename: pool/DEBIAN/main/g/glibc/multiarch-support_2.22-11_amd64.deb
+Size: 191486
+MD5sum: 5fc9a0b988aa108188f3181740aa3c22
+SHA256: 28f66f971c6525bc8c41db146197620cf12dbce5e49a17b53976786b577a7caa
 
 Package: libgmp10
 Source: gmp
@@ -1512,8 +1512,8 @@ SHA256: 4e6202d21caf3c43b50cf54cb91c2902602b594b369cd9ccb41c414da1622dfb
 
 Package: libgnutls30
 Source: gnutls28
-Version: 3.4.12-2
-Installed-Size: 2042
+Version: 3.4.13-1
+Installed-Size: 2044
 Maintainer: Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>
 Architecture: amd64
 Depends: libc6 (>= 2.17), libgmp10 (>= 2:6), libhogweed4, libidn11 (>= 1.13), libnettle6, libp11-kit0 (>= 0.23.1), libtasn1-6 (>= 4.5), zlib1g (>= 1:1.1.4)
@@ -1525,10 +1525,10 @@ Description-md5: 43b0d429ee2ba8e66055a55ec8472254
 Tag: role::shared-lib
 Section: libs
 Priority: standard
-Filename: pool/DEBIAN/main/g/gnutls28/libgnutls30_3.4.12-2_amd64.deb
-Size: 807930
-MD5sum: cdc1dc033127c7aeafe62361126e86c1
-SHA256: f7a2bafccb3f9367f5a39a341de708fdf180663d2d2f67b3b1fe4fab21f24e91
+Filename: pool/DEBIAN/main/g/gnutls28/libgnutls30_3.4.13-1_amd64.deb
+Size: 810592
+MD5sum: d76d459011b4a50028fbfc735a19b035
+SHA256: ee1adbeddaacdce8d716eacb7905917388197e22a22814df4c5467fd6a68dc6b
 
 Package: grep
 Version: 2.25-3

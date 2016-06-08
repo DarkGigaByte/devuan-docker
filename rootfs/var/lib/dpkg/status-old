@@ -906,7 +906,7 @@ Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Architecture: amd64
 Multi-Arch: foreign
 Source: glibc
-Version: 2.22-10
+Version: 2.22-11
 Depends: libc6 (>= 2.3.6-2)
 Description: Transitional package to ensure multiarch compatibility
  This is a transitional package used to ensure multiarch support is present
@@ -1193,12 +1193,12 @@ Package: libgnutls30
 Status: install ok unpacked
 Priority: standard
 Section: libs
-Installed-Size: 2042
+Installed-Size: 2044
 Maintainer: Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>
 Architecture: amd64
 Multi-Arch: same
 Source: gnutls28
-Version: 3.4.12-2
+Version: 3.4.13-1
 Depends: libc6 (>= 2.17), libgmp10 (>= 2:6), libhogweed4, libidn11 (>= 1.13), libnettle6, libp11-kit0 (>= 0.23.1), libtasn1-6 (>= 4.5), zlib1g (>= 1:1.1.4)
 Suggests: gnutls-bin
 Description: GNU TLS library - main runtime library
@@ -1285,7 +1285,7 @@ Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Architecture: amd64
 Multi-Arch: same
 Source: glibc
-Version: 2.22-10
+Version: 2.22-11
 Replaces: libc6-amd64
 Depends: libgcc1
 Suggests: glibc-doc, debconf | debconf-2.0, libc-l10n, locales
@@ -2008,7 +2008,7 @@ Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Architecture: amd64
 Multi-Arch: foreign
 Source: glibc
-Version: 2.22-10
+Version: 2.22-11
 Replaces: libc0.1, libc0.3, libc6, libc6.1
 Depends: libc6 (>> 2.22), libc6 (<< 2.23)
 Recommends: manpages
