@@ -62,7 +62,7 @@ gcc-5-base 5.4.0-3
 gcc-6-base 6.1.1-5
 libgcc1 1:6.1.1-5
 libstdc++6 6.1.1-5
-libgdbm3 1.8.3-13.1
+libgdbm3 1.8.3-14
 libc-bin 2.22-11
 libc6 2.22-11
 multiarch-support 2.22-11

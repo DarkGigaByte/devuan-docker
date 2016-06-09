@@ -1365,12 +1365,11 @@ SHA256: b26ceea234c62327f355291711de4c44dc1e72d497972918360cd8213ad29428
 
 Package: libgdbm3
 Source: gdbm
-Version: 1.8.3-13.1
-Installed-Size: 85
-Maintainer: Anibal Monsalve Salazar <anibal@debian.org>
+Version: 1.8.3-14
+Installed-Size: 68
+Maintainer: Debian QA Group <packages@qa.debian.org>
 Architecture: amd64
 Depends: libc6 (>= 2.14), dpkg (>= 1.15.4) | install-info
-Pre-Depends: multiarch-support
 Description: GNU dbm database routines (runtime version)
 Multi-Arch: same
 Homepage: http://directory.fsf.org/project/gdbm/
@@ -1378,10 +1377,10 @@ Description-md5: 900375b4641d82391c1c951c3b8647f6
 Tag: role::shared-lib
 Section: libs
 Priority: important
-Filename: pool/DEBIAN/main/g/gdbm/libgdbm3_1.8.3-13.1_amd64.deb
-Size: 30004
-MD5sum: bf4998d8494e32594887e548e0c87412
-SHA256: 5d5566359c3a5dc86e2f386b9d9d84c94f580b2e5f2553097cf3e10bd3090de0
+Filename: pool/DEBIAN/main/g/gdbm/libgdbm3_1.8.3-14_amd64.deb
+Size: 30042
+MD5sum: 4bd924fc8be5471a12d1e0204c74d6c3
+SHA256: fbce0e2500aa970ed03665d15822265ff8d31c81927b987ae34e206b9b5ab0b6
 
 Package: libc-bin
 Source: glibc

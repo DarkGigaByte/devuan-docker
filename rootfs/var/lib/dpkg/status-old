@@ -192,14 +192,13 @@ Package: libgdbm3
 Status: install ok installed
 Priority: important
 Section: libs
-Installed-Size: 85
-Maintainer: Anibal Monsalve Salazar <anibal@debian.org>
+Installed-Size: 68
+Maintainer: Debian QA Group <packages@qa.debian.org>
 Architecture: amd64
 Multi-Arch: same
 Source: gdbm
-Version: 1.8.3-13.1
+Version: 1.8.3-14
 Depends: libc6 (>= 2.14), dpkg (>= 1.15.4) | install-info
-Pre-Depends: multiarch-support
 Description: GNU dbm database routines (runtime version)
  GNU dbm ('gdbm') is a library of database functions that use extendible
  hashing and works similarly to the standard UNIX 'dbm' functions.
