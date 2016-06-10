@@ -39,4 +39,3 @@ users:x:100:
 nogroup:x:65534:
 crontab:x:101:
 netdev:x:102:
-input:x:103:

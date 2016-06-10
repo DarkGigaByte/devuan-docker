@@ -39,4 +39,3 @@ users:*::
 nogroup:*::
 crontab:!::
 netdev:!::
-input:!::

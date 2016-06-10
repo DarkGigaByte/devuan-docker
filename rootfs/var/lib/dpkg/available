@@ -1560,8 +1560,8 @@ SHA256: 4e6202d21caf3c43b50cf54cb91c2902602b594b369cd9ccb41c414da1622dfb
 
 Package: libgnutls30
 Source: gnutls28
-Version: 3.4.12-2
-Installed-Size: 2042
+Version: 3.4.13-1
+Installed-Size: 2044
 Maintainer: Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>
 Architecture: amd64
 Depends: libc6 (>= 2.17), libgmp10 (>= 2:6), libhogweed4, libidn11 (>= 1.13), libnettle6, libp11-kit0 (>= 0.23.1), libtasn1-6 (>= 4.5), zlib1g (>= 1:1.1.4)
@@ -1573,11 +1573,11 @@ Description-md5: 43b0d429ee2ba8e66055a55ec8472254
 Tag: role::shared-lib
 Section: libs
 Priority: standard
-Filename: pool/DEBIAN/main/g/gnutls28/libgnutls30_3.4.12-2_amd64.deb
-Size: 807930
-MD5sum: cdc1dc033127c7aeafe62361126e86c1
-SHA1: 4dda6a8d4dbb7e088706fcdebe2e3d4b01de7492
-SHA256: f7a2bafccb3f9367f5a39a341de708fdf180663d2d2f67b3b1fe4fab21f24e91
+Filename: pool/DEBIAN/main/g/gnutls28/libgnutls30_3.4.13-1_amd64.deb
+Size: 810592
+MD5sum: d76d459011b4a50028fbfc735a19b035
+SHA1: b5ae21c50089a2d5905e58863741b7d1993b153c
+SHA256: ee1adbeddaacdce8d716eacb7905917388197e22a22814df4c5467fd6a68dc6b
 
 Package: grep
 Version: 2.25-3
