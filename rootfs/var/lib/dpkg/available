@@ -1668,7 +1668,7 @@ SHA1: 3cbd0136a0a4660b7e57c60c9e1ad20a22c21f1f
 SHA256: d91598ae1e2776c0f43a83e6b406717623708c1b09e2590b07caebee94c4f4b2
 
 Package: ifupdown
-Version: 0.8.12
+Version: 0.8.13
 Installed-Size: 186
 Maintainer: Guus Sliepen <guus@debian.org>
 Architecture: amd64
@@ -1685,11 +1685,11 @@ Tag: implemented-in::c, implemented-in::perl, interface::commandline,
  use::configuring
 Section: admin
 Priority: important
-Filename: pool/DEBIAN/main/i/ifupdown/ifupdown_0.8.12_amd64.deb
-Size: 74132
-MD5sum: 8d5dd4b8ef9b8300ffd9d82ba9327c9e
-SHA1: 87281feb70e6b045078f539b9c8814cac8929b9d
-SHA256: f417fd322aef859399c9a5c8e353a40a2d9734bf895b5298dca47aece236e786
+Filename: pool/DEBIAN/main/i/ifupdown/ifupdown_0.8.13_amd64.deb
+Size: 74336
+MD5sum: 0af433fde10eb44fac80ef9d3cadb08c
+SHA1: d76c7271bf3ddf49f5f80a7e4a977848e8927ada
+SHA256: 20153ad823942f325b830e9e1afb280040db3261db69bcd8e60d504dbde1bd5f
 
 Package: insserv
 Version: 1.14.0-5.3

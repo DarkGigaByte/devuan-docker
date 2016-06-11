@@ -168,6 +168,22 @@ Name: sysvinit/hurd-fix-inittab
 Template: sysvinit/hurd-fix-inittab
 Owners: sysvinit-core
 
+Name: tasksel/desktop
+Template: tasksel/desktop
+Owners: tasksel
+
+Name: tasksel/first
+Template: tasksel/first
+Owners: tasksel
+
+Name: tasksel/tasks
+Template: tasksel/tasks
+Owners: tasksel
+
+Name: tasksel/title
+Template: tasksel/title
+Owners: tasksel
+
 Name: tzdata/Areas
 Template: tzdata/Areas
 Value: Etc

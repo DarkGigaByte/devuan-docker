@@ -489,7 +489,7 @@ Installed-Size: 186
 Maintainer: Guus Sliepen <guus@debian.org>
 Architecture: amd64
 Multi-Arch: foreign
-Version: 0.8.12
+Version: 0.8.13
 Replaces: systemd (<< 228-3~)
 Depends: libc6 (>= 2.14), init-system-helpers (>= 1.18~), lsb-base, adduser, iproute2
 Recommends: isc-dhcp-client | dhcp-client

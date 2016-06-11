@@ -74,7 +74,7 @@ grep 2.25-3
 gzip 1.6-5
 hostname 3.17
 libicu55 55.1-7
-ifupdown 0.8.12
+ifupdown 0.8.13
 insserv 1.14.0-5.3
 iproute2 4.3.0-1+b1
 iptables 1.6.0-2
