@@ -52,10 +52,10 @@ debianutils 4.7
 diffutils 1:3.3-3
 dmidecode 3.0-3
 dpkg 1.18.7
-e2fslibs 1.43-3
-e2fsprogs 1.43-3
-libcomerr2 1.43-3
-libss2 1.43-3
+e2fslibs 1.43.1-1
+e2fsprogs 1.43.1-1
+libcomerr2 1.43.1-1
+libss2 1.43.1-1
 findutils 4.6.0+git+20160126-2
 gcc-4.9-base 4.9.3-14
 gcc-5-base 5.4.0-3
@@ -92,7 +92,7 @@ libestr0 0.1.10-2
 libffi6 3.2.1-4
 libgcrypt20 1.7.0-2
 libgpg-error0 1.22-2
-libidn11 1.32-3
+libidn11 1.32-3.1
 liblocale-gettext-perl 1.07-2
 liblogging-stdlog0 1.0.5-2
 liblognorm2 1.1.2-1.1+b2
