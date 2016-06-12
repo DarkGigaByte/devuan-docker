@@ -1,5 +1,4 @@
-27e69dd32c048c64d34d0c94cec28e86  usr/lib/x86_64-linux-gnu/libboost_iostreams.so.1.58.0
-42e97bc0a0003aebd5f9d44688d3ed3e  usr/share/doc/libboost-iostreams1.58.0/changelog.Debian.amd64.gz
-de0aadac4208756df7eb966270e4651c  usr/share/doc/libboost-iostreams1.58.0/changelog.Debian.gz
+6628783d41beff8ea456c6940cdf246a  usr/lib/x86_64-linux-gnu/libboost_iostreams.so.1.58.0
+e6f48facd5e8543ead043576bc4f0cc6  usr/share/doc/libboost-iostreams1.58.0/changelog.Debian.gz
 2f516f3e3c0736b25cc324033945e8ad  usr/share/doc/libboost-iostreams1.58.0/copyright
 9b1c21938c937a0bb6e334bbe4f41234  usr/share/lintian/overrides/libboost-iostreams1.58.0

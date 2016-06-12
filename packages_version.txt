@@ -35,7 +35,7 @@ bash 4.3-14+b1
 libdns-export162 1:9.10.3.dfsg.P4-10
 libisc-export160 1:9.10.3.dfsg.P4-10
 blends-tasks 0.6.93
-libboost-iostreams1.58.0 1.58.0+dfsg-5+b1
+libboost-iostreams1.58.0 1.58.0+dfsg-5.1
 libboost-iostreams1.60.0 1.60.0+dfsg-6
 bsdmainutils 9.0.10
 libbz2-1.0 1.0.6-8
@@ -59,9 +59,9 @@ libss2 1.43.1-1
 findutils 4.6.0+git+20160126-2
 gcc-4.9-base 4.9.3-14
 gcc-5-base 5.4.0-3
-gcc-6-base 6.1.1-5
-libgcc1 1:6.1.1-5
-libstdc++6 6.1.1-5
+gcc-6-base 6.1.1-6
+libgcc1 1:6.1.1-6
+libstdc++6 6.1.1-6
 libgdbm3 1.8.3-14
 libc-bin 2.22-11
 libc6 2.22-11
