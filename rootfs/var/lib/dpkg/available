@@ -1427,9 +1427,9 @@ SHA256: 5d5566359c3a5dc86e2f386b9d9d84c94f580b2e5f2553097cf3e10bd3090de0
 
 Package: libc-bin
 Source: glibc
-Version: 2.22-9
+Version: 2.22-11
 Essential: yes
-Installed-Size: 3314
+Installed-Size: 3315
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Architecture: amd64
 Replaces: libc0.1, libc0.3, libc6, libc6.1
@@ -1443,16 +1443,16 @@ Description-md5: 7625903821514b57277d1bae69ec3c1a
 Tag: role::shared-lib
 Section: libs
 Priority: required
-Filename: pool/DEBIAN/main/g/glibc/libc-bin_2.22-9_amd64.deb
-Size: 764432
-MD5sum: ddee84d99f68ab63fcafadbf91c741b1
-SHA1: 6ce9f069e85c2a176ee9d46834e660025bbe4fc3
-SHA256: e3ef12b6852d01f912c672259667209f480511baf91d70b5a7222c7f4dec906a
+Filename: pool/DEBIAN/main/g/glibc/libc-bin_2.22-11_amd64.deb
+Size: 765298
+MD5sum: a4acdb18bf8869690ec4a095f4bea78d
+SHA1: 931812ea0fedc45b2ee3a5452b522f9c10ed362e
+SHA256: 0f9f74092cecd2a1cd22e8f852215f1bf33a318636546b2dd814b20b84b53eed
 
 Package: libc6
 Source: glibc
-Version: 2.22-9
-Installed-Size: 10638
+Version: 2.22-11
+Installed-Size: 10639
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Architecture: amd64
 Replaces: libc6-amd64
@@ -1466,16 +1466,16 @@ Description-md5: fc3001b0b90a1c8e6690b283a619d57f
 Tag: role::shared-lib
 Section: libs
 Priority: required
-Filename: pool/DEBIAN/main/g/glibc/libc6_2.22-9_amd64.deb
-Size: 2659062
-MD5sum: afe13ac1f5853c1efa20a0a76dcce5b8
-SHA1: 553440bfb4cd1e3f4a2434d5f534e412bbe6b454
-SHA256: c4f8eca2b3c07295e2610781166ea6f0c4490ff1c3e91d3e8c1b12e0b6b6bf25
+Filename: pool/DEBIAN/main/g/glibc/libc6_2.22-11_amd64.deb
+Size: 2659802
+MD5sum: ee39c70df799365dabe87f4a9c7c7fcd
+SHA1: 838ff1248ddacdcdc7c6ca5417c6253bae399a8e
+SHA256: c6860400e4713b7698d2e7acaba5bf2202169267c1de743c5635d2132fa2dbc5
 
 Package: multiarch-support
 Source: glibc
-Version: 2.22-9
-Installed-Size: 211
+Version: 2.22-11
+Installed-Size: 212
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Architecture: amd64
 Depends: libc6 (>= 2.3.6-2)
@@ -1486,11 +1486,11 @@ Description-md5: f70fd4ad370040691119c10d77aec677
 Tag: role::shared-lib
 Section: libs
 Priority: required
-Filename: pool/DEBIAN/main/g/glibc/multiarch-support_2.22-9_amd64.deb
-Size: 190976
-MD5sum: 478e6265c26797e8b41fdcc96309b57e
-SHA1: 1922877071a7d074723c6448c2ffe0c7e10c627b
-SHA256: 0c5d152a2c16ad4a071b8730ed2341ce38d1d5efb9576933c62ce868cf630abd
+Filename: pool/DEBIAN/main/g/glibc/multiarch-support_2.22-11_amd64.deb
+Size: 191486
+MD5sum: 5fc9a0b988aa108188f3181740aa3c22
+SHA1: 8608a322fee7c6ac8e028541e36004609236bba0
+SHA256: 28f66f971c6525bc8c41db146197620cf12dbce5e49a17b53976786b577a7caa
 
 Package: libgmp10
 Source: gmp

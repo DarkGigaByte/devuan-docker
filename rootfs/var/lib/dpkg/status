@@ -882,12 +882,12 @@ Package: multiarch-support
 Status: install ok installed
 Priority: required
 Section: libs
-Installed-Size: 211
+Installed-Size: 212
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Architecture: amd64
 Multi-Arch: foreign
 Source: glibc
-Version: 2.22-9
+Version: 2.22-11
 Depends: libc6 (>= 2.3.6-2)
 Description: Transitional package to ensure multiarch compatibility
  This is a transitional package used to ensure multiarch support is present
@@ -1263,12 +1263,12 @@ Package: libc6
 Status: install ok installed
 Priority: required
 Section: libs
-Installed-Size: 10638
+Installed-Size: 10639
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Architecture: amd64
 Multi-Arch: same
 Source: glibc
-Version: 2.22-9
+Version: 2.22-11
 Replaces: libc6-amd64
 Depends: libgcc1
 Suggests: glibc-doc, debconf | debconf-2.0, libc-l10n, locales
@@ -1985,12 +1985,12 @@ Essential: yes
 Status: install ok installed
 Priority: required
 Section: libs
-Installed-Size: 3314
+Installed-Size: 3315
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Architecture: amd64
 Multi-Arch: foreign
 Source: glibc
-Version: 2.22-9
+Version: 2.22-11
 Replaces: libc0.1, libc0.3, libc6, libc6.1
 Depends: libc6 (>> 2.22), libc6 (<< 2.23)
 Recommends: manpages

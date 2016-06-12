@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PKGVERSION="(Debian GLIBC 2.22-9) "
+PKGVERSION="(Debian GLIBC 2.22-11) "
 TZVERSION="2.22"
 REPORT_BUGS_TO="<http://www.debian.org/Bugs/>"
 

@@ -63,9 +63,9 @@ gcc-6-base 6.1.1-4
 libgcc1 1:6.1.1-4
 libstdc++6 6.1.1-4
 libgdbm3 1.8.3-13.1
-libc-bin 2.22-9
-libc6 2.22-9
-multiarch-support 2.22-9
+libc-bin 2.22-11
+libc6 2.22-11
+multiarch-support 2.22-11
 libgmp10 2:6.1.0+dfsg-2
 gnupg 1.4.20-6
 gpgv 1.4.20-6
