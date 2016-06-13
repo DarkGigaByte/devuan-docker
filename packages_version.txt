@@ -23,10 +23,10 @@ mount 2.27.1-1+devuan0.1
 util-linux 2.27.1-1+devuan0.1
 libacl1 2.2.52-3
 adduser 3.114
-apt 1.2.12
-apt-utils 1.2.12
-libapt-inst2.0 1.2.12
-libapt-pkg5.0 1.2.12
+apt 1.2.13
+apt-utils 1.2.13
+libapt-inst2.0 1.2.13
+libapt-pkg5.0 1.2.13
 libattr1 1:2.4.47-2
 libaudit-common 1:2.5.2-1
 libaudit1 1:2.5.2-1
@@ -58,7 +58,7 @@ libcomerr2 1.43.1-1
 libss2 1.43.1-1
 findutils 4.6.0+git+20160126-2
 gcc-4.9-base 4.9.3-14
-gcc-5-base 5.4.0-3
+gcc-5-base 5.4.0-4
 gcc-6-base 6.1.1-6
 libgcc1 1:6.1.1-6
 libstdc++6 6.1.1-6
@@ -150,7 +150,7 @@ tzdata 2016d-2
 libustr-1.0-1 1.0.4-5
 vim-common 2:7.4.1829-1
 vim-tiny 2:7.4.1829-1
-wget 1.17.1-2
+wget 1.18-1
 libxapian22v5 1.2.23-1
 liblzma5 5.1.1alpha+20120614-2.1
 zlib1g 1:1.2.8.dfsg-2+b1

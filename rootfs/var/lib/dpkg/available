@@ -562,8 +562,8 @@ MD5sum: a22a197758d7ce10890735b0ad1e68da
 SHA256: 033dd67306579907f9b807a06fa03e55c479c438e9db4636ccb9e97372011239
 
 Package: apt
-Version: 1.2.12
-Installed-Size: 3299
+Version: 1.2.13
+Installed-Size: 3314
 Maintainer: APT Development Team <deity@lists.debian.org>
 Architecture: amd64
 Replaces: bash-completion (<< 1:2.1-4.2+fakesync1), manpages-it (<< 2.80-4~), manpages-pl (<< 20060617-3~), openjdk-6-jdk (<< 6b24-1.11-0ubuntu1~), sun-java5-jdk (>> 0), sun-java6-jdk (>> 0)
@@ -581,18 +581,18 @@ Tag: admin::package-management, devel::lang:ruby, hardware::storage,
  works-with::software:package, works-with::text
 Section: admin
 Priority: important
-Filename: pool/DEBIAN/main/a/apt/apt_1.2.12_amd64.deb
-Size: 1161034
-MD5sum: 86157dad7ea8de9f8c233db90757f51b
-SHA256: 28bee8047c528752823387ebd0288cc22454eed21e834c04a2b1e85bdff3db2c
+Filename: pool/DEBIAN/main/a/apt/apt_1.2.13_amd64.deb
+Size: 1163156
+MD5sum: 12564efb44753baa93e9ae0f4b389639
+SHA256: 53e753c994c8cb717cf34a1f2307ccd05e69289eb5aed4b64fa5d29dabbb6164
 
 Package: apt-utils
 Source: apt
-Version: 1.2.12
-Installed-Size: 1041
+Version: 1.2.13
+Installed-Size: 1043
 Maintainer: APT Development Team <deity@lists.debian.org>
 Architecture: amd64
-Depends: apt (= 1.2.12), libapt-inst2.0 (>= 1.0.5), libapt-pkg5.0 (>= 1.1~exp15), libc6 (>= 2.14), libdb5.3, libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2)
+Depends: apt (= 1.2.13), libapt-inst2.0 (>= 1.0.5), libapt-pkg5.0 (>= 1.1~exp15), libc6 (>= 2.14), libdb5.3, libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2)
 Description: package management related utility programs
 Description-md5: fa0295dc4e40dbbea6c84f614c570636
 Tag: admin::automation, admin::package-management, devel::debian,
@@ -604,14 +604,14 @@ Tag: admin::automation, admin::package-management, devel::debian,
  use::searching, works-with::software:package
 Section: admin
 Priority: important
-Filename: pool/DEBIAN/main/a/apt/apt-utils_1.2.12_amd64.deb
-Size: 387160
-MD5sum: 4531f0a84f0910049f7635bbb59699c8
-SHA256: 2e07cc10a07b3fc938de35a12d9ef50b492c916ed70f076ca5d5c64f78f9a168
+Filename: pool/DEBIAN/main/a/apt/apt-utils_1.2.13_amd64.deb
+Size: 387936
+MD5sum: e8c1058bef9b38771840267235b6d3ea
+SHA256: 300295dfe578fbcb64d51d40e24a0f626b6047d8ff900af675439c0dfded37bc
 
 Package: libapt-inst2.0
 Source: apt
-Version: 1.2.12
+Version: 1.2.13
 Installed-Size: 459
 Maintainer: APT Development Team <deity@lists.debian.org>
 Architecture: amd64
@@ -622,19 +622,19 @@ Description-md5: 5df05e67cb17e91ac56a732061d88850
 Tag: role::shared-lib
 Section: libs
 Priority: important
-Filename: pool/DEBIAN/main/a/apt/libapt-inst2.0_1.2.12_amd64.deb
-Size: 181548
-MD5sum: 818757e7b486ddaebe6d46ad44fc4078
-SHA256: a6553d18093a1243fe9e248834744f1e9cb4b38a120637966b243ab504284749
+Filename: pool/DEBIAN/main/a/apt/libapt-inst2.0_1.2.13_amd64.deb
+Size: 182022
+MD5sum: 569909598575486bc3dba4e51f83f12e
+SHA256: 9d287a672018c48b945694bfab053776d22652379fc04fd87d44661549edab1b
 
 Package: libapt-pkg5.0
 Source: apt
-Version: 1.2.12
-Installed-Size: 2788
+Version: 1.2.13
+Installed-Size: 2786
 Maintainer: APT Development Team <deity@lists.debian.org>
 Architecture: amd64
 Depends: libbz2-1.0, libc6 (>= 2.15), libgcc1 (>= 1:3.0), liblz4-1 (>= 0.0~r127), liblzma5 (>= 5.1.1alpha+20120614), libstdc++6 (>= 5.2), zlib1g (>= 1:1.2.2.3)
-Recommends: apt (>= 1.2.12)
+Recommends: apt (>= 1.2.13)
 Breaks: appstream (<< 0.9.0-3~), apt (<< 1.1~exp14), libapt-inst1.5 (<< 0.9.9~)
 Description: package management runtime library
 Multi-Arch: same
@@ -642,10 +642,10 @@ Description-md5: b80ec138bbd00d445bb187bcc0acc8fc
 Tag: role::shared-lib
 Section: libs
 Priority: important
-Filename: pool/DEBIAN/main/a/apt/libapt-pkg5.0_1.2.12_amd64.deb
-Size: 817802
-MD5sum: 8c1a1fcae5af53052239430bb589cf3f
-SHA256: 3f1f70b3ecdd0da36bb819c4382cd330105ee78e468a652aeb4be30c0d2c468c
+Filename: pool/DEBIAN/main/a/apt/libapt-pkg5.0_1.2.13_amd64.deb
+Size: 816894
+MD5sum: ef4a1ea11247bb95905c0ce4ebb81269
+SHA256: b25712a4bd64804d0cc2049a369d0bbc67efd7f275c4efe9a0c5ef9bf9d6de32
 
 Package: libattr1
 Source: attr
@@ -1285,7 +1285,7 @@ SHA256: 4da02e51765e42fb270dd92b3bb906b59f7b16cdc22bdeb250b8f11cf38a4bec
 
 Package: gcc-5-base
 Source: gcc-5
-Version: 5.4.0-3
+Version: 5.4.0-4
 Installed-Size: 201
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Architecture: amd64
@@ -1297,10 +1297,10 @@ Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
 Tag: role::shared-lib
 Section: libs
 Priority: required
-Filename: pool/DEBIAN/main/g/gcc-5/gcc-5-base_5.4.0-3_amd64.deb
-Size: 171450
-MD5sum: 801ee27b17148bda0c53f16b0926290f
-SHA256: 6d124143f107972646cec29a95d785df5c55dfdb045eef85918af77844df452b
+Filename: pool/DEBIAN/main/g/gcc-5/gcc-5-base_5.4.0-4_amd64.deb
+Size: 171672
+MD5sum: 46652e24f88ee253fa07b91babadd7f2
+SHA256: 25597b3931f9c7daaebfd7a26f1064ba04d721edea3b3bc944a6fb04dc465012
 
 Package: gcc-6-base
 Source: gcc-6
@@ -3142,8 +3142,8 @@ MD5sum: 029d3693d1203dca6bd19b2d3a3345b1
 SHA256: 8f493ac352b3113d6c3d25c64cdcb04eced567852f6418ad5277c5fa739612b6
 
 Package: wget
-Version: 1.17.1-2
-Installed-Size: 2660
+Version: 1.18-1
+Installed-Size: 2742
 Maintainer: Noël Köthe <noel@debian.org>
 Architecture: amd64
 Depends: libc6 (>= 2.17), libgnutls30 (>= 3.4.2), libidn11 (>= 1.13), libnettle6, libpcre3, libpsl0 (>= 0.4.0), libuuid1 (>= 2.16), zlib1g (>= 1:1.1.4)
@@ -3158,10 +3158,10 @@ Tag: implemented-in::c, interface::commandline, network::client,
  suite::gnu, use::downloading, works-with::file
 Section: web
 Priority: important
-Filename: pool/DEBIAN/main/w/wget/wget_1.17.1-2_amd64.deb
-Size: 779976
-MD5sum: 39282f8fa86a2fd70ab5f83e5870cab4
-SHA256: e51fde4342e987e43e61d2ffb434d5b028e68388207f67e928a9a5a6ad454331
+Filename: pool/DEBIAN/main/w/wget/wget_1.18-1_amd64.deb
+Size: 798246
+MD5sum: 7b120cb3567c72ad3ac695942aeb2dad
+SHA256: 45d1f5fa61e6e401410cbe551c7ef03f43128f26d6f63d98b7cec92c4af0e285
 
 Package: libxapian22v5
 Source: xapian-core
