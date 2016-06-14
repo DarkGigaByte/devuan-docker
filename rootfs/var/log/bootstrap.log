@@ -1,4 +1,4 @@
-gpgv: Signature made Sun Jun 12 15:24:13 2016 CEST using RSA key ID 541922FB
+gpgv: Signature made Mon Jun 13 20:10:15 2016 CEST using RSA key ID 541922FB
 gpgv: Good signature from "Devuan Repository (Primary Devuan signing key) <repository@devuan.org>"
 dpkg: warning: parsing file '/var/lib/dpkg/status' near line 5 package 'dpkg':
  missing description
@@ -656,8 +656,8 @@ Setting up debconf (1.5.59) ...
 Setting up tzdata (2016d-2) ...
 
 Current default time zone: 'Etc/UTC'
-Local time is now:      Mon Jun 13 03:39:59 UTC 2016.
-Universal Time is now:  Mon Jun 13 03:39:59 UTC 2016.
+Local time is now:      Tue Jun 14 04:07:12 UTC 2016.
+Universal Time is now:  Tue Jun 14 04:07:12 UTC 2016.
 Run 'dpkg-reconfigure tzdata' if you wish to change it.
 
 Setting up gzip (1.6-5) ...
