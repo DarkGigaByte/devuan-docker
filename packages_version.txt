@@ -1,3 +1,5 @@
+Release 
+Release.gpg 
 Packages 
 base-files 9.2+devuan6
 init 1.29+devuan1.0
