@@ -90,7 +90,7 @@ libestr0 /var/cache/apt/archives/libestr0_0.1.10-2_amd64.deb
 libffi6 /var/cache/apt/archives/libffi6_3.2.1-4_amd64.deb
 libgcrypt20 /var/cache/apt/archives/libgcrypt20_1.7.0-2_amd64.deb
 libgpg-error0 /var/cache/apt/archives/libgpg-error0_1.22-2_amd64.deb
-libidn11 /var/cache/apt/archives/libidn11_1.32-3_amd64.deb
+libidn11 /var/cache/apt/archives/libidn11_1.32-3.1_amd64.deb
 liblocale-gettext-perl /var/cache/apt/archives/liblocale-gettext-perl_1.07-2_amd64.deb
 liblogging-stdlog0 /var/cache/apt/archives/liblogging-stdlog0_1.0.5-2_amd64.deb
 liblognorm2 /var/cache/apt/archives/liblognorm2_1.1.2-1.1+b2_amd64.deb

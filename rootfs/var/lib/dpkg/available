@@ -2019,8 +2019,8 @@ SHA256: ec2f70cc98b44d0eb56dcb49fe1cb0c167fb99f6b2e7ac76f557125e99ab6425
 
 Package: libidn11
 Source: libidn
-Version: 1.32-3
-Installed-Size: 306
+Version: 1.32-3.1
+Installed-Size: 305
 Maintainer: Debian Libidn Team <help-libidn@gnu.org>
 Architecture: amd64
 Replaces: libidn11-dev
@@ -2033,11 +2033,11 @@ Description-md5: 8f2c3e3028043c62404c901cd7473dc7
 Tag: role::shared-lib
 Section: libs
 Priority: standard
-Filename: pool/DEBIAN/main/libi/libidn/libidn11_1.32-3_amd64.deb
-Size: 113406
-MD5sum: c8fdfd6c2c6e5ecc99f0df7d1b3b99ba
-SHA1: b10948f594fbe71fdf0e8de1da9d9f023b4dcdeb
-SHA256: 41576bb9f7dfac8cf8900fec9692389985c134ae916b62368bf8661637f966a5
+Filename: pool/DEBIAN/main/libi/libidn/libidn11_1.32-3.1_amd64.deb
+Size: 113716
+MD5sum: 2721d48c0c0a572d2fd8f6a32696de60
+SHA1: f42d571f2641d55a7a6a2287fc2e681630b41d5f
+SHA256: 897f0925b5c72218be7043f92e9adea5fac24f1ea02ee3aa2e30d5a4ac0ad63a
 
 Package: liblocale-gettext-perl
 Version: 1.07-2

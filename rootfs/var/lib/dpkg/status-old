@@ -3167,12 +3167,12 @@ Package: libidn11
 Status: install ok installed
 Priority: standard
 Section: libs
-Installed-Size: 306
+Installed-Size: 305
 Maintainer: Debian Libidn Team <help-libidn@gnu.org>
 Architecture: amd64
 Multi-Arch: same
 Source: libidn
-Version: 1.32-3
+Version: 1.32-3.1
 Replaces: libidn11-dev
 Depends: libc6 (>= 2.14)
 Conflicts: libidn9-dev

@@ -91,7 +91,7 @@ libestr0 0.1.10-2
 libffi6 3.2.1-4
 libgcrypt20 1.7.0-2
 libgpg-error0 1.22-2
-libidn11 1.32-3
+libidn11 1.32-3.1
 liblocale-gettext-perl 1.07-2
 liblogging-stdlog0 1.0.5-2
 liblognorm2 1.1.2-1.1+b2
