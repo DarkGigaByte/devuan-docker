@@ -3293,7 +3293,7 @@ Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Architecture: amd64
 Multi-Arch: same
 Source: gcc-5
-Version: 5.3.1-21
+Version: 5.4.0-4
 Breaks: gcc-4.4-base (<< 4.4.7), gcc-4.7-base (<< 4.7.3), gcj-4.4-base (<< 4.4.6-9~), gcj-4.6-base (<< 4.6.1-4~), gnat-4.4-base (<< 4.4.6-3~), gnat-4.6 (<< 4.6.1-5~)
 Description: GCC, the GNU Compiler Collection (base package)
  This package contains files common to all languages and libraries

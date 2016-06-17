@@ -57,7 +57,7 @@ libcomerr2 /var/cache/apt/archives/libcomerr2_1.43.1-1_amd64.deb
 libss2 /var/cache/apt/archives/libss2_1.43.1-1_amd64.deb
 findutils /var/cache/apt/archives/findutils_4.6.0+git+20160126-2_amd64.deb
 gcc-4.9-base /var/cache/apt/archives/gcc-4.9-base_4.9.3-14_amd64.deb
-gcc-5-base /var/cache/apt/archives/gcc-5-base_5.3.1-21_amd64.deb
+gcc-5-base /var/cache/apt/archives/gcc-5-base_5.4.0-4_amd64.deb
 gcc-6-base /var/cache/apt/archives/gcc-6-base_6.1.1-4_amd64.deb
 libgcc1 /var/cache/apt/archives/libgcc1_1%3a6.1.1-4_amd64.deb
 libstdc++6 /var/cache/apt/archives/libstdc++6_6.1.1-4_amd64.deb

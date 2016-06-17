@@ -1322,7 +1322,7 @@ SHA256: 4da02e51765e42fb270dd92b3bb906b59f7b16cdc22bdeb250b8f11cf38a4bec
 
 Package: gcc-5-base
 Source: gcc-5
-Version: 5.3.1-21
+Version: 5.4.0-4
 Installed-Size: 201
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Architecture: amd64
@@ -1334,11 +1334,11 @@ Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
 Tag: role::shared-lib
 Section: libs
 Priority: required
-Filename: pool/DEBIAN/main/g/gcc-5/gcc-5-base_5.3.1-21_amd64.deb
-Size: 171392
-MD5sum: 5b5be2d67072ca3f0f0d81fac17284f8
-SHA1: 62b6a502d973e399d8feba43fa1c12b38e1539c6
-SHA256: 0c7d24115f43930340a4a3187a6b03a9cd98ba8950a93e9c73f6336082834f57
+Filename: pool/DEBIAN/main/g/gcc-5/gcc-5-base_5.4.0-4_amd64.deb
+Size: 171672
+MD5sum: 46652e24f88ee253fa07b91babadd7f2
+SHA1: 4d584535d771605e437d8a02e0f6a8ce79903bca
+SHA256: 25597b3931f9c7daaebfd7a26f1064ba04d721edea3b3bc944a6fb04dc465012
 
 Package: gcc-6-base
 Source: gcc-6

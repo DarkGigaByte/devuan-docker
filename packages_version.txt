@@ -58,7 +58,7 @@ libcomerr2 1.43.1-1
 libss2 1.43.1-1
 findutils 4.6.0+git+20160126-2
 gcc-4.9-base 4.9.3-14
-gcc-5-base 5.3.1-21
+gcc-5-base 5.4.0-4
 gcc-6-base 6.1.1-4
 libgcc1 1:6.1.1-4
 libstdc++6 6.1.1-4
