@@ -1756,12 +1756,12 @@ Package: libgpg-error0
 Status: install ok installed
 Priority: standard
 Section: libs
-Installed-Size: 562
+Installed-Size: 569
 Maintainer: Debian GnuPG Maintainers <pkg-gnupg-maint@lists.alioth.debian.org>
 Architecture: amd64
 Multi-Arch: same
 Source: libgpg-error
-Version: 1.22-2
+Version: 1.23-1
 Depends: libc6 (>= 2.15)
 Description: library for common error values and messages in GnuPG components
  Library that defines common error values for all GnuPG

@@ -1950,8 +1950,8 @@ SHA256: 5219a477b0c62d06d1a133ac71e533c87a6115abf0aae80d02c9705490ede902
 
 Package: libgpg-error0
 Source: libgpg-error
-Version: 1.22-2
-Installed-Size: 562
+Version: 1.23-1
+Installed-Size: 569
 Maintainer: Debian GnuPG Maintainers <pkg-gnupg-maint@lists.alioth.debian.org>
 Architecture: amd64
 Depends: libc6 (>= 2.15)
@@ -1962,10 +1962,10 @@ Description-md5: 69f556e12b915238b7c815f26da80be5
 Tag: role::shared-lib
 Section: libs
 Priority: standard
-Filename: pool/DEBIAN/main/libg/libgpg-error/libgpg-error0_1.22-2_amd64.deb
-Size: 107676
-MD5sum: 524b6bf311883a0829cd7783333e34ef
-SHA256: ec2f70cc98b44d0eb56dcb49fe1cb0c167fb99f6b2e7ac76f557125e99ab6425
+Filename: pool/DEBIAN/main/libg/libgpg-error/libgpg-error0_1.23-1_amd64.deb
+Size: 110008
+MD5sum: a7bd387c679ca9967e960e53b4bb08ab
+SHA256: 166dad446f4f65553dc0545dbf742a5e7977ed3c1e389d3be89d9eb73a0f8a27
 
 Package: libidn11
 Source: libidn
