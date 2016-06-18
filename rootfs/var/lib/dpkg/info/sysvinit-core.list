@@ -20,6 +20,7 @@
 /usr/share/man/man8/runlevel.8.gz
 /usr/share/sysvinit
 /usr/share/sysvinit/inittab
+/usr/share/sysvinit/update-rc.d
 /usr/include
 /usr/include/initreq.h
 /sbin

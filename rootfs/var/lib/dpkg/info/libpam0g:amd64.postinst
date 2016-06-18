@@ -196,5 +196,10 @@ then
     fi # Upgrading
 fi
 
+# Automatically added by dh_makeshlibs
+if [ "$1" = "configure" ]; then
+	ldconfig
+fi
+# End automatically added section
 
 

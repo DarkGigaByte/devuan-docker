@@ -44,7 +44,6 @@ update_to_current_default() {
   fi
 }
 
-# remove debian origin default symlink
 if [ -e /etc/dpkg/origins/default ]; then
    if [ -e /etc/dpkg/origins/debian ]; then
       if [ "`readlink /etc/dpkg/origins/default`" = "debian" ]; then

@@ -6,7 +6,6 @@ ACTION!="add", GOTO="gnupg_rules_end"
 # USB SmartCard Readers
 ## Cherry GmbH (XX33, ST2000)
 ATTR{idVendor}=="046a", ATTR{idProduct}=="0005", ENV{ID_SMARTCARD_READER}="1", ENV{ID_SMARTCARD_READER_DRIVER}="gnupg"
-ATTR{idVendor}=="046a", ATTR{idProduct}=="0010", ENV{ID_SMARTCARD_READER}="1", ENV{ID_SMARTCARD_READER_DRIVER}="gnupg"
 ATTR{idVendor}=="046a", ATTR{idProduct}=="003e", ENV{ID_SMARTCARD_READER}="1", ENV{ID_SMARTCARD_READER_DRIVER}="gnupg"
 ## SCM Microsystems, Inc (SCR331-DI, SCR335, SCR3320, SCR331, SCR3310 and SPR532)
 ATTR{idVendor}=="04e6", ATTR{idProduct}=="5111", ENV{ID_SMARTCARD_READER}="1", ENV{ID_SMARTCARD_READER_DRIVER}="gnupg"
@@ -31,13 +30,7 @@ ATTR{idVendor}=="0d46", ATTR{idProduct}=="2012", ENV{ID_SMARTCARD_READER}="1", E
 ATTR{idVendor}=="1a44", ATTR{idProduct}=="0920", ENV{ID_SMARTCARD_READER}="1", ENV{ID_SMARTCARD_READER_DRIVER}="gnupg"
 ## Crypto Stick
 ATTR{idVendor}=="20a0", ATTR{idProduct}=="4107", ENV{ID_SMARTCARD_READER}="1", ENV{ID_SMARTCARD_READER_DRIVER}="gnupg"
-## Nitrokey
-ATTR{idVendor}=="20a0", ATTR{idProduct}=="4108", ENV{ID_SMARTCARD_READER}="1", ENV{ID_SMARTCARD_READER_DRIVER}="gnupg"
-ATTR{idVendor}=="20a0", ATTR{idProduct}=="4109", ENV{ID_SMARTCARD_READER}="1", ENV{ID_SMARTCARD_READER_DRIVER}="gnupg"
-ATTR{idVendor}=="20a0", ATTR{idProduct}=="4211", ENV{ID_SMARTCARD_READER}="1", ENV{ID_SMARTCARD_READER_DRIVER}="gnupg"
 ## Gnuk Token
 ATTR{idVendor}=="234b", ATTR{idProduct}=="0000", ENV{ID_SMARTCARD_READER}="1", ENV{ID_SMARTCARD_READER_DRIVER}="gnupg"
-## Alcor Micro Corp cardreader (in ThinkPad X250)
-ATTR{idVendor}=="058f", ATTR{idProduct}=="9540", ENV{ID_SMARTCARD_READER}="1", ENV{ID_SMARTCARD_READER_DRIVER}="gnupg"
 
 LABEL="gnupg_rules_end"

@@ -35,7 +35,7 @@ use Debian::AdduserCommon;
 use Getopt::Long;
 
 
-my $version = "3.114";
+my $version = "3.113+nmu3";
 
 ###################
 # return values

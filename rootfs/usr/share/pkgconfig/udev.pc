@@ -1,5 +1,5 @@
 Name: udev
 Description: udev
-Version: 230
+Version: 215
 
 udevdir=/lib/udev

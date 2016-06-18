@@ -23,100 +23,100 @@ LANG=UTF-8
  */
 
 
-01/02*	Parshat Shemot
-01/09*	Parshat Vaera
-01/16*	Parshat Bo
-01/23*	Parshat Beshalach
-01/25*	Tu B'Shvat
-01/30*	Parshat Yitro
-02/06*	Parshat Mishpatim
-02/09*	Family Day
-02/13*	Parshat Terumah
-02/20*	Parshat Tetzaveh
-02/27*	Parshat Ki Tisa
-03/05*	Parshat Vayakhel
-03/12*	Parshat Pekudei
-03/19*	Parshat Vayikra
-03/23*	Ta'anit Esther
-03/24*	Purim
-03/25*	Shushan Purim
-03/26*	Parshat Tzav
-04/02*	Parshat Shmini
-04/09*	Parshat Tazria
-04/16*	Parshat Metzora
-04/23*	Pesach
-04/24*	Hol hamoed Pesach
-04/25*	Hol hamoed Pesach
-04/26*	Hol hamoed Pesach
-04/27*	Hol hamoed Pesach
-04/28*	Hol hamoed Pesach
-04/29*	Pesach VII
-04/30*	Parshat Achrei Mot
+02/01*	Parshat Shemot
+09/01*	Parshat Vaera
+16/01*	Parshat Bo
+23/01*	Parshat Beshalach
+25/01*	Tu B'Shvat
+30/01*	Parshat Yitro
+06/02*	Parshat Mishpatim
+09/02*	Family Day
+13/02*	Parshat Terumah
+20/02*	Parshat Tetzaveh
+27/02*	Parshat Ki Tisa
+05/03*	Parshat Vayakhel
+12/03*	Parshat Pekudei
+19/03*	Parshat Vayikra
+23/03*	Ta'anit Esther
+24/03*	Purim
+25/03*	Shushan Purim
+26/03*	Parshat Tzav
+02/04*	Parshat Shmini
+09/04*	Parshat Tazria
+16/04*	Parshat Metzora
+23/04*	Pesach
+24/04*	Hol hamoed Pesach
+25/04*	Hol hamoed Pesach
+26/04*	Hol hamoed Pesach
+27/04*	Hol hamoed Pesach
+28/04*	Hol hamoed Pesach
+29/04*	Pesach VII
+30/04*	Parshat Achrei Mot
 05/05*	Yom HaShoah
-05/07*	Parshat Kedoshim
-05/11*	Yom HaZikaron
-05/12*	Yom HaAtzma'ut
-05/14*	Parshat Emor
-05/21*	Parshat Behar
-05/26*	Lag B'Omer
-05/28*	Parshat Bechukotai
-06/04*	Parshat Bamidbar
-06/05*	Yom Yerushalayim
-06/11*	Erev Shavuot
-06/11*	Parshat Nasso
-06/12*	Shavuot
-06/18*	Parshat Beha'alotcha
-06/25*	Parshat Sh'lach
-07/02*	Parshat Korach
-07/09*	Parshat Chukat
-07/16*	Parshat Balak
-07/23*	Parshat Pinchas
-07/24*	Tzom Tammuz
-07/30*	Parshat Matot
-08/04*	Zeev Zhabotinsky day
-08/06*	Parshat Masei
-08/13*	Parshat Devarim
-08/14*	Tish'a B'Av
-08/19*	Tu B'Av
-08/20*	Parshat Vaetchanan
-08/27*	Parshat Eikev
-09/03*	Parshat Re'eh
-09/10*	Parshat Shoftim
-09/17*	Parshat Ki Teitzei
-09/24*	Parshat Ki Tavo
-10/01*	Parshat Nitzavim
-10/03*	Rosh Hashana I
-10/04*	Rosh Hashana II
-10/05*	Tzom Gedaliah
-10/08*	Parshat Vayeilech
-10/11*	Erev Yom Kippur
-10/12*	Yom Kippur
-10/15*	Parshat Ha'Azinu
-10/17*	Sukkot
-10/18*	Hol hamoed Sukkot
-10/19*	Hol hamoed Sukkot
-10/20*	Hol hamoed Sukkot
-10/21*	Hol hamoed Sukkot
-10/22*	Hol hamoed Sukkot
-10/23*	Hoshana raba
-10/24*	Shmini Atzeret
-10/24*	Parshat Vezot Habracha
-10/29*	Parshat Bereshit
-11/05*	Parshat Noach
-11/12*	Parshat Lech-Lecha
-11/13*	Yitzhak Rabin memorial day
-11/19*	Parshat Vayera
-11/26*	Parshat Chayei Sara
-12/03*	Parshat Toldot
-12/10*	Parshat Vayetzei
-12/17*	Parshat Vayishlach
-12/24*	Parshat Vayeshev
-12/25*	Chanukah
-12/26*	Chanukah
-12/27*	Chanukah
-12/28*	Chanukah
-12/29*	Chanukah
-12/30*	Chanukah
+07/05*	Parshat Kedoshim
+11/05*	Yom HaZikaron
+12/05*	Yom HaAtzma'ut
+14/05*	Parshat Emor
+21/05*	Parshat Behar
+26/05*	Lag B'Omer
+28/05*	Parshat Bechukotai
+04/06*	Parshat Bamidbar
+05/06*	Yom Yerushalayim
+11/06*	Erev Shavuot
+11/06*	Parshat Nasso
+12/06*	Shavuot
+18/06*	Parshat Beha'alotcha
+25/06*	Parshat Sh'lach
+02/07*	Parshat Korach
+09/07*	Parshat Chukat
+16/07*	Parshat Balak
+23/07*	Parshat Pinchas
+24/07*	Tzom Tammuz
+30/07*	Parshat Matot
+04/08*	Zeev Zhabotinsky day
+06/08*	Parshat Masei
+13/08*	Parshat Devarim
+14/08*	Tish'a B'Av
+19/08*	Tu B'Av
+20/08*	Parshat Vaetchanan
+27/08*	Parshat Eikev
+03/09*	Parshat Re'eh
+10/09*	Parshat Shoftim
+17/09*	Parshat Ki Teitzei
+24/09*	Parshat Ki Tavo
+01/10*	Parshat Nitzavim
+03/10*	Rosh Hashana I
+04/10*	Rosh Hashana II
+05/10*	Tzom Gedaliah
+08/10*	Parshat Vayeilech
+11/10*	Erev Yom Kippur
+12/10*	Yom Kippur
+15/10*	Parshat Ha'Azinu
+17/10*	Sukkot
+18/10*	Hol hamoed Sukkot
+19/10*	Hol hamoed Sukkot
+20/10*	Hol hamoed Sukkot
+21/10*	Hol hamoed Sukkot
+22/10*	Hol hamoed Sukkot
+23/10*	Hoshana raba
+24/10*	Shmini Atzeret
+24/10*	Parshat Vezot Habracha
+29/10*	Parshat Bereshit
+05/11*	Parshat Noach
+12/11*	Parshat Lech-Lecha
+13/11*	Yitzhak Rabin memorial day
+19/11*	Parshat Vayera
+26/11*	Parshat Chayei Sara
+03/12*	Parshat Toldot
+10/12*	Parshat Vayetzei
+17/12*	Parshat Vayishlach
+24/12*	Parshat Vayeshev
+25/12*	Chanukah
+26/12*	Chanukah
+27/12*	Chanukah
+28/12*	Chanukah
+29/12*	Chanukah
+30/12*	Chanukah
 
 
 #endif /* !_calendar_judaic_ */

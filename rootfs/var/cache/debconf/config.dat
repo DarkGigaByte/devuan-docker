@@ -91,14 +91,6 @@ Name: glibc/disable-screensaver
 Template: glibc/disable-screensaver
 Owners: libc6, libc6:amd64
 
-Name: glibc/kernel-not-supported
-Template: glibc/kernel-not-supported
-Owners: libc6, libc6:amd64
-
-Name: glibc/kernel-too-old
-Template: glibc/kernel-too-old
-Owners: libc6, libc6:amd64
-
 Name: glibc/restart-failed
 Template: glibc/restart-failed
 Owners: libc6, libc6:amd64
@@ -163,14 +155,6 @@ Owners: libssl1.0.0:amd64
 Name: libssl1.0.0/restart-services
 Template: libssl1.0.0/restart-services
 Owners: libssl1.0.0:amd64
-
-Name: libssl1.0.2/restart-failed
-Template: libssl1.0.2/restart-failed
-Owners: libssl1.0.2:amd64
-
-Name: libssl1.0.2/restart-services
-Template: libssl1.0.2/restart-services
-Owners: libssl1.0.2:amd64
 
 Name: man-db/auto-update
 Template: man-db/auto-update

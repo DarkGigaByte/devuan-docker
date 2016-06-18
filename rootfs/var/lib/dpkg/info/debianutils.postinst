@@ -11,10 +11,6 @@ case "$1" in
     then
 	    update-mime
     fi
-    if [ ! -e /usr/bin/which ]
-    then
-	    ln -s /bin/which /usr/bin/which
-    fi
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)

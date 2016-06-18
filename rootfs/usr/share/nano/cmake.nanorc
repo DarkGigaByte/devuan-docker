@@ -1,5 +1,5 @@
-## Syntax highlighting for CMake files.
-
+## CMake syntax highlighter for GNU Nano
+##
 syntax "cmake" "(CMakeLists\.txt|\.cmake)$"
 
 icolor green "^[[:space:]]*[A-Z0-9_]+"

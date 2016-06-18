@@ -4,9 +4,6 @@
 # After the package was installed:
 #	<postinst> configure <old-version>
 #
-# After the package was triggered:
-#	<postinst> triggered <trigger-name>…
-#
 #
 # If prerm fails during upgrade or fails on failed upgrade:
 #	<old-postinst> abort-upgrade <new-version>
@@ -82,7 +79,7 @@ case "$1" in
 	;;
 
     *)
-	echo "$0 called with unknown argument '$1'" 1>&2
+	echo "$0 called with unknown argument \`$1'" 1>&2
 	exit 1
 	;;
 esac

@@ -52,7 +52,7 @@ my $startdir=getcwd();
 my %tags;
 
 foreach my $dir (@ARGV) {
-  chdir $dir or next;
+  chdir $dir || die "Error: $dir: no such directory\n";
   print "Processing ".$dir."\n";
   foreach my $file (<*.{gz,txt,??x}>) {
     next unless $file =~ m/^[\w.-]+\.(?:txt|([[:alpha:]]{2})x)(?:.gz)?$/;
@@ -60,11 +60,7 @@ foreach my $dir (@ARGV) {
     if ($1) {
       $suffix = "-$1";
     }
-    my $open = ($file =~ /\.gz$/) ? open(GZ, '-|', 'zcat', $file) : open(GZ, $file);
-    if (!$open) {
-      chdir $startdir;
-      next;
-    }
+    do { open(GZ, "zcat $file|") if ($file =~ /\.gz$/) } or open(GZ,$file);
     while (<GZ>) {
         # From vim73/src/ex_cmds.c, helptags_one, lines 6443-6445
         # 
