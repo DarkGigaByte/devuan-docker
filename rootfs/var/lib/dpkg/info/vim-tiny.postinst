@@ -42,7 +42,7 @@ add_variant_alternative () {
               $mandir/man1/vim.1.gz
   done
   case "$variant" in
-    gtk|gnome|athena) # gui enabled variants
+    gtk|gtk3|gnome|athena) # gui enabled variants
       add_gui_variant_alternative $1
       ;;
   esac
@@ -64,7 +64,7 @@ case "$pkg" in
   vim-nox)
     add_variant_alternative 40
     ;;
-  vim-gtk|vim-athena)
+  vim-gtk|vim-gtk3|vim-athena)
     add_variant_alternative 50
     ;;
   vim-gnome) # gnome enabled variant

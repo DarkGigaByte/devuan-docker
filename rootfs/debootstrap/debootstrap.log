@@ -1,0 +1,7 @@
+gpgv: Signature made Fri Jun 17 23:23:11 2016 CEST using RSA key ID 541922FB
+gpgv: Good signature from "Devuan Repository (Primary Devuan signing key) <repository@devuan.org>"
+dpkg: warning: parsing file '/var/lib/dpkg/status' near line 5 package 'dpkg':
+ missing description
+dpkg: warning: parsing file '/var/lib/dpkg/status' near line 5 package 'dpkg':
+ missing architecture
+Segmentation fault

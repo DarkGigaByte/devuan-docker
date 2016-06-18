@@ -26,9 +26,4 @@ if getent passwd libuuid >/dev/null && ! getent passwd uuidd >/dev/null ; then
 		rmdir --ignore-fail-on-non-empty /var/lib/libuuid
 fi
 
-# Automatically added by dh_makeshlibs
-if [ "$1" = "configure" ]; then
-	ldconfig
-fi
-# End automatically added section
 

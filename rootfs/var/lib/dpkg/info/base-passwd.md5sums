@@ -1,12 +1,12 @@
-819f448a9fd28cdc9ec40f977ba9967a  usr/sbin/update-passwd
+f65d7f33d9c5476d05b249cc0c5c338e  usr/sbin/update-passwd
 eee0dc6a097ceaab6fd938092bc4b86c  usr/share/base-passwd/group.master
 47f32e500f784c3a1793aa2aa6fc5c31  usr/share/base-passwd/passwd.master
 cdac90d3d3ef8d60e4bc0eb73efa68d7  usr/share/doc-base/users-and-groups
-9d98a8fada0224665d4fb88d0a2a91f9  usr/share/doc/base-passwd/README
-c06f6247599a050df21356572bb0fd21  usr/share/doc/base-passwd/changelog.gz
+0f45a595d2786f95517012781e9332e8  usr/share/doc/base-passwd/README
+cc7965a378ac2729f2b65d8599a5b43d  usr/share/doc/base-passwd/changelog.gz
 76b8211297b64b28671dfea99a6d032e  usr/share/doc/base-passwd/copyright
 07952407e42dd27ad75c0a7748d33699  usr/share/doc/base-passwd/users-and-groups.html
-ac5a76b60cceb8b432482e4be34d8467  usr/share/doc/base-passwd/users-and-groups.txt.gz
+6500938e705d9e4ee2493e4c00e5eac5  usr/share/doc/base-passwd/users-and-groups.txt.gz
 8dc658a3a1b2fe714b45d245439bca24  usr/share/lintian/overrides/base-passwd
 1a3f08c04ae471580efcde9ea0936369  usr/share/man/de/man8/update-passwd.8.gz
 5ccedf3c81ac83de429e982ab2b07cdf  usr/share/man/es/man8/update-passwd.8.gz

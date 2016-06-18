@@ -1,8 +1,7 @@
-9833f50be7895fc2eaae6b8bc883a152  usr/lib/x86_64-linux-gnu/perl5/5.20/Locale/gettext.pm
-7f46394d0acedbd8ec63256a907b040b  usr/lib/x86_64-linux-gnu/perl5/5.20/auto/Locale/gettext/gettext.so
+7a1984b959a4744aa52145dde98b95df  usr/lib/x86_64-linux-gnu/perl5/5.22/Locale/gettext.pm
+19138a702767ed04af27828861c1209f  usr/lib/x86_64-linux-gnu/perl5/5.22/auto/Locale/gettext/gettext.so
 c4a109f14da7c5848a3cd916f5d4ddaa  usr/share/doc/liblocale-gettext-perl/README.Debian
-acc424e0b2fca482c3ee6da57a7baa36  usr/share/doc/liblocale-gettext-perl/README.gz
-b7edd80806066d054ed0a45ed067bddc  usr/share/doc/liblocale-gettext-perl/changelog.Debian.amd64.gz
-d6487bf0a5d11619c682fe5806a34044  usr/share/doc/liblocale-gettext-perl/changelog.Debian.gz
-685525ce048dab2e73a337be29d295ad  usr/share/doc/liblocale-gettext-perl/copyright
-109f31d25f9e5b9ecda37c14f1acafd5  usr/share/man/man3/Locale::gettext.3pm.gz
+b493ab89cc43d529dbab67feb004a88d  usr/share/doc/liblocale-gettext-perl/README.gz
+6a933a3ab9a0f082033f11806e905208  usr/share/doc/liblocale-gettext-perl/changelog.Debian.gz
+87d02fabe4dbcec77d47aaccd534e80f  usr/share/doc/liblocale-gettext-perl/copyright
+1787ecc578f22f60ff8a4cb20e89bb3c  usr/share/man/man3/Locale::gettext.3pm.gz

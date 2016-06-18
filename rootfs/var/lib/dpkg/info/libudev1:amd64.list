@@ -1,12 +1,11 @@
 /.
+/lib
+/lib/x86_64-linux-gnu
+/lib/x86_64-linux-gnu/libudev.so.1.6.4
 /usr
 /usr/share
 /usr/share/doc
 /usr/share/doc/libudev1
-/usr/share/doc/libudev1/copyright
-/usr/share/doc/libudev1/README.Debian
 /usr/share/doc/libudev1/changelog.Debian.gz
-/lib
-/lib/x86_64-linux-gnu
-/lib/x86_64-linux-gnu/libudev.so.1.5.0
+/usr/share/doc/libudev1/copyright
 /lib/x86_64-linux-gnu/libudev.so.1
