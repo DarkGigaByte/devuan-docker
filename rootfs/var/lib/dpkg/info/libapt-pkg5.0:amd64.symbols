@@ -1239,6 +1239,7 @@ libapt-pkg.so.5.0 libapt-pkg5.0 #MINVER#
  _ZN9SigVerifyD0Ev@APTPKG_5.0 1.1~exp9
  _ZN9SigVerifyD1Ev@APTPKG_5.0 1.1~exp9
  _ZN9SigVerifyD2Ev@APTPKG_5.0 1.1~exp9
+ _ZN9__gnu_cxx12__to_xstringINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEcEET_PFiPT0_mPKS8_P13__va_list_tagEmSB_z@APTPKG_5.0 0.8.0
  _ZN9debSystem10InitializeER13Configuration@APTPKG_5.0 0.8.0
  _ZN9debSystem14AddStatusFilesERSt6vectorIP12pkgIndexFileSaIS2_EE@APTPKG_5.0 0.8.0
  _ZN9debSystem16ArchiveSupportedEPKc@APTPKG_5.0 0.8.0

@@ -22,10 +22,10 @@ mount /var/cache/apt/archives/mount_2.28-1+devuan3_amd64.deb
 util-linux /var/cache/apt/archives/util-linux_2.28-1+devuan3_amd64.deb
 libacl1 /var/cache/apt/archives/libacl1_2.2.52-3_amd64.deb
 adduser /var/cache/apt/archives/adduser_3.114_all.deb
-apt /var/cache/apt/archives/apt_1.2.12_amd64.deb
-apt-utils /var/cache/apt/archives/apt-utils_1.2.12_amd64.deb
-libapt-inst2.0 /var/cache/apt/archives/libapt-inst2.0_1.2.12_amd64.deb
-libapt-pkg5.0 /var/cache/apt/archives/libapt-pkg5.0_1.2.12_amd64.deb
+apt /var/cache/apt/archives/apt_1.2.13_amd64.deb
+apt-utils /var/cache/apt/archives/apt-utils_1.2.13_amd64.deb
+libapt-inst2.0 /var/cache/apt/archives/libapt-inst2.0_1.2.13_amd64.deb
+libapt-pkg5.0 /var/cache/apt/archives/libapt-pkg5.0_1.2.13_amd64.deb
 libattr1 /var/cache/apt/archives/libattr1_1%3a2.4.47-2_amd64.deb
 libaudit-common /var/cache/apt/archives/libaudit-common_1%3a2.5.2-1_all.deb
 libaudit1 /var/cache/apt/archives/libaudit1_1%3a2.5.2-1_amd64.deb
@@ -147,7 +147,7 @@ tzdata /var/cache/apt/archives/tzdata_2016d-2_all.deb
 libustr-1.0-1 /var/cache/apt/archives/libustr-1.0-1_1.0.4-5_amd64.deb
 vim-common /var/cache/apt/archives/vim-common_2%3a7.4.1829-1_amd64.deb
 vim-tiny /var/cache/apt/archives/vim-tiny_2%3a7.4.1829-1_amd64.deb
-wget /var/cache/apt/archives/wget_1.17.1-2_amd64.deb
+wget /var/cache/apt/archives/wget_1.18-1_amd64.deb
 libxapian22v5 /var/cache/apt/archives/libxapian22v5_1.2.23-1_amd64.deb
 liblzma5 /var/cache/apt/archives/liblzma5_5.1.1alpha+20120614-2.1_amd64.deb
 zlib1g /var/cache/apt/archives/zlib1g_1%3a1.2.8.dfsg-2+b1_amd64.deb
