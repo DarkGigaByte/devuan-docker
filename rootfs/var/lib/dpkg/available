@@ -1930,8 +1930,8 @@ MD5sum: e9147131cec0937fc20aa021782a9eca
 SHA256: 0e09dff6fdd6985aaf8c18a3b631d865dd75f323fde248d2f224745ec75d41a0
 
 Package: libgcrypt20
-Version: 1.7.0-2
-Installed-Size: 1219
+Version: 1.7.1-2
+Installed-Size: 1227
 Maintainer: Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>
 Architecture: amd64
 Depends: libc6 (>= 2.15), libgpg-error0 (>= 1.14)
@@ -1939,14 +1939,14 @@ Suggests: rng-tools
 Description: LGPL Crypto library - runtime library
 Multi-Arch: same
 Homepage: http://directory.fsf.org/project/libgcrypt/
-Description-md5: d0120470765de36ee6b8430a2f5ff2c2
+Description-md5: 98e5aaf07ce30764eb9bd947347d42f3
 Tag: role::shared-lib
 Section: libs
 Priority: standard
-Filename: pool/DEBIAN/main/libg/libgcrypt20/libgcrypt20_1.7.0-2_amd64.deb
-Size: 483988
-MD5sum: 682006ab3e0062af8d84949688ca6769
-SHA256: 5219a477b0c62d06d1a133ac71e533c87a6115abf0aae80d02c9705490ede902
+Filename: pool/DEBIAN/main/libg/libgcrypt20/libgcrypt20_1.7.1-2_amd64.deb
+Size: 485530
+MD5sum: e1dac7c6b0348c2b98bd4eec91806939
+SHA256: c55d79ac1b5ef29ac9691c671a0da58d59101f8325c5463056cb9edd68b3fffa
 
 Package: libgpg-error0
 Source: libgpg-error

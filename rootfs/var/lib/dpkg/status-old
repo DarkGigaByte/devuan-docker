@@ -632,11 +632,11 @@ Package: libgcrypt20
 Status: install ok installed
 Priority: standard
 Section: libs
-Installed-Size: 1219
+Installed-Size: 1227
 Maintainer: Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>
 Architecture: amd64
 Multi-Arch: same
-Version: 1.7.0-2
+Version: 1.7.1-2
 Depends: libc6 (>= 2.15), libgpg-error0 (>= 1.14)
 Suggests: rng-tools
 Description: LGPL Crypto library - runtime library
@@ -648,6 +648,7 @@ Description: LGPL Crypto library - runtime library
  Poly1305, Camellia, ChaCha20, IDEA, Salsa, CRC, MD2, MD4, MD5, RIPE-MD160,
  SHA-1, SHA-256, SHA-512, SHA3-224, SHA3-256, SHA3-384, SHA3-512, SHAKE128,
  SHAKE256 Tiger, Whirlpool, DSA, DSA2, ElGamal, RSA, ECC (Curve25519,
+ sec256k1, GOST R 34.10-2001 and GOST R 34.10-2012, etc.)
 Homepage: http://directory.fsf.org/project/libgcrypt/
 
 Package: libncursesw5
