@@ -1,156 +1,158 @@
-Packages 
-base-files 9.2+devuan6
-init 1.29+devuan1.0
-init-system-helpers 1.29+devuan1.0
-lsb-base 4.1+devuan2
-libprocps4 2:3.3.10-4+devuan1.0
-procps 2:3.3.10-4+devuan1.0
-rsyslog 8.14.0-2+devuan1.0
-initscripts 2.88dsf-59.3+devuan2
-sysvinit 2.88dsf-59.3+devuan2
-sysvinit-core 2.88dsf-59.3+devuan2
-sysvinit-utils 2.88dsf-59.3+devuan2
-sysv-rc 2.88dsf-59.3+devuan2
-tasksel 3.33+devuan0.3
-tasksel-data 3.33+devuan0.3
-bsdutils 1:2.27.1-1+devuan0.1
-libblkid1 2.27.1-1+devuan0.1
-libfdisk1 2.27.1-1+devuan0.1
-libmount1 2.27.1-1+devuan0.1
-libsmartcols1 2.27.1-1+devuan0.1
-libuuid1 2.27.1-1+devuan0.1
-mount 2.27.1-1+devuan0.1
-util-linux 2.27.1-1+devuan0.1
-libacl1 2.2.52-3
-adduser 3.114
-apt 1.2.13
-apt-utils 1.2.13
-libapt-inst2.0 1.2.13
-libapt-pkg5.0 1.2.13
-libattr1 1:2.4.47-2
-libaudit-common 1:2.5.2-1
-libaudit1 1:2.5.2-1
-base-passwd 3.5.39
-bash 4.3-14+b1
-libdns-export162 1:9.10.3.dfsg.P4-10
-libisc-export160 1:9.10.3.dfsg.P4-10
-blends-tasks 0.6.93
-libboost-iostreams1.58.0 1.58.0+dfsg-5.1
-libboost-iostreams1.60.0 1.60.0+dfsg-6
-bsdmainutils 9.0.10
-libbz2-1.0 1.0.6-8
-libdebconfclient0 0.213
-coreutils 8.25-2
-cpio 2.11+dfsg-5
-cron 3.0pl1-128
-dash 0.5.8-2.2
-libdb5.3 5.3.28-11
-debconf 1.5.59
-debconf-i18n 1.5.59
-debian-archive-keyring 2014.3
-debianutils 4.7
-diffutils 1:3.3-3
-dmidecode 3.0-3
-dpkg 1.18.7
-e2fslibs 1.43.1-1
-e2fsprogs 1.43.1-1
-libcomerr2 1.43.1-1
-libss2 1.43.1-1
-findutils 4.6.0+git+20160126-2
-gcc-4.9-base 4.9.3-14
-gcc-5-base 5.4.0-4
-gcc-6-base 6.1.1-6
-libgcc1 1:6.1.1-6
-libstdc++6 6.1.1-6
-libgdbm3 1.8.3-14
-libc-bin 2.22-11
-libc6 2.22-11
-multiarch-support 2.22-11
-libgmp10 2:6.1.0+dfsg-2
-gnupg 1.4.20-6
-gpgv 1.4.20-6
-libgnutls30 3.4.13-1
-grep 2.25-3
-gzip 1.6-5
-hostname 3.17
-libicu55 55.1-7
-ifupdown 0.8.13
-insserv 1.14.0-5.3
-iproute2 4.3.0-1+b1
-iptables 1.6.0-2
-libxtables11 1.6.0-2
-iputils-ping 3:20150815-2
-isc-dhcp-client 4.3.4-1
-isc-dhcp-common 4.3.4-1
-libjson-c2 0.11-4
-libjson-c3 0.12-3
-kmod 22-1.1
-libkmod2 22-1.1
-libbsd0 0.8.3-1
-libcap2 1:2.25-1
-libestr0 0.1.10-2
-libffi6 3.2.1-4
-libgcrypt20 1.7.1-2
-libgpg-error0 1.23-1
-libidn11 1.32-3.1
-liblocale-gettext-perl 1.07-2
-liblogging-stdlog0 1.0.5-2
-liblognorm2 1.1.2-1.1+b2
-libnfnetlink0 1.0.1-3
-libpipeline1 1.4.1-2
-libpsl0 0.11.0-2
-libselinux1 2.5-3
-libsemanage-common 2.5-1
-libsemanage1 2.5-1
-libsepol1 2.5-1
-libtasn1-6 4.8-1
-libtext-charwidth-perl 0.04-7+b4
-libtext-iconv-perl 1.7-5+b3
-libtext-wrapi18n-perl 0.06-7.1
-libusb-0.1-4 2:0.1.12-30
-logrotate 3.8.7-2
-liblz4-1 0.0~r131-2
-mawk 1.3.3-17
-nano 2.5.3-3
-libncurses5 6.0+20160319-1
-libncursesw5 6.0+20160319-1
-libtinfo5 6.0+20160319-1
-ncurses-base 6.0+20160319-1
-ncurses-bin 6.0+20160319-1
-net-tools 1.60+git20150829.73cef8a-2
-netbase 5.3
-libhogweed4 3.2-1
-libnettle6 3.2-1
-libnewt0.52 0.52.18-3
-whiptail 0.52.18-3
-libssl1.0.0 1.0.2d-1
-libssl1.0.2 1.0.2h-1
-libp11-kit0 0.23.2-3
-libpam-modules 1.1.8-3.3
-libpam-modules-bin 1.1.8-3.3
-libpam-runtime 1.1.8-3.3
-libpam0g 1.1.8-3.3
-libpcre3 2:8.38-3.1
-perl-base 5.22.2-1
-libpopt0 1.16-10
-libprocps5 2:3.3.11-3
-libreadline6 6.3-8+b4
-readline-common 6.3-8
-sed 4.2.2-7.1
-sensible-utils 0.0.9
-login 1:4.2-3.1
-passwd 1:4.2-3.1
-libslang2 2.3.0-2.3
-startpar 0.59-3
-libsystemd0 230-2
-libudev1 230-2
-udev 230-2
-tar 1.29-1
-tzdata 2016d-2
-libustr-1.0-1 1.0.4-5
-vim-common 2:7.4.1829-1
-vim-tiny 2:7.4.1829-1
-wget 1.18-1
-libxapian22v5 1.2.23-1
-liblzma5 5.1.1alpha+20120614-2.1
-zlib1g 1:1.2.8.dfsg-2+b1
+I: Retrieving Release 
+I: Retrieving Release.gpg 
+I: Retrieving Packages 
+I: Retrieving base-files 9.2+devuan6
+I: Retrieving init 1.29+devuan1.0
+I: Retrieving init-system-helpers 1.29+devuan1.0
+I: Retrieving lsb-base 4.1+devuan2
+I: Retrieving libprocps4 2:3.3.10-4+devuan1.0
+I: Retrieving procps 2:3.3.10-4+devuan1.0
+I: Retrieving rsyslog 8.14.0-2+devuan1.0
+I: Retrieving initscripts 2.88dsf-59.3+devuan2
+I: Retrieving sysvinit 2.88dsf-59.3+devuan2
+I: Retrieving sysvinit-core 2.88dsf-59.3+devuan2
+I: Retrieving sysvinit-utils 2.88dsf-59.3+devuan2
+I: Retrieving sysv-rc 2.88dsf-59.3+devuan2
+I: Retrieving tasksel 3.33+devuan0.3
+I: Retrieving tasksel-data 3.33+devuan0.3
+I: Retrieving bsdutils 1:2.27.1-1+devuan0.1
+I: Retrieving libblkid1 2.27.1-1+devuan0.1
+I: Retrieving libfdisk1 2.27.1-1+devuan0.1
+I: Retrieving libmount1 2.27.1-1+devuan0.1
+I: Retrieving libsmartcols1 2.27.1-1+devuan0.1
+I: Retrieving libuuid1 2.27.1-1+devuan0.1
+I: Retrieving mount 2.27.1-1+devuan0.1
+I: Retrieving util-linux 2.27.1-1+devuan0.1
+I: Retrieving libacl1 2.2.52-3
+I: Retrieving adduser 3.114
+I: Retrieving apt 1.2.13
+I: Retrieving apt-utils 1.2.13
+I: Retrieving libapt-inst2.0 1.2.13
+I: Retrieving libapt-pkg5.0 1.2.13
+I: Retrieving libattr1 1:2.4.47-2
+I: Retrieving libaudit-common 1:2.5.2-1
+I: Retrieving libaudit1 1:2.5.2-1
+I: Retrieving base-passwd 3.5.39
+I: Retrieving bash 4.3-14+b1
+I: Retrieving libdns-export162 1:9.10.3.dfsg.P4-10
+I: Retrieving libisc-export160 1:9.10.3.dfsg.P4-10
+I: Retrieving blends-tasks 0.6.93
+I: Retrieving libboost-iostreams1.58.0 1.58.0+dfsg-5.1
+I: Retrieving libboost-iostreams1.60.0 1.60.0+dfsg-6
+I: Retrieving bsdmainutils 9.0.10
+I: Retrieving libbz2-1.0 1.0.6-8
+I: Retrieving libdebconfclient0 0.213
+I: Retrieving coreutils 8.25-2
+I: Retrieving cpio 2.11+dfsg-5
+I: Retrieving cron 3.0pl1-128
+I: Retrieving dash 0.5.8-2.2
+I: Retrieving libdb5.3 5.3.28-11
+I: Retrieving debconf 1.5.59
+I: Retrieving debconf-i18n 1.5.59
+I: Retrieving debian-archive-keyring 2014.3
+I: Retrieving debianutils 4.7
+I: Retrieving diffutils 1:3.3-3
+I: Retrieving dmidecode 3.0-3
+I: Retrieving dpkg 1.18.7
+I: Retrieving e2fslibs 1.43.1-1
+I: Retrieving e2fsprogs 1.43.1-1
+I: Retrieving libcomerr2 1.43.1-1
+I: Retrieving libss2 1.43.1-1
+I: Retrieving findutils 4.6.0+git+20160126-2
+I: Retrieving gcc-4.9-base 4.9.3-14
+I: Retrieving gcc-5-base 5.4.0-4
+I: Retrieving gcc-6-base 6.1.1-6
+I: Retrieving libgcc1 1:6.1.1-6
+I: Retrieving libstdc++6 6.1.1-6
+I: Retrieving libgdbm3 1.8.3-14
+I: Retrieving libc-bin 2.22-11
+I: Retrieving libc6 2.22-11
+I: Retrieving multiarch-support 2.22-11
+I: Retrieving libgmp10 2:6.1.0+dfsg-2
+I: Retrieving gnupg 1.4.20-6
+I: Retrieving gpgv 1.4.20-6
+I: Retrieving libgnutls30 3.4.13-1
+I: Retrieving grep 2.25-3
+I: Retrieving gzip 1.6-5
+I: Retrieving hostname 3.17
+I: Retrieving libicu55 55.1-7
+I: Retrieving ifupdown 0.8.13
+I: Retrieving insserv 1.14.0-5.3
+I: Retrieving iproute2 4.3.0-1+b1
+I: Retrieving iptables 1.6.0-2
+I: Retrieving libxtables11 1.6.0-2
+I: Retrieving iputils-ping 3:20150815-2
+I: Retrieving isc-dhcp-client 4.3.4-1
+I: Retrieving isc-dhcp-common 4.3.4-1
+I: Retrieving libjson-c2 0.11-4
+I: Retrieving libjson-c3 0.12-3
+I: Retrieving kmod 22-1.1
+I: Retrieving libkmod2 22-1.1
+I: Retrieving libbsd0 0.8.3-1
+I: Retrieving libcap2 1:2.25-1
+I: Retrieving libestr0 0.1.10-2
+I: Retrieving libffi6 3.2.1-4
+I: Retrieving libgcrypt20 1.7.1-2
+I: Retrieving libgpg-error0 1.23-1
+I: Retrieving libidn11 1.32-3.1
+I: Retrieving liblocale-gettext-perl 1.07-2
+I: Retrieving liblogging-stdlog0 1.0.5-2
+I: Retrieving liblognorm2 1.1.2-1.1+b2
+I: Retrieving libnfnetlink0 1.0.1-3
+I: Retrieving libpipeline1 1.4.1-2
+I: Retrieving libpsl0 0.11.0-2
+I: Retrieving libselinux1 2.5-3
+I: Retrieving libsemanage-common 2.5-1
+I: Retrieving libsemanage1 2.5-1
+I: Retrieving libsepol1 2.5-1
+I: Retrieving libtasn1-6 4.8-1
+I: Retrieving libtext-charwidth-perl 0.04-7+b4
+I: Retrieving libtext-iconv-perl 1.7-5+b3
+I: Retrieving libtext-wrapi18n-perl 0.06-7.1
+I: Retrieving libusb-0.1-4 2:0.1.12-30
+I: Retrieving logrotate 3.8.7-2
+I: Retrieving liblz4-1 0.0~r131-2
+I: Retrieving mawk 1.3.3-17
+I: Retrieving nano 2.5.3-3
+I: Retrieving libncurses5 6.0+20160319-1
+I: Retrieving libncursesw5 6.0+20160319-1
+I: Retrieving libtinfo5 6.0+20160319-1
+I: Retrieving ncurses-base 6.0+20160319-1
+I: Retrieving ncurses-bin 6.0+20160319-1
+I: Retrieving net-tools 1.60+git20150829.73cef8a-2
+I: Retrieving netbase 5.3
+I: Retrieving libhogweed4 3.2-1
+I: Retrieving libnettle6 3.2-1
+I: Retrieving libnewt0.52 0.52.18-3
+I: Retrieving whiptail 0.52.18-3
+I: Retrieving libssl1.0.0 1.0.2d-1
+I: Retrieving libssl1.0.2 1.0.2h-1
+I: Retrieving libp11-kit0 0.23.2-3
+I: Retrieving libpam-modules 1.1.8-3.3
+I: Retrieving libpam-modules-bin 1.1.8-3.3
+I: Retrieving libpam-runtime 1.1.8-3.3
+I: Retrieving libpam0g 1.1.8-3.3
+I: Retrieving libpcre3 2:8.38-3.1
+I: Retrieving perl-base 5.22.2-1
+I: Retrieving libpopt0 1.16-10
+I: Retrieving libprocps5 2:3.3.11-3
+I: Retrieving libreadline6 6.3-8+b4
+I: Retrieving readline-common 6.3-8
+I: Retrieving sed 4.2.2-7.1
+I: Retrieving sensible-utils 0.0.9
+I: Retrieving login 1:4.2-3.1
+I: Retrieving passwd 1:4.2-3.1
+I: Retrieving libslang2 2.3.0-2.3
+I: Retrieving startpar 0.59-3
+I: Retrieving libsystemd0 230-2
+I: Retrieving libudev1 230-2
+I: Retrieving udev 230-2
+I: Retrieving tar 1.29-1
+I: Retrieving tzdata 2016d-2
+I: Retrieving libustr-1.0-1 1.0.4-5
+I: Retrieving vim-common 2:7.4.1829-1
+I: Retrieving vim-tiny 2:7.4.1829-1
+I: Retrieving wget 1.18-1
+I: Retrieving libxapian22v5 1.2.23-1
+I: Retrieving liblzma5 5.1.1alpha+20120614-2.1
+I: Retrieving zlib1g 1:1.2.8.dfsg-2+b1
