@@ -906,7 +906,7 @@ Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Architecture: amd64
 Multi-Arch: foreign
 Source: glibc
-Version: 2.22-11
+Version: 2.22-12
 Depends: libc6 (>= 2.3.6-2)
 Description: Transitional package to ensure multiarch compatibility
  This is a transitional package used to ensure multiarch support is present
@@ -1285,7 +1285,7 @@ Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Architecture: amd64
 Multi-Arch: same
 Source: glibc
-Version: 2.22-11
+Version: 2.22-12
 Replaces: libc6-amd64
 Depends: libgcc1
 Suggests: glibc-doc, debconf | debconf-2.0, libc-l10n, locales
@@ -2002,12 +2002,12 @@ Essential: yes
 Status: install ok triggers-pending
 Priority: required
 Section: libs
-Installed-Size: 3315
+Installed-Size: 3316
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Architecture: amd64
 Multi-Arch: foreign
 Source: glibc
-Version: 2.22-11
+Version: 2.22-12
 Replaces: libc0.1, libc0.3, libc6, libc6.1
 Depends: libc6 (>> 2.22), libc6 (<< 2.23)
 Recommends: manpages
@@ -2754,11 +2754,11 @@ Essential: yes
 Status: install ok installed
 Priority: required
 Section: utils
-Installed-Size: 1887
+Installed-Size: 1826
 Maintainer: Andreas Metzler <ametzler@debian.org>
 Architecture: amd64
 Multi-Arch: foreign
-Version: 4.6.0+git+20160126-2
+Version: 4.6.0+git+20160517-3
 Pre-Depends: libc6 (>= 2.17), libselinux1 (>= 1.32)
 Suggests: mlocate | locate
 Breaks: binstats (<< 1.08-8.1), debhelper (<< 9.20130504), guilt (<< 0.36-0.2), kernel-package (<< 13.000), libpython3.4-minimal (<< 3.4.4-2), libpython3.5-minimal (<< 3.5.1-3), lsat (<< 0.9.7.1-2.1), mc (<< 3:4.8.11-1), sendmail (<< 8.14.4-5), switchconf (<< 0.0.9-2.1)
