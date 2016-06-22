@@ -1242,7 +1242,7 @@ MD5sum: 29cf806672b45204c77d78ed3f823e40
 SHA256: befc6f0f7301e52aaba3332117c1a653f3d321960e56e90017ee2e1433d49204
 
 Package: findutils
-Version: 4.6.0+git+20160517-3
+Version: 4.6.0+git+20160517-4
 Essential: yes
 Installed-Size: 1826
 Maintainer: Andreas Metzler <ametzler@debian.org>
@@ -1259,10 +1259,10 @@ Tag: implemented-in::c, interface::commandline, role::program,
  scope::utility, suite::gnu, use::searching, works-with::file
 Section: utils
 Priority: required
-Filename: pool/DEBIAN/main/f/findutils/findutils_4.6.0+git+20160517-3_amd64.deb
-Size: 614710
-MD5sum: c08e143b0e7a51f811bebadafbab975a
-SHA256: 97dcae59668557d79cfe21f564aea715f2dae6866b898870f82bb0a968bcfd0d
+Filename: pool/DEBIAN/main/f/findutils/findutils_4.6.0+git+20160517-4_amd64.deb
+Size: 614764
+MD5sum: 8512b39151ca64afa89889eaf8252bec
+SHA256: a809a7d2d46aa76012d70d6d7c2d202f8a07c5be72c7f1bfc3dc2122ed833a78
 
 Package: gcc-4.9-base
 Source: gcc-4.9
@@ -2339,8 +2339,8 @@ MD5sum: 30b0681b565ac6ecbf6cea0a84f318a9
 SHA256: cb383c9b0a158c8c045e7fc2e0735f78f5ed73c8dfb74f23c5c4dd4a85d008d0
 
 Package: nano
-Version: 2.5.3-3
-Installed-Size: 1979
+Version: 2.6.0-1
+Installed-Size: 1874
 Maintainer: Jordi Mallach <jordi@debian.org>
 Architecture: amd64
 Replaces: pico
@@ -2350,23 +2350,23 @@ Suggests: spell
 Conflicts: pico
 Description: small, friendly text editor inspired by Pico
 Homepage: http://www.nano-editor.org/
-Description-md5: b7e1d8c3d831118724cfe8ea3996b595
+Description-md5: 335bc9a86010698d5fe72682accd02be
 Tag: implemented-in::c, interface::text-mode, role::program, scope::utility,
  suite::gnu, uitoolkit::ncurses, use::editing, works-with::text
 Section: editors
 Priority: important
-Filename: pool/DEBIAN/main/n/nano/nano_2.5.3-3_amd64.deb
-Size: 496902
-MD5sum: cf51c66cf959be80461887fabbac7600
-SHA256: 87edf79f114393b601e3f162357064355225866871f2f76599736c7a4a0528c6
+Filename: pool/DEBIAN/main/n/nano/nano_2.6.0-1_amd64.deb
+Size: 490506
+MD5sum: 849075eb34055d983fa53f83fe9b25d5
+SHA256: e3bc32b10390370389a5c40769897d1d4c90bc1c5e717c6497645a1fe6db617f
 
 Package: libncurses5
 Source: ncurses
-Version: 6.0+20160319-1
+Version: 6.0+20160319-2
 Installed-Size: 286
 Maintainer: Craig Small <csmall@debian.org>
 Architecture: amd64
-Depends: libtinfo5 (= 6.0+20160319-1), libc6 (>= 2.14)
+Depends: libtinfo5 (= 6.0+20160319-2), libc6 (>= 2.14)
 Recommends: libgpm2
 Description: shared libraries for terminal handling
 Multi-Arch: same
@@ -2375,18 +2375,18 @@ Description-md5: 599cbbcff16d09b3b4643d84f37643fd
 Tag: role::shared-lib
 Section: libs
 Priority: required
-Filename: pool/DEBIAN/main/n/ncurses/libncurses5_6.0+20160319-1_amd64.deb
-Size: 94394
-MD5sum: 7333b67337410e2683f99ad481b43ab3
-SHA256: bd3c7b7c0d7decf05e94b54c580cc3a4cac7de20e9bcc160e7b0da07a5f31c36
+Filename: pool/DEBIAN/main/n/ncurses/libncurses5_6.0+20160319-2_amd64.deb
+Size: 94202
+MD5sum: 30528af05a43dc1606f5a286d617b4f0
+SHA256: 1abb31e598577e75abea1af49bbfb0465159a95b73af1c8b1bf12aeeadbba561
 
 Package: libncursesw5
 Source: ncurses
-Version: 6.0+20160319-1
+Version: 6.0+20160319-2
 Installed-Size: 350
 Maintainer: Craig Small <csmall@debian.org>
 Architecture: amd64
-Depends: libtinfo5 (= 6.0+20160319-1), libc6 (>= 2.14)
+Depends: libtinfo5 (= 6.0+20160319-2), libc6 (>= 2.14)
 Recommends: libgpm2
 Description: shared libraries for terminal handling (wide character support)
 Multi-Arch: same
@@ -2395,14 +2395,14 @@ Description-md5: 1a69a793355bf1fff9186f00b71dd14a
 Tag: role::shared-lib
 Section: libs
 Priority: important
-Filename: pool/DEBIAN/main/n/ncurses/libncursesw5_6.0+20160319-1_amd64.deb
-Size: 115468
-MD5sum: 43214b2e86d0ea47976ac7e813a16ea6
-SHA256: 6db10620ef64015b25a371c53bed0ecfcc5fa995702642a6515e1ea80dcb0f50
+Filename: pool/DEBIAN/main/n/ncurses/libncursesw5_6.0+20160319-2_amd64.deb
+Size: 115620
+MD5sum: 6cebd8097b7e802fdafccc069d223791
+SHA256: 52144fd2f6139554578b24ab007eef82ce012eecc43d61dc42ec909dda68be54
 
 Package: libtinfo5
 Source: ncurses
-Version: 6.0+20160319-1
+Version: 6.0+20160319-2
 Installed-Size: 472
 Maintainer: Craig Small <csmall@debian.org>
 Architecture: amd64
@@ -2416,14 +2416,14 @@ Description-md5: f681846d99e5156a0882bb53c35d3244
 Tag: role::shared-lib
 Section: libs
 Priority: required
-Filename: pool/DEBIAN/main/n/ncurses/libtinfo5_6.0+20160319-1_amd64.deb
-Size: 293570
-MD5sum: 928dd821a411a0deb5b29e5297398cca
-SHA256: 0e2d10f29b7dc7ba22058eecccc16f13301be274fda96a54ec21f7f851edf41b
+Filename: pool/DEBIAN/main/n/ncurses/libtinfo5_6.0+20160319-2_amd64.deb
+Size: 294016
+MD5sum: 276457c217b6b693a759f6174ec6d6f7
+SHA256: 1babcc7d21f8d78e24bc2cd395e2a15da0ebda9f16a4632dc7bc2d1646dd9ae0
 
 Package: ncurses-base
 Source: ncurses
-Version: 6.0+20160319-1
+Version: 6.0+20160319-2
 Essential: yes
 Installed-Size: 336
 Maintainer: Craig Small <csmall@debian.org>
@@ -2437,14 +2437,14 @@ Description-md5: 2cbef17322c0de7f007682de54ca0d4a
 Tag: implemented-in::c, role::app-data, uitoolkit::ncurses
 Section: misc
 Priority: required
-Filename: pool/DEBIAN/main/n/ncurses/ncurses-base_6.0+20160319-1_all.deb
-Size: 233294
-MD5sum: e9d50e7e6f8ba29eeac191f82d7e4bb2
-SHA256: fd05c3fa6667493ccd3dd2183f4e12eef15ddbc3601b3645724310910a557195
+Filename: pool/DEBIAN/main/n/ncurses/ncurses-base_6.0+20160319-2_all.deb
+Size: 233518
+MD5sum: c38e6d0fcde198dcef028c05cf45da3c
+SHA256: ec5542a9b6d701d2456b8a5b04419064ba85d1e72c38dc2bb2d05bea1a47548f
 
 Package: ncurses-bin
 Source: ncurses
-Version: 6.0+20160319-1
+Version: 6.0+20160319-2
 Essential: yes
 Installed-Size: 514
 Maintainer: Craig Small <csmall@debian.org>
@@ -2458,10 +2458,10 @@ Tag: admin::configuring, implemented-in::c, interface::commandline,
  interface::text-mode, role::program, scope::utility, uitoolkit::ncurses
 Section: utils
 Priority: required
-Filename: pool/DEBIAN/main/n/ncurses/ncurses-bin_6.0+20160319-1_amd64.deb
-Size: 354856
-MD5sum: 8acfc0731d7597e26ff771b390418ad2
-SHA256: f35fa095f74d9751c710cac90d3006ffce744ef7ba108462be22bd4dc3045e2e
+Filename: pool/DEBIAN/main/n/ncurses/ncurses-bin_6.0+20160319-2_amd64.deb
+Size: 355244
+MD5sum: da33639b67848013a8d4af9d45c2dc31
+SHA256: 534788320ab8c689f780ae37d3ab3a8b873d8eaf0e2c464d7751677dcb9b075d
 
 Package: net-tools
 Version: 1.60+git20150829.73cef8a-2

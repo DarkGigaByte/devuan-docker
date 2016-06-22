@@ -1,6 +1,6 @@
-36833c4dc2576ef91345c383861ae5ce  lib/x86_64-linux-gnu/libtinfo.so.5.9
-1397a5effd8bb7853de9c995291210ae  usr/lib/x86_64-linux-gnu/libtic.so.5.9
+90616038374f224774707299bdc4491e  lib/x86_64-linux-gnu/libtinfo.so.5.9
+a2d830d1f09064d9e6d1feae6eea061b  usr/lib/x86_64-linux-gnu/libtic.so.5.9
 aae5e7dfa0e953a72ea18a0afed45e83  usr/share/doc/libtinfo5/TODO.Debian
-0dda9018643abeb1dab83b15051be902  usr/share/doc/libtinfo5/changelog.Debian.gz
+28eb883247453855db079c25480014de  usr/share/doc/libtinfo5/changelog.Debian.gz
 5aa4d84b65ca19c3b19e786ddd5def54  usr/share/doc/libtinfo5/changelog.gz
 bd73d1dbbd2e6374358baa205d6d9e66  usr/share/doc/libtinfo5/copyright

@@ -1,11 +1,11 @@
-c135296c1b25a82e8deed3d7ac3c1eab  usr/bin/find
-ed424f390896513d0e63241a21f0e010  usr/bin/xargs
+ec7d0b8ebb2654a43c8bd670d4667dd3  usr/bin/find
+26a7539653a8ddb3b21faf553ac1b8a8  usr/bin/xargs
 f78e2d4189be58135a915698efe1cd7a  usr/share/doc-base/findutils
 75ca1d03fcbb9d988ff479d6c9ca6349  usr/share/doc/findutils/NEWS.Debian.gz
 08cb7875b8fd4992b4b3e1d2a9b30b96  usr/share/doc/findutils/NEWS.gz
 5f28366f8818ed01559082087782cd2e  usr/share/doc/findutils/README
 771780710333a36e6ae132a35f04de69  usr/share/doc/findutils/TODO
-30c7ab8eebaa50e4700d5b8a4ec0a718  usr/share/doc/findutils/changelog.Debian.gz
+0d1c55bcb1cbabde4e21422795298607  usr/share/doc/findutils/changelog.Debian.gz
 b6ab889f350f533caa06648a25b90ec3  usr/share/doc/findutils/changelog.gz
 fbaa337b6d61e89b577e50c4d6299af0  usr/share/doc/findutils/copyright
 4db27555b879064ea4b3ea699c5dac1b  usr/share/info/find-maint.info.gz
