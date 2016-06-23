@@ -61,9 +61,9 @@ I: Retrieving libss2 1.43.1-1
 I: Retrieving findutils 4.6.0+git+20160517-4
 I: Retrieving gcc-4.9-base 4.9.3-14
 I: Retrieving gcc-5-base 5.4.0-4
-I: Retrieving gcc-6-base 6.1.1-6
-I: Retrieving libgcc1 1:6.1.1-6
-I: Retrieving libstdc++6 6.1.1-6
+I: Retrieving gcc-6-base 6.1.1-7
+I: Retrieving libgcc1 1:6.1.1-7
+I: Retrieving libstdc++6 6.1.1-7
 I: Retrieving libgdbm3 1.8.3-14
 I: Retrieving libc-bin 2.22-12
 I: Retrieving libc6 2.22-12
