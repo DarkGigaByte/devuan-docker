@@ -562,8 +562,8 @@ MD5sum: a22a197758d7ce10890735b0ad1e68da
 SHA256: 033dd67306579907f9b807a06fa03e55c479c438e9db4636ccb9e97372011239
 
 Package: apt
-Version: 1.2.13
-Installed-Size: 3314
+Version: 1.2.14
+Installed-Size: 3320
 Maintainer: APT Development Team <deity@lists.debian.org>
 Architecture: amd64
 Replaces: bash-completion (<< 1:2.1-4.2+fakesync1), manpages-it (<< 2.80-4~), manpages-pl (<< 20060617-3~), openjdk-6-jdk (<< 6b24-1.11-0ubuntu1~), sun-java5-jdk (>> 0), sun-java6-jdk (>> 0)
@@ -581,18 +581,18 @@ Tag: admin::package-management, devel::lang:ruby, hardware::storage,
  works-with::software:package, works-with::text
 Section: admin
 Priority: important
-Filename: pool/DEBIAN/main/a/apt/apt_1.2.13_amd64.deb
-Size: 1163156
-MD5sum: 12564efb44753baa93e9ae0f4b389639
-SHA256: 53e753c994c8cb717cf34a1f2307ccd05e69289eb5aed4b64fa5d29dabbb6164
+Filename: pool/DEBIAN/main/a/apt/apt_1.2.14_amd64.deb
+Size: 1164320
+MD5sum: d4d2cfd099f78826773d41188471db41
+SHA256: 2ad7a99826f066697d191d5730d7b9f0045dcde481ed208f0c07343aa2a10465
 
 Package: apt-utils
 Source: apt
-Version: 1.2.13
+Version: 1.2.14
 Installed-Size: 1043
 Maintainer: APT Development Team <deity@lists.debian.org>
 Architecture: amd64
-Depends: apt (= 1.2.13), libapt-inst2.0 (>= 1.0.5), libapt-pkg5.0 (>= 1.1~exp15), libc6 (>= 2.14), libdb5.3, libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2)
+Depends: apt (= 1.2.14), libapt-inst2.0 (>= 1.0.5), libapt-pkg5.0 (>= 1.1~exp15), libc6 (>= 2.14), libdb5.3, libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2)
 Description: package management related utility programs
 Description-md5: fa0295dc4e40dbbea6c84f614c570636
 Tag: admin::automation, admin::package-management, devel::debian,
@@ -604,14 +604,14 @@ Tag: admin::automation, admin::package-management, devel::debian,
  use::searching, works-with::software:package
 Section: admin
 Priority: important
-Filename: pool/DEBIAN/main/a/apt/apt-utils_1.2.13_amd64.deb
-Size: 387936
-MD5sum: e8c1058bef9b38771840267235b6d3ea
-SHA256: 300295dfe578fbcb64d51d40e24a0f626b6047d8ff900af675439c0dfded37bc
+Filename: pool/DEBIAN/main/a/apt/apt-utils_1.2.14_amd64.deb
+Size: 388150
+MD5sum: 5a929e9dcd5690c0a46fc08115c43354
+SHA256: 7830a6a2bbf685dc90f85ad81449b2af841d5cc5460fa0b0eba85bd9f33695b4
 
 Package: libapt-inst2.0
 Source: apt
-Version: 1.2.13
+Version: 1.2.14
 Installed-Size: 459
 Maintainer: APT Development Team <deity@lists.debian.org>
 Architecture: amd64
@@ -622,19 +622,19 @@ Description-md5: 5df05e67cb17e91ac56a732061d88850
 Tag: role::shared-lib
 Section: libs
 Priority: important
-Filename: pool/DEBIAN/main/a/apt/libapt-inst2.0_1.2.13_amd64.deb
-Size: 182022
-MD5sum: 569909598575486bc3dba4e51f83f12e
-SHA256: 9d287a672018c48b945694bfab053776d22652379fc04fd87d44661549edab1b
+Filename: pool/DEBIAN/main/a/apt/libapt-inst2.0_1.2.14_amd64.deb
+Size: 182118
+MD5sum: 1c695654ea72c568aa14dbab708de964
+SHA256: 42a7cd88b0759abc29923900f14f3ee632209d1e1c80ba3659929f8d283df664
 
 Package: libapt-pkg5.0
 Source: apt
-Version: 1.2.13
+Version: 1.2.14
 Installed-Size: 2786
 Maintainer: APT Development Team <deity@lists.debian.org>
 Architecture: amd64
 Depends: libbz2-1.0, libc6 (>= 2.15), libgcc1 (>= 1:3.0), liblz4-1 (>= 0.0~r127), liblzma5 (>= 5.1.1alpha+20120614), libstdc++6 (>= 5.2), zlib1g (>= 1:1.2.2.3)
-Recommends: apt (>= 1.2.13)
+Recommends: apt (>= 1.2.14)
 Breaks: appstream (<< 0.9.0-3~), apt (<< 1.1~exp14), libapt-inst1.5 (<< 0.9.9~)
 Description: package management runtime library
 Multi-Arch: same
@@ -642,10 +642,10 @@ Description-md5: b80ec138bbd00d445bb187bcc0acc8fc
 Tag: role::shared-lib
 Section: libs
 Priority: important
-Filename: pool/DEBIAN/main/a/apt/libapt-pkg5.0_1.2.13_amd64.deb
-Size: 816894
-MD5sum: ef4a1ea11247bb95905c0ce4ebb81269
-SHA256: b25712a4bd64804d0cc2049a369d0bbc67efd7f275c4efe9a0c5ef9bf9d6de32
+Filename: pool/DEBIAN/main/a/apt/libapt-pkg5.0_1.2.14_amd64.deb
+Size: 818892
+MD5sum: 5bda977938ad78ef2c384d830aeca91f
+SHA256: 61e2b85010b70f94c97dd4ebbdd9684e10d28fb6932c56a4d93fdbf0a740599d
 
 Package: libattr1
 Source: attr
@@ -2361,12 +2361,12 @@ MD5sum: 849075eb34055d983fa53f83fe9b25d5
 SHA256: e3bc32b10390370389a5c40769897d1d4c90bc1c5e717c6497645a1fe6db617f
 
 Package: libncurses5
-Source: ncurses
-Version: 6.0+20160319-2
+Source: ncurses (6.0+20160319-2)
+Version: 6.0+20160319-2+b1
 Installed-Size: 286
 Maintainer: Craig Small <csmall@debian.org>
 Architecture: amd64
-Depends: libtinfo5 (= 6.0+20160319-2), libc6 (>= 2.14)
+Depends: libtinfo5 (= 6.0+20160319-2+b1), libc6 (>= 2.14)
 Recommends: libgpm2
 Description: shared libraries for terminal handling
 Multi-Arch: same
@@ -2375,18 +2375,18 @@ Description-md5: 599cbbcff16d09b3b4643d84f37643fd
 Tag: role::shared-lib
 Section: libs
 Priority: required
-Filename: pool/DEBIAN/main/n/ncurses/libncurses5_6.0+20160319-2_amd64.deb
-Size: 94202
-MD5sum: 30528af05a43dc1606f5a286d617b4f0
-SHA256: 1abb31e598577e75abea1af49bbfb0465159a95b73af1c8b1bf12aeeadbba561
+Filename: pool/DEBIAN/main/n/ncurses/libncurses5_6.0+20160319-2+b1_amd64.deb
+Size: 94460
+MD5sum: 942229085add1d8f6cdeea307e43d67c
+SHA256: 2ed2f0b02e8c43b16d67605ef1396357b20defaee99cf9016dc747d785a0284f
 
 Package: libncursesw5
-Source: ncurses
-Version: 6.0+20160319-2
+Source: ncurses (6.0+20160319-2)
+Version: 6.0+20160319-2+b1
 Installed-Size: 350
 Maintainer: Craig Small <csmall@debian.org>
 Architecture: amd64
-Depends: libtinfo5 (= 6.0+20160319-2), libc6 (>= 2.14)
+Depends: libtinfo5 (= 6.0+20160319-2+b1), libc6 (>= 2.14)
 Recommends: libgpm2
 Description: shared libraries for terminal handling (wide character support)
 Multi-Arch: same
@@ -2395,15 +2395,15 @@ Description-md5: 1a69a793355bf1fff9186f00b71dd14a
 Tag: role::shared-lib
 Section: libs
 Priority: important
-Filename: pool/DEBIAN/main/n/ncurses/libncursesw5_6.0+20160319-2_amd64.deb
-Size: 115620
-MD5sum: 6cebd8097b7e802fdafccc069d223791
-SHA256: 52144fd2f6139554578b24ab007eef82ce012eecc43d61dc42ec909dda68be54
+Filename: pool/DEBIAN/main/n/ncurses/libncursesw5_6.0+20160319-2+b1_amd64.deb
+Size: 115480
+MD5sum: ad42da597e54bb59c67e95fe8b580ccd
+SHA256: 1fe0d6a444c9a4e8c2f63fe20d10f9fa624eea51fdddbc8c403d00c1996f816d
 
 Package: libtinfo5
-Source: ncurses
-Version: 6.0+20160319-2
-Installed-Size: 472
+Source: ncurses (6.0+20160319-2)
+Version: 6.0+20160319-2+b1
+Installed-Size: 473
 Maintainer: Craig Small <csmall@debian.org>
 Architecture: amd64
 Replaces: libncurses5 (<< 5.9-3)
@@ -2416,10 +2416,10 @@ Description-md5: f681846d99e5156a0882bb53c35d3244
 Tag: role::shared-lib
 Section: libs
 Priority: required
-Filename: pool/DEBIAN/main/n/ncurses/libtinfo5_6.0+20160319-2_amd64.deb
-Size: 294016
-MD5sum: 276457c217b6b693a759f6174ec6d6f7
-SHA256: 1babcc7d21f8d78e24bc2cd395e2a15da0ebda9f16a4632dc7bc2d1646dd9ae0
+Filename: pool/DEBIAN/main/n/ncurses/libtinfo5_6.0+20160319-2+b1_amd64.deb
+Size: 294378
+MD5sum: 5a8e8eb97e56cb9892139fa4daa1a7af
+SHA256: e58a08ee0210627440a636adcf07e64df2d96f0d185c60c4adf05075e903e30c
 
 Package: ncurses-base
 Source: ncurses
@@ -2443,10 +2443,10 @@ MD5sum: c38e6d0fcde198dcef028c05cf45da3c
 SHA256: ec5542a9b6d701d2456b8a5b04419064ba85d1e72c38dc2bb2d05bea1a47548f
 
 Package: ncurses-bin
-Source: ncurses
-Version: 6.0+20160319-2
+Source: ncurses (6.0+20160319-2)
+Version: 6.0+20160319-2+b1
 Essential: yes
-Installed-Size: 514
+Installed-Size: 515
 Maintainer: Craig Small <csmall@debian.org>
 Architecture: amd64
 Pre-Depends: libc6 (>= 2.14), libtinfo5 (>= 6.0+20151017), libtinfo5 (<< 6.1~)
@@ -2458,10 +2458,10 @@ Tag: admin::configuring, implemented-in::c, interface::commandline,
  interface::text-mode, role::program, scope::utility, uitoolkit::ncurses
 Section: utils
 Priority: required
-Filename: pool/DEBIAN/main/n/ncurses/ncurses-bin_6.0+20160319-2_amd64.deb
-Size: 355244
-MD5sum: da33639b67848013a8d4af9d45c2dc31
-SHA256: 534788320ab8c689f780ae37d3ab3a8b873d8eaf0e2c464d7751677dcb9b075d
+Filename: pool/DEBIAN/main/n/ncurses/ncurses-bin_6.0+20160319-2+b1_amd64.deb
+Size: 355518
+MD5sum: 3355d3b23670bfc4e53b4c27b4812dea
+SHA256: 2fdedfbf1d54b639ea6444abb8380f53ec1442777a5d9ea286bf56cbddde772d
 
 Package: net-tools
 Version: 1.60+git20150829.73cef8a-2
@@ -2974,8 +2974,8 @@ SHA256: 4a2da3e73aa753fb536353f3b26709f58eaef913349705f8da731d9b78abf941
 
 Package: libsystemd0
 Source: systemd
-Version: 230-2
-Installed-Size: 630
+Version: 230-3
+Installed-Size: 631
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 Architecture: amd64
 Pre-Depends: libc6 (>= 2.17), libgcrypt20 (>= 1.7.0), liblzma5 (>= 5.1.1alpha+20120614), libselinux1 (>= 1.32)
@@ -2986,15 +2986,15 @@ Description-md5: 92180a6b506aa0eff52136aeb8212dc6
 Tag: role::shared-lib
 Section: libs
 Priority: optional
-Filename: pool/DEBIAN/main/s/systemd/libsystemd0_230-2_amd64.deb
-Size: 261646
-MD5sum: a40ba6e0ce64b2957982b6056ed63d19
-SHA256: c0b4e76202addd37a1e456b43f2d76815db03d80ea1be02ae3f03c7f6b958d3f
+Filename: pool/DEBIAN/main/s/systemd/libsystemd0_230-3_amd64.deb
+Size: 262478
+MD5sum: 95941bceed04f144571291401a5ed4ac
+SHA256: 46c95eedae3ba19e523353db76a11a2ae977e5b0943cd7ed2b91d08264fe0e04
 
 Package: libudev1
 Source: systemd
-Version: 230-2
-Installed-Size: 202
+Version: 230-3
+Installed-Size: 203
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 Architecture: amd64
 Depends: libc6 (>= 2.16)
@@ -3005,19 +3005,19 @@ Description-md5: ace5b83d7b48187416c90173a93255b6
 Tag: role::shared-lib
 Section: libs
 Priority: important
-Filename: pool/DEBIAN/main/s/systemd/libudev1_230-2_amd64.deb
-Size: 108262
-MD5sum: de8210e36eb7196656296da3c788e8d8
-SHA256: 079cf80fc491bbf0c1b1ef58c7923923955ab2b52073c39f450ec7f3f5e2ba64
+Filename: pool/DEBIAN/main/s/systemd/libudev1_230-3_amd64.deb
+Size: 109370
+MD5sum: 2c416db9ee82afbc2f53b9f577562a4c
+SHA256: 3a17f805ee5240dd5118c3f658c13d446ea444a63382013282f8c36eb94ee63f
 
 Package: udev
 Source: systemd
-Version: 230-2
-Installed-Size: 6813
+Version: 230-3
+Installed-Size: 6814
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 Architecture: amd64
 Replaces: bash-completion (<< 1:2.1), systemd (<< 224-2)
-Depends: libacl1 (>= 2.2.51-8), libblkid1 (>= 2.19.1), libc6 (>= 2.17), libkmod2 (>= 5~), libselinux1 (>= 2.0.65), adduser, libudev1 (= 230-2), lsb-base (>= 3.0-6), util-linux (>= 2.27.1), procps
+Depends: libacl1 (>= 2.2.51-8), libblkid1 (>= 2.19.1), libc6 (>= 2.17), libkmod2 (>= 5~), libselinux1 (>= 2.0.65), adduser, libudev1 (= 230-3), lsb-base (>= 3.0-6), util-linux (>= 2.27.1), procps
 Pre-Depends: dpkg (>= 1.17.14)
 Breaks: bash-completion (<< 1:2.1), consolekit (<< 0.4.6-1), ifplugd (<< 0.28-19.1~), ifupdown (<< 0.8.5~), joystick (<< 1:1.4.9-1~), kmod (<< 14), plymouth (<< 0.9.0-7), systemd (<< 224-2), usb-modeswitch (<< 2.3.0+repack0-1~)
 Description: /dev/ and hotplug management daemon
@@ -3029,10 +3029,10 @@ Tag: admin::boot, admin::filesystem, admin::hardware, admin::kernel,
  interface::daemon, role::program
 Section: admin
 Priority: important
-Filename: pool/DEBIAN/main/s/systemd/udev_230-2_amd64.deb
-Size: 1058164
-MD5sum: 68077fe35041a3b725011fd572d19078
-SHA256: 6d30f7dcae4c32fd1d6406ae71dda35cad949f4df8191ea3bfd791eaf5b48850
+Filename: pool/DEBIAN/main/s/systemd/udev_230-3_amd64.deb
+Size: 1059192
+MD5sum: 60f287c11327f894408b21196534d98f
+SHA256: e7cf792110d4a3c40862dd5f93a5863b5c298aaa563c6b9e78b530e58013a1f1
 
 Package: tar
 Version: 1.29-1

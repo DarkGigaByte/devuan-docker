@@ -72,9 +72,9 @@ Installed-Size: 286
 Maintainer: Craig Small <csmall@debian.org>
 Architecture: amd64
 Multi-Arch: same
-Source: ncurses
-Version: 6.0+20160319-2
-Depends: libtinfo5 (= 6.0+20160319-2), libc6 (>= 2.14)
+Source: ncurses (6.0+20160319-2)
+Version: 6.0+20160319-2+b1
+Depends: libtinfo5 (= 6.0+20160319-2+b1), libc6 (>= 2.14)
 Recommends: libgpm2
 Description: shared libraries for terminal handling
  The ncurses library routines are a terminal-independent method of
@@ -93,9 +93,9 @@ Maintainer: APT Development Team <deity@lists.debian.org>
 Architecture: amd64
 Multi-Arch: same
 Source: apt
-Version: 1.2.13
+Version: 1.2.14
 Depends: libbz2-1.0, libc6 (>= 2.15), libgcc1 (>= 1:3.0), liblz4-1 (>= 0.0~r127), liblzma5 (>= 5.1.1alpha+20120614), libstdc++6 (>= 5.2), zlib1g (>= 1:1.2.2.3)
-Recommends: apt (>= 1.2.13)
+Recommends: apt (>= 1.2.14)
 Breaks: appstream (<< 0.9.0-3~), apt (<< 1.1~exp14), libapt-inst1.5 (<< 0.9.9~)
 Description: package management runtime library
  This library provides the common functionality for searching and
@@ -156,12 +156,12 @@ Package: libtinfo5
 Status: install ok installed
 Priority: required
 Section: libs
-Installed-Size: 472
+Installed-Size: 473
 Maintainer: Craig Small <csmall@debian.org>
 Architecture: amd64
 Multi-Arch: same
-Source: ncurses
-Version: 6.0+20160319-2
+Source: ncurses (6.0+20160319-2)
+Version: 6.0+20160319-2+b1
 Replaces: libncurses5 (<< 5.9-3)
 Depends: libc6 (>= 2.16)
 Breaks: dialog (<< 1.2-20130523)
@@ -181,7 +181,7 @@ Maintainer: APT Development Team <deity@lists.debian.org>
 Architecture: amd64
 Multi-Arch: same
 Source: apt
-Version: 1.2.13
+Version: 1.2.14
 Depends: libapt-pkg5.0 (>= 1.1~exp9), libc6 (>= 2.14), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2)
 Description: deb package format runtime library
  This library provides methods to query and extract information
@@ -237,12 +237,12 @@ Package: libudev1
 Status: install ok installed
 Priority: important
 Section: libs
-Installed-Size: 202
+Installed-Size: 203
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 Architecture: amd64
 Multi-Arch: same
 Source: systemd
-Version: 230-2
+Version: 230-3
 Depends: libc6 (>= 2.16)
 Description: libudev shared library
  This library provides access to udev device information.
@@ -659,9 +659,9 @@ Installed-Size: 350
 Maintainer: Craig Small <csmall@debian.org>
 Architecture: amd64
 Multi-Arch: same
-Source: ncurses
-Version: 6.0+20160319-2
-Depends: libtinfo5 (= 6.0+20160319-2), libc6 (>= 2.14)
+Source: ncurses (6.0+20160319-2)
+Version: 6.0+20160319-2+b1
+Depends: libtinfo5 (= 6.0+20160319-2+b1), libc6 (>= 2.14)
 Recommends: libgpm2
 Description: shared libraries for terminal handling (wide character support)
  The ncurses library routines are a terminal-independent method of
@@ -792,8 +792,8 @@ Installed-Size: 1043
 Maintainer: APT Development Team <deity@lists.debian.org>
 Architecture: amd64
 Source: apt
-Version: 1.2.13
-Depends: apt (= 1.2.13), libapt-inst2.0 (>= 1.0.5), libapt-pkg5.0 (>= 1.1~exp15), libc6 (>= 2.14), libdb5.3, libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2)
+Version: 1.2.14
+Depends: apt (= 1.2.14), libapt-inst2.0 (>= 1.0.5), libapt-pkg5.0 (>= 1.1~exp15), libc6 (>= 2.14), libdb5.3, libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2)
 Description: package management related utility programs
  This package contains some less used commandline utilities related
  to package management with APT.
@@ -1225,12 +1225,12 @@ Package: libsystemd0
 Status: install ok installed
 Priority: optional
 Section: libs
-Installed-Size: 630
+Installed-Size: 631
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 Architecture: amd64
 Multi-Arch: same
 Source: systemd
-Version: 230-2
+Version: 230-3
 Pre-Depends: libc6 (>= 2.17), libgcrypt20 (>= 1.7.0), liblzma5 (>= 5.1.1alpha+20120614), libselinux1 (>= 1.32)
 Description: systemd utility library
  The libsystemd0 library provides interfaces to various systemd components.
@@ -2088,14 +2088,14 @@ Package: udev
 Status: install ok installed
 Priority: important
 Section: admin
-Installed-Size: 6813
+Installed-Size: 6814
 Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 Architecture: amd64
 Multi-Arch: foreign
 Source: systemd
-Version: 230-2
+Version: 230-3
 Replaces: bash-completion (<< 1:2.1), systemd (<< 224-2)
-Depends: libacl1 (>= 2.2.51-8), libblkid1 (>= 2.19.1), libc6 (>= 2.17), libkmod2 (>= 5~), libselinux1 (>= 2.0.65), adduser, libudev1 (= 230-2), lsb-base (>= 3.0-6), util-linux (>= 2.27.1), procps
+Depends: libacl1 (>= 2.2.51-8), libblkid1 (>= 2.19.1), libc6 (>= 2.17), libkmod2 (>= 5~), libselinux1 (>= 2.0.65), adduser, libudev1 (= 230-3), lsb-base (>= 3.0-6), util-linux (>= 2.27.1), procps
 Pre-Depends: dpkg (>= 1.17.14)
 Breaks: bash-completion (<< 1:2.1), consolekit (<< 0.4.6-1), ifplugd (<< 0.28-19.1~), ifupdown (<< 0.8.5~), joystick (<< 1:1.4.9-1~), kmod (<< 14), plymouth (<< 0.9.0-7), systemd (<< 224-2), usb-modeswitch (<< 2.3.0+repack0-1~)
 Conffiles:
@@ -2486,10 +2486,10 @@ Package: apt
 Status: install ok installed
 Priority: important
 Section: admin
-Installed-Size: 3314
+Installed-Size: 3320
 Maintainer: APT Development Team <deity@lists.debian.org>
 Architecture: amd64
-Version: 1.2.13
+Version: 1.2.14
 Replaces: bash-completion (<< 1:2.1-4.2+fakesync1), manpages-it (<< 2.80-4~), manpages-pl (<< 20060617-3~), openjdk-6-jdk (<< 6b24-1.11-0ubuntu1~), sun-java5-jdk (>> 0), sun-java6-jdk (>> 0)
 Depends: libapt-pkg5.0 (>= 1.2.2), libc6 (>= 2.15), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2), init-system-helpers (>= 1.18~), debian-archive-keyring, gpgv | gpgv2, gnupg | gnupg2, adduser
 Suggests: aptitude | synaptic | wajig, dpkg-dev (>= 1.17.2), apt-doc, python-apt
@@ -3014,12 +3014,12 @@ Essential: yes
 Status: install ok installed
 Priority: required
 Section: utils
-Installed-Size: 514
+Installed-Size: 515
 Maintainer: Craig Small <csmall@debian.org>
 Architecture: amd64
 Multi-Arch: foreign
-Source: ncurses
-Version: 6.0+20160319-2
+Source: ncurses (6.0+20160319-2)
+Version: 6.0+20160319-2+b1
 Pre-Depends: libc6 (>= 2.14), libtinfo5 (>= 6.0+20151017), libtinfo5 (<< 6.1~)
 Description: terminal-related programs and man pages
  The ncurses library routines are a terminal-independent method of
