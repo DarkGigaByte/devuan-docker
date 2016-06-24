@@ -88,7 +88,7 @@ libbsd0 /var/cache/apt/archives/libbsd0_0.8.3-1_amd64.deb
 libcap2 /var/cache/apt/archives/libcap2_1%3a2.25-1_amd64.deb
 libestr0 /var/cache/apt/archives/libestr0_0.1.10-2_amd64.deb
 libffi6 /var/cache/apt/archives/libffi6_3.2.1-4_amd64.deb
-libgcrypt20 /var/cache/apt/archives/libgcrypt20_1.7.0-2_amd64.deb
+libgcrypt20 /var/cache/apt/archives/libgcrypt20_1.7.1-2_amd64.deb
 libgpg-error0 /var/cache/apt/archives/libgpg-error0_1.23-1_amd64.deb
 libidn11 /var/cache/apt/archives/libidn11_1.32-3.1_amd64.deb
 liblocale-gettext-perl /var/cache/apt/archives/liblocale-gettext-perl_1.07-2_amd64.deb

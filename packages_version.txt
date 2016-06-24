@@ -89,7 +89,7 @@ libbsd0 0.8.3-1
 libcap2 1:2.25-1
 libestr0 0.1.10-2
 libffi6 3.2.1-4
-libgcrypt20 1.7.0-2
+libgcrypt20 1.7.1-2
 libgpg-error0 1.23-1
 libidn11 1.32-3.1
 liblocale-gettext-perl 1.07-2
