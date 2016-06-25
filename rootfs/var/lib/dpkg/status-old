@@ -676,12 +676,11 @@ Essential: yes
 Status: install ok installed
 Priority: required
 Section: shells
-Installed-Size: 5138
+Installed-Size: 5137
 Maintainer: Matthias Klose <doko@debian.org>
 Architecture: amd64
 Multi-Arch: foreign
-Source: bash (4.3-14)
-Version: 4.3-14+b1
+Version: 4.3-15
 Replaces: bash-completion (<< 20060301-0), bash-doc (<= 2.05-1)
 Depends: base-files (>= 2.1.12), debianutils (>= 2.15)
 Pre-Depends: dash (>= 0.5.5.1-2.2), libc6 (>= 2.15), libncurses5 (>= 6), libtinfo5 (>= 6)
@@ -692,7 +691,7 @@ Conffiles:
  /etc/bash.bashrc 87b895cef45b8090d628a1d9a0f4bfb8
  /etc/skel/.bash_logout 22bfb8c1dd94b5f3813a2b25da67463f
  /etc/skel/.bashrc ee35a240758f374832e809ae0ea4883a
- /etc/skel/.profile ecb6d3479ac3823f1da7f314d871989b
+ /etc/skel/.profile 905f748ceda81747600e9a593b42f3e4
 Description: GNU Bourne Again SHell
  Bash is an sh-compatible command language interpreter that executes
  commands read from the standard input or from a file.  Bash also

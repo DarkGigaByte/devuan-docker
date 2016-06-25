@@ -730,10 +730,9 @@ MD5sum: 21885b33e5b86993d7e7d5b6b98397ce
 SHA256: fe900ffb331e11344498d163aa05370462554124998737eacd30fe008ab22716
 
 Package: bash
-Source: bash (4.3-14)
-Version: 4.3-14+b1
+Version: 4.3-15
 Essential: yes
-Installed-Size: 5138
+Installed-Size: 5137
 Maintainer: Matthias Klose <doko@debian.org>
 Architecture: amd64
 Replaces: bash-completion (<< 20060301-0), bash-doc (<= 2.05-1)
@@ -750,10 +749,10 @@ Tag: implemented-in::c, interface::shell, role::program, scope::utility,
  suite::gnu, uitoolkit::ncurses
 Section: shells
 Priority: required
-Filename: pool/DEBIAN/main/b/bash/bash_4.3-14+b1_amd64.deb
-Size: 1172532
-MD5sum: 32d73b1a382dc52505544bb9a0699d53
-SHA256: 7a65c920f72a95725e9b525930aec38525a218251ccf3a725fd5e199aa8b02f4
+Filename: pool/DEBIAN/main/b/bash/bash_4.3-15_amd64.deb
+Size: 1174280
+MD5sum: 1f49af3a5a9891e8a3622b5be7b1bbcb
+SHA256: 05612e33aaf1e6bfbcca4a28ffbb0e88ac48c67542f1aeb88a548fc9324c69fa
 
 Package: libdns-export162
 Source: bind9

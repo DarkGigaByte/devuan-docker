@@ -31,7 +31,7 @@ libattr1 1:2.4.47-2
 libaudit-common 1:2.5.2-1
 libaudit1 1:2.5.2-1
 base-passwd 3.5.39
-bash 4.3-14+b1
+bash 4.3-15
 libdns-export162 1:9.10.3.dfsg.P4-10
 libisc-export160 1:9.10.3.dfsg.P4-10
 blends-tasks 0.6.93
