@@ -1,6 +1,0 @@
-TARGETS = rsyslog motd killprocs bootlogs single cron rc.local rmnologin
-INTERACTIVE =
-single: killprocs motd bootlogs
-cron: rsyslog
-rc.local: rsyslog motd bootlogs cron
-rmnologin: rsyslog motd bootlogs cron

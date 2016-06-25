@@ -1,2 +1,0 @@
-?package(tasksel):needs="text" section="Applications/System/Administration"\
-  title="Task selector" command="su-to-root -c tasksel"
