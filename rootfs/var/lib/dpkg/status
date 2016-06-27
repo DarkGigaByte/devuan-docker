@@ -1871,7 +1871,7 @@ Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.
 Architecture: amd64
 Multi-Arch: same
 Source: gmp
-Version: 2:6.1.0+dfsg-2
+Version: 2:6.1.1+dfsg-1
 Depends: libc6 (>= 2.14)
 Description: Multiprecision arithmetic library
  GNU MP is a programmer's library for arbitrary precision
@@ -2756,7 +2756,7 @@ Installed-Size: 1826
 Maintainer: Andreas Metzler <ametzler@debian.org>
 Architecture: amd64
 Multi-Arch: foreign
-Version: 4.6.0+git+20160517-4
+Version: 4.6.0+git+20160517-5
 Pre-Depends: libc6 (>= 2.17), libselinux1 (>= 1.32)
 Suggests: mlocate | locate
 Breaks: binstats (<< 1.08-8.1), debhelper (<< 9.20130504), guilt (<< 0.36-0.2), kernel-package (<< 13.000), libpython3.4-minimal (<< 3.4.4-2), libpython3.5-minimal (<< 3.5.1-3), lsat (<< 0.9.7.1-2.1), mc (<< 3:4.8.11-1), sendmail (<< 8.14.4-5), switchconf (<< 0.0.9-2.1)

@@ -1241,7 +1241,7 @@ MD5sum: 29cf806672b45204c77d78ed3f823e40
 SHA256: befc6f0f7301e52aaba3332117c1a653f3d321960e56e90017ee2e1433d49204
 
 Package: findutils
-Version: 4.6.0+git+20160517-4
+Version: 4.6.0+git+20160517-5
 Essential: yes
 Installed-Size: 1826
 Maintainer: Andreas Metzler <ametzler@debian.org>
@@ -1258,10 +1258,10 @@ Tag: implemented-in::c, interface::commandline, role::program,
  scope::utility, suite::gnu, use::searching, works-with::file
 Section: utils
 Priority: required
-Filename: pool/DEBIAN/main/f/findutils/findutils_4.6.0+git+20160517-4_amd64.deb
-Size: 614764
-MD5sum: 8512b39151ca64afa89889eaf8252bec
-SHA256: a809a7d2d46aa76012d70d6d7c2d202f8a07c5be72c7f1bfc3dc2122ed833a78
+Filename: pool/DEBIAN/main/f/findutils/findutils_4.6.0+git+20160517-5_amd64.deb
+Size: 614874
+MD5sum: f031342a838a17800a94fd4c8dfb0c25
+SHA256: 938595e7bf4ccfec005b1a3b0520af4b1593c56966186dc2fad98f914e3df1d6
 
 Package: gcc-4.9-base
 Source: gcc-4.9
@@ -1446,7 +1446,7 @@ SHA256: 4ae32fc4bd02e3ae9d8fecaa7546d927bc221c55abf273162694d126ad49a995
 
 Package: libgmp10
 Source: gmp
-Version: 2:6.1.0+dfsg-2
+Version: 2:6.1.1+dfsg-1
 Installed-Size: 568
 Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
 Architecture: amd64
@@ -1458,10 +1458,10 @@ Description-md5: cf6b3a218331a8f680398794acac47a0
 Tag: role::shared-lib
 Section: libs
 Priority: optional
-Filename: pool/DEBIAN/main/g/gmp/libgmp10_6.1.0+dfsg-2_amd64.deb
-Size: 253750
-MD5sum: 2a31e00a2355816de38f1ce25329214a
-SHA256: 6de2ed680cdd57db560ee2a0476f4d0e238f8a633e89dee23bd2656c056a238c
+Filename: pool/DEBIAN/main/g/gmp/libgmp10_6.1.1+dfsg-1_amd64.deb
+Size: 253684
+MD5sum: 1585f22abd2b3da75951d946ffeb5c95
+SHA256: 4ef181671d66e7529ced78c026958c17936d712470c5b84ebc654a6ac381fba7
 
 Package: gnupg
 Version: 1.4.20-6
